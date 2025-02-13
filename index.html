@@ -1,7 +1,22 @@
 <html>
+    <head>
+        <script
+            src="https://unpkg.com/htmx.org@2.0.4"
+            integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
+            crossorigin="anonymous"
+        ></script>
+    </head>
     <body>
-        <script src="https://unpkg.com/htmx.org@2.0.4"></script>
         <!-- have a button POST a click via AJAX -->
         <button hx-post="/clicked" hx-swap="outerHTML">Click Me</button>
+        <input
+            type="text"
+            name="q"
+            hx-get="/trigger_delay"
+            hx-trigger="keyup changed delay:500ms"
+            hx-target="#search-results"
+            placeholder="Search..."
+        />
+        <div id="search-results"></div>
     </body>
 </html>
