@@ -7,6 +7,15 @@
         ></script>
     </head>
     <body>
+        <div id="parent-div">Is it clicked?</div>
         <p><a href="/test">Test Link</a></p>
+        <button
+            hx-post="/test"
+            hx-trigger="click"
+            hx-target="#parent-div"
+            hx-swap="outerHTML"
+        >
+            Click Me!
+        </button>
     </body>
 </html>
