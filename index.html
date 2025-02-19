@@ -10,7 +10,7 @@
 
 <body>
   <div id="container">
-    <div id="header" x-data="{ students: [] }" x-init="students = await (await fetch('student-list')).json()">
+    <div id="header" x-data="{ students: [] }" x-init="students = await (await fetch('/student-list')).json()">
       <h3>Schalidle</h3>
     </div>
     <div id="content">
