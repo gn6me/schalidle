@@ -18,7 +18,17 @@
         <input class="searchbox" type="search" placeholder="Type a student name to begin" hx-post="search.html"
           hx-trigger="input changed, keyup[key=='Enter'], load" hx-indicator=".htmx-indicator"
           hx-target="#search-results">
-        <tbody id="search-results"></tbody>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="search-results">
+          </tbody>
+        </table>
       </div>
       <div class="results">
         <div class="row 1">
