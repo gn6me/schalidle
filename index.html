@@ -16,7 +16,7 @@
             i => i.startsWith(this.search)
           )
         }
-        }" x-init="students = await (await fetch('student-list.json')).json()">
+        }" x-init="fetch('student-list.json')">
       <h3>Schalidle</h3>
     </div>
     <div id="content">
