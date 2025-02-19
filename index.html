@@ -24,7 +24,7 @@
       <div class="search">
         <input x-model="search" class="searchbox" type="search" placeholder="Type a student name to begin">
         <ul>
-          <template x-for="student in filteredItems" :key="student">
+          <template x-for="student in filteredItems" :key="student.name">
             <li x-text="student"></li>
           </template>
         </ul>
