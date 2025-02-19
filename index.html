@@ -10,12 +10,23 @@
 
 <body>
   <div id="container">
-    <div id="header" x-data="{ students: [] }" x-init="students = await (await fetch('student-list.json')).json()">
+    <div id="header" x-data="{ search: '', students: [],
+        get filteredItems() {
+          return this.students.filter(
+            i => i.startsWith(this.search)
+          )
+        }
+        }" x-init="students = await (await fetch('student-list.json')).json()">
       <h3>Schalidle</h3>
     </div>
     <div id="content">
       <div class="search">
-        <input class="searchbox" type="search" placeholder="Type a student name to begin">
+        <input x-model="search" class="searchbox" type="search" placeholder="Type a student name to begin">
+        <ul>
+          <template x-for="student in filteredItems" :key="student">
+            <li x-text="student"></li>
+          </template>
+        </ul>
       </div>
       <div class="results">
         <div class="row 1">
