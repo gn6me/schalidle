@@ -16,7 +16,8 @@
             i => i.startsWith(this.search)
           )
         }
-        }" x-init="fetch('student-list.json').then(response => response.json()).then(data => { students = data })">
+        }"
+      x-init="fetch('student-list.json').then(response => response.json()).then(data => { students = data }).catch(error => { console.error('Error fetching data:', error);});">
       <h3>Schalidle</h3>
     </div>
     <div id="content">
