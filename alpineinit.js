@@ -1,3 +1,4 @@
+import Alpine from 'alpinejs'
     Alpine.data('searchlist', () => ({
         search: '',
         open: false,
