@@ -4,3 +4,4 @@ fetch("student-list.json")
     return json;
   });
 var studentList = json;
+console.log(studentList);
