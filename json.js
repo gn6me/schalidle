@@ -1,7 +1,7 @@
 fetch("student-list.json")
   .then((res) => res.json())
   .then((json) => {
+    var studentList = json;
     return json;
   });
-var studentList = json;
 console.log(studentList);
