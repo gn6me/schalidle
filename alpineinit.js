@@ -1,4 +1,3 @@
-document.addEventListener('alpine:init', () => {
     Alpine.data('searchlist', () => ({
         search: '',
         open: false,
@@ -12,4 +11,3 @@ document.addEventListener('alpine:init', () => {
             )
         }
     }))
-})
