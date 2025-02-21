@@ -9,4 +9,4 @@ async function search() {
     console.error(error);
   }
 }
-console.log(search()[0]["name"]);
+console.log(search());
