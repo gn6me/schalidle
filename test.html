@@ -19,30 +19,28 @@
             <div id="header">
                 <h3>Schalidle</h3>
             </div>
-            <div x-data="{open:false}" id="content">
-                <div x-data="{
-                        search: '',
-                        items: ['shiro', 'aru', 'iroha'],
+            <div
+                x-data="{
+                    search: '',
 
-                        get filteredItems() {
-                            return this.items.filter(
-                                i => i.startsWith(this.search)
-                            )
-                        }
+                    items: ['foo', 'bar', 'baz'],
+
+                    get filteredItems() {
+                        return this.items.filter(
+                            i => i.startsWith(this.search)
+                        )
                     }
-                    " class="search">
-                    <input x-on:click="console.log('clicked')" x-model="search"
-                        class="searchbox"
-                        type="search"
-                        placeholder="Type a student name to begin"
-                    >
-                </div>
-                <div x-show="open" class="search-results">
-                    <template x-show="open" x-for="item in filteredItems" :key="item">
-                    <div x-text="item"></div>
+                }"
+            >
+                <input x-model="search" placeholder="Search...">
+
+                <ul>
+                    <template x-for="item in filteredItems" :key="item">
+                        <li x-text="item"></li>
                     </template>
-                </div>
+                </ul>
             </div>
-        </div>
+                </div>
+
     </body>
 </html>
