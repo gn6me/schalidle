@@ -1,16 +1,9 @@
 <!doctype html>
     <head>
-        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
         <script src="json.js"></script>
-        <script
-            defer
-            src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
-        ></script>
-        <script
-            src="https://unpkg.com/htmx.org@2.0.4"
-            integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
-            crossorigin="anonymous"
-        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" />
     </head>
 
@@ -21,14 +14,15 @@
             </div>
             <div id="content">
                 <div class="search">
-                    <form action="/" class="searchform">
-                        <i class="searchIcon" aria-hidden="true"></i>
-                    <input
-                        class="searchbox"
-                        type="search"
-                        placeholder="Type a student name to begin"
-                    >
-                    </form>
+                    <input class="searchbox" type="search" placeholder="Type a student name to begin">
+                    <div class="students">
+                        <ul>
+                            <li><a href="#">Shiroko</a></li>
+                            <li><a href="#">Shiroko</a></li>
+                            <li><a href="#">Shiroko</a></li>
+                            <li><a href="#">Shiroko</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="search-results">
                     <div class="row 1">
