@@ -4,135 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genshin Guess</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            margin-top: 50px;
-        }
-        input[type="text"] {
-            padding: 10px;
-            font-size: 16px;
-            width: 300px;
-        }
-        #suggestions {
-            margin: 10px auto;
-            width: 320px;
-            text-align: left;
-            background-color: white;
-            border: 1px solid #ccc;
-            display: none;
-        }
-        #suggestions div {
-            padding: 10px;
-            cursor: pointer;
-        }
-        #suggestions div:hover {
-            background-color: #f0f0f0;
-        }
-        .result {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-    </style>
+    <link rel="stylesheet" href="newstyles.css">
 </head>
 <body>
     <div class="container">
         <h1>Genshin Guess</h1>
         <input type="text" id="searchInput" placeholder="Search for a character...">
         <div id="suggestions"></div>
-        <button onclick="checkGuess()">Guess</button>
-        <div class="result" id="result"></div>
+        <button onclick="makeGuess()">Guess</button>
+        <div id="guesses"></div>
+        <div id="result"></div>
     </div>
-
-    <script>
-        let characters = {};
-        let targetCharacter = null;
-
-        // Fetch characters from JSON file
-        fetch('characters.json')
-            .then(response => response.json())
-            .then(data => {
-                characters = data;
-                // Randomly select a target character
-                const characterNames = Object.keys(characters);
-                targetCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
-                console.log("Target Character:", targetCharacter); // For debugging
-            });
-
-        // Live search functionality
-        const searchInput = document.getElementById('searchInput');
-        const suggestionsDiv = document.getElementById('suggestions');
-
-        searchInput.addEventListener('input', function () {
-            const query = searchInput.value.toLowerCase();
-            suggestionsDiv.innerHTML = '';
-
-            if (query) {
-                const filteredCharacters = Object.keys(characters).filter(name =>
-                    name.toLowerCase().includes(query)
-                );
-
-                if (filteredCharacters.length > 0) {
-                    filteredCharacters.forEach(name => {
-                        const suggestion = document.createElement('div');
-                        suggestion.textContent = name;
-                        suggestion.addEventListener('click', () => {
-                            searchInput.value = name;
-                            suggestionsDiv.style.display = 'none';
-                        });
-                        suggestionsDiv.appendChild(suggestion);
-                    });
-                    suggestionsDiv.style.display = 'block';
-                } else {
-                    suggestionsDiv.style.display = 'none';
-                }
-            } else {
-                suggestionsDiv.style.display = 'none';
-            }
-        });
-
-        // Check guess function
-        function checkGuess() {
-            const guessInput = searchInput.value.trim();
-            const resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = '';
-
-            if (!guessInput) {
-                resultDiv.innerHTML = 'Please enter a character name.';
-                return;
-            }
-
-            const guessedCharacter = characters[guessInput];
-
-            if (!guessedCharacter) {
-                resultDiv.innerHTML = 'Character not found.';
-                return;
-            }
-
-            let resultHTML = `<p><strong>${guessedCharacter.name}</strong></p>`;
-            resultHTML += `<p>School: ${compareAttribute(guessedCharacter.school, targetCharacter.school)}</p>`;
-
-            resultDiv.innerHTML = resultHTML;
-
-            if (guessedCharacter.name === targetCharacter.name) {
-                resultDiv.innerHTML += '<p style="color: green;">Correct! You guessed the character!</p>';
-            }
-        }
-
-        // Compare attribute function
-        function compareAttribute(guessed, target) {
-            if (guessed === target) {
-                return `<span style="color: green;">${guessed}</span>`;
-            } else {
-                return `<span style="color: red;">${guessed}</span>`;
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

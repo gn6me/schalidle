@@ -1,22 +1,42 @@
 {
     "Diluc": {
+        "img": "https://example.com/diluc.jpg",
         "name": "Diluc",
-        "school": "Dawn Winery"
+        "school": "Dawn Winery",
+        "combatClass": "Pyro",
+        "role": "DPS",
+        "damageType": "Melee",
+        "armorType": "Heavy",
+        "skill": 40
     },
     "Jean": {
+        "img": "https://example.com/jean.jpg",
         "name": "Jean",
-        "school": "Knights of Favonius"
+        "school": "Knights of Favonius",
+        "combatClass": "Anemo",
+        "role": "Support",
+        "damageType": "Melee",
+        "armorType": "Medium",
+        "skill": 30
     },
     "Keqing": {
+        "img": "https://example.com/keqing.jpg",
         "name": "Keqing",
-        "school": "Liyue Qixing"
+        "school": "Liyue Qixing",
+        "combatClass": "Electro",
+        "role": "DPS",
+        "damageType": "Melee",
+        "armorType": "Light",
+        "skill": 35
     },
     "Qiqi": {
+        "img": "https://example.com/qiqi.jpg",
         "name": "Qiqi",
-        "school": "Bubu Pharmacy"
-    },
-    "Venti": {
-        "name": "Venti",
-        "school": "Mondstadt"
+        "school": "Bubu Pharmacy",
+        "combatClass": "Cryo",
+        "role": "Healer",
+        "damageType": "Melee",
+        "armorType": "Light",
+        "skill": 25
     }
 }
