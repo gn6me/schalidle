@@ -20,7 +20,7 @@
                 <h3>Schalidle</h3>
             </div>
             <div
-                x-data="{
+                x-data="{open:false,
                     search: '',
 
                     items: ['shiro', 'saya', 'aru'],
@@ -34,8 +34,8 @@
             >
                 <input x-on:click="open = ! open" x-model="search" placeholder="Search...">
 
-                <ul x-data="{open:false}">
-                    <template x-show="open" x-for="item in filteredItems" :key="item">
+                <ul x-show="open">
+                    <template x-for="item in filteredItems" :key="item">
                         <li x-text="item"></li>
                     </template>
                 </ul>
