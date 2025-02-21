@@ -1,4 +1,4 @@
-[{
+{"Aru":{
 "name":"Aru",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -6,7 +6,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Eimi":{
 "name":"Eimi",
 "school":"Millennium",
 "combatClass":"Main",
@@ -14,7 +14,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Haruna":{
 "name":"Haruna",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -22,7 +22,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Hifumi":{
 "name":"Hifumi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -30,7 +30,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Hina":{
 "name":"Hina",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -38,7 +38,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"7"},
-{
+"Hoshino":{
 "name":"Hoshino",
 "school":"Abydos",
 "combatClass":"Main",
@@ -46,7 +46,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Iori":{
 "name":"Iori",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -54,7 +54,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Maki":{
 "name":"Maki",
 "school":"Millennium",
 "combatClass":"Main",
@@ -62,7 +62,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Neru":{
 "name":"Neru",
 "school":"Millennium",
 "combatClass":"Main",
@@ -70,7 +70,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Izumi":{
 "name":"Izumi",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -78,7 +78,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Shiroko":{
 "name":"Shiroko",
 "school":"Abydos",
 "combatClass":"Main",
@@ -86,7 +86,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Shun":{
 "name":"Shun",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -94,7 +94,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Sumire":{
 "name":"Sumire",
 "school":"Millennium",
 "combatClass":"Main",
@@ -102,7 +102,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Tsurugi":{
 "name":"Tsurugi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -110,7 +110,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Izuna":{
 "name":"Izuna",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -118,7 +118,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Aris":{
 "name":"Aris",
 "school":"Millennium",
 "combatClass":"Main",
@@ -126,7 +126,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Midori":{
 "name":"Midori",
 "school":"Millennium",
 "combatClass":"Main",
@@ -134,7 +134,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Cherino":{
 "name":"Cherino",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -142,7 +142,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"7"},
-{
+"Yuzu":{
 "name":"Yuzu",
 "school":"Millennium",
 "combatClass":"Main",
@@ -150,7 +150,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Azusa":{
 "name":"Azusa",
 "school":"Trinity",
 "combatClass":"Main",
@@ -158,7 +158,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Koharu":{
 "name":"Koharu",
 "school":"Trinity",
 "combatClass":"Main",
@@ -166,7 +166,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Azusa (Swimsuit)":{
 "name":"Azusa (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -174,7 +174,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Hina (Swimsuit)":{
 "name":"Hina (Swimsuit)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -182,7 +182,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Iori (Swimsuit)":{
 "name":"Iori (Swimsuit)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -190,7 +190,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Shiroko (Cycling)":{
 "name":"Shiroko (Cycling)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -198,7 +198,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Shun (Small)":{
 "name":"Shun (Small)",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -206,7 +206,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Neru (Bunny)":{
 "name":"Neru (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -214,7 +214,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Karin (Bunny)":{
 "name":"Karin (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -222,7 +222,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"7"},
-{
+"Asuna (Bunny)":{
 "name":"Asuna (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -230,7 +230,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Natsu":{
 "name":"Natsu",
 "school":"Trinity",
 "combatClass":"Main",
@@ -238,7 +238,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Chinatsu (Hot Spring)":{
 "name":"Chinatsu (Hot Spring)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -246,7 +246,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Aru (New Year)":{
 "name":"Aru (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -254,7 +254,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Mutsuki (New Year)":{
 "name":"Mutsuki (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -262,7 +262,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"2"},
-{
+"Wakamo":{
 "name":"Wakamo",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -270,7 +270,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Mimori":{
 "name":"Mimori",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -278,7 +278,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Ui":{
 "name":"Ui",
 "school":"Trinity",
 "combatClass":"Main",
@@ -286,7 +286,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Hinata":{
 "name":"Hinata",
 "school":"Trinity",
 "combatClass":"Main",
@@ -294,7 +294,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Marina":{
 "name":"Marina",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -302,7 +302,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Miyako":{
 "name":"Miyako",
 "school":"SRT",
 "combatClass":"Main",
@@ -310,7 +310,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Miyu":{
 "name":"Miyu",
 "school":"SRT",
 "combatClass":"Main",
@@ -318,7 +318,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Tsukuyo":{
 "name":"Tsukuyo",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -326,7 +326,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Misaki":{
 "name":"Misaki",
 "school":"Arius",
 "combatClass":"Main",
@@ -334,7 +334,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Atsuko":{
 "name":"Atsuko",
 "school":"Arius",
 "combatClass":"Main",
@@ -342,7 +342,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Wakamo (Swimsuit)":{
 "name":"Wakamo (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -350,7 +350,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Nonomi (Swimsuit)":{
 "name":"Nonomi (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -358,7 +358,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Hoshino (Swimsuit)":{
 "name":"Hoshino (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -366,7 +366,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Izuna (Swimsuit)":{
 "name":"Izuna (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -374,7 +374,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"2"},
-{
+"Chise (Swimsuit)":{
 "name":"Chise (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -382,7 +382,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"6"},
-{
+"Saori":{
 "name":"Saori",
 "school":"Arius",
 "combatClass":"Main",
@@ -390,7 +390,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Kazusa":{
 "name":"Kazusa",
 "school":"Trinity",
 "combatClass":"Main",
@@ -398,7 +398,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Kokona":{
 "name":"Kokona",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -406,7 +406,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"2"},
-{
+"Utaha (Cheer Squad)":{
 "name":"Utaha (Cheer Squad)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -414,7 +414,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Noa":{
 "name":"Noa",
 "school":"Millennium",
 "combatClass":"Main",
@@ -422,7 +422,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Yuuka (Track)":{
 "name":"Yuuka (Track)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -430,7 +430,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Mari (Track)":{
 "name":"Mari (Track)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -438,7 +438,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Shigure":{
 "name":"Shigure",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -446,7 +446,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Serina (Christmas)":{
 "name":"Serina (Christmas)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -454,7 +454,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Haruna (New Year)":{
 "name":"Haruna (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -462,7 +462,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Mine":{
 "name":"Mine",
 "school":"Trinity",
 "combatClass":"Main",
@@ -470,7 +470,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Mika":{
 "name":"Mika",
 "school":"Trinity",
 "combatClass":"Main",
@@ -478,7 +478,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"6"},
-{
+"Megu":{
 "name":"Megu",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -486,7 +486,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Sakurako":{
 "name":"Sakurako",
 "school":"Trinity",
 "combatClass":"Main",
@@ -494,7 +494,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Toki":{
 "name":"Toki",
 "school":"Millennium",
 "combatClass":"Main",
@@ -502,7 +502,7 @@
 "damageType":"Explosion",
 "armorType":"ElasticArmor",
 "skill":"2"},
-{
+"Koyuki":{
 "name":"Koyuki",
 "school":"Millennium",
 "combatClass":"Main",
@@ -510,7 +510,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Kayoko (New Year)":{
 "name":"Kayoko (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -518,7 +518,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"2"},
-{
+"Kaho":{
 "name":"Kaho",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -526,7 +526,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Aris (Maid)":{
 "name":"Aris (Maid)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -534,7 +534,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Toki (Bunny)":{
 "name":"Toki (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -542,7 +542,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Reisa":{
 "name":"Reisa",
 "school":"Trinity",
 "combatClass":"Main",
@@ -550,7 +550,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Rumi":{
 "name":"Rumi",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -558,7 +558,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Mina":{
 "name":"Mina",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -566,7 +566,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Miyako (Swimsuit)":{
 "name":"Miyako (Swimsuit)",
 "school":"SRT",
 "combatClass":"Main",
@@ -574,7 +574,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"2"},
-{
+"Saki (Swimsuit)":{
 "name":"Saki (Swimsuit)",
 "school":"SRT",
 "combatClass":"Main",
@@ -582,7 +582,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Ui (Swimsuit)":{
 "name":"Ui (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -590,7 +590,7 @@
 "damageType":"Pierce",
 "armorType":"ElasticArmor",
 "skill":"4"},
-{
+"Hanako (Swimsuit)":{
 "name":"Hanako (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -598,7 +598,7 @@
 "damageType":"Sonic",
 "armorType":"HeavyArmor",
 "skill":"2"},
-{
+"Meru":{
 "name":"Meru",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -606,7 +606,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Kotori (Cheer Squad)":{
 "name":"Kotori (Cheer Squad)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -614,7 +614,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Ichika":{
 "name":"Ichika",
 "school":"Trinity",
 "combatClass":"Main",
@@ -622,7 +622,7 @@
 "damageType":"Sonic",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Kasumi":{
 "name":"Kasumi",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -630,7 +630,7 @@
 "damageType":"Sonic",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Misaka Mikoto":{
 "name":"Misaka Mikoto",
 "school":"Tokiwadai",
 "combatClass":"Main",
@@ -638,7 +638,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Shokuhou Misaki":{
 "name":"Shokuhou Misaki",
 "school":"Tokiwadai",
 "combatClass":"Main",
@@ -646,7 +646,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Yukari":{
 "name":"Yukari",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -654,7 +654,7 @@
 "damageType":"Sonic",
 "armorType":"HeavyArmor",
 "skill":"7"},
-{
+"Renge":{
 "name":"Renge",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -662,7 +662,7 @@
 "damageType":"Sonic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Kikyou":{
 "name":"Kikyou",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -670,7 +670,7 @@
 "damageType":"Sonic",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Kotama (Camp)":{
 "name":"Kotama (Camp)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -678,7 +678,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Hare (Camp)":{
 "name":"Hare (Camp)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -686,7 +686,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Hina (Dress)":{
 "name":"Hina (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -694,7 +694,7 @@
 "damageType":"Explosion",
 "armorType":"ElasticArmor",
 "skill":"6"},
-{
+"Ako (Dress)":{
 "name":"Ako (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -702,7 +702,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Kayoko (Dress)":{
 "name":"Kayoko (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -710,7 +710,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Aru (Dress)":{
 "name":"Aru (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -718,7 +718,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Umika":{
 "name":"Umika",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -726,7 +726,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Kazusa (Band)":{
 "name":"Kazusa (Band)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -734,7 +734,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Yoshimi (Band)":{
 "name":"Yoshimi (Band)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -742,7 +742,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"10"},
-{
+"Kirara":{
 "name":"Kirara",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -750,7 +750,7 @@
 "damageType":"Sonic",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Momoi (Maid)":{
 "name":"Momoi (Maid)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -758,7 +758,7 @@
 "damageType":"Sonic",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Midori (Maid)":{
 "name":"Midori (Maid)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -766,7 +766,7 @@
 "damageType":"Sonic",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Kanna (Swimsuit)":{
 "name":"Kanna (Swimsuit)",
 "school":"Valkyrie",
 "combatClass":"Main",
@@ -774,7 +774,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Moe (Swimsuit)":{
 "name":"Moe (Swimsuit)",
 "school":"SRT",
 "combatClass":"Main",
@@ -782,7 +782,7 @@
 "damageType":"Sonic",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Hoshino (Armed)":{
 "name":"Hoshino (Armed)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -790,7 +790,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Hoshino (Armed)":{
 "name":"Hoshino (Armed)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -798,7 +798,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Shiroko*Terror":{
 "name":"Shiroko*Terror",
 "school":"Abydos",
 "combatClass":"Main",
@@ -806,7 +806,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Saori (Swimsuit)":{
 "name":"Saori (Swimsuit)",
 "school":"Arius",
 "combatClass":"Main",
@@ -814,7 +814,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"7"},
-{
+"Hiyori (Swimsuit)":{
 "name":"Hiyori (Swimsuit)",
 "school":"Arius",
 "combatClass":"Main",
@@ -822,7 +822,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Marina (Qipao)":{
 "name":"Marina (Qipao)",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -830,7 +830,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Reijo":{
 "name":"Reijo",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -838,7 +838,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Mari (Idol)":{
 "name":"Mari (Idol)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -846,7 +846,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"2"},
-{
+"Sakurako (Idol)":{
 "name":"Sakurako (Idol)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -854,7 +854,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Chiaki":{
 "name":"Chiaki",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -862,7 +862,7 @@
 "damageType":"Sonic",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Yuuka (Pajamas)":{
 "name":"Yuuka (Pajamas)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -870,7 +870,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"2"},
-{
+"Noa (Pajamas)":{
 "name":"Noa (Pajamas)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -878,7 +878,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Seia":{
 "name":"Seia",
 "school":"Trinity",
 "combatClass":"Main",
@@ -886,7 +886,7 @@
 "damageType":"Pierce",
 "armorType":"ElasticArmor",
 "skill":"3"},
-{
+"Neru (Uniform)":{
 "name":"Neru (Uniform)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -894,7 +894,7 @@
 "damageType":"Pierce",
 "armorType":"ElasticArmor",
 "skill":"1"},
-{
+"Akane":{
 "name":"Akane",
 "school":"Millennium",
 "combatClass":"Main",
@@ -902,7 +902,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Chise":{
 "name":"Chise",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -910,7 +910,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Akari":{
 "name":"Akari",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -918,7 +918,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Hasumi":{
 "name":"Hasumi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -926,7 +926,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Nonomi":{
 "name":"Nonomi",
 "school":"Abydos",
 "combatClass":"Main",
@@ -934,7 +934,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Kayoko":{
 "name":"Kayoko",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -942,7 +942,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Mutsuki":{
 "name":"Mutsuki",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -950,7 +950,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Junko":{
 "name":"Junko",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -958,7 +958,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Serika":{
 "name":"Serika",
 "school":"Abydos",
 "combatClass":"Main",
@@ -966,7 +966,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Tsubaki":{
 "name":"Tsubaki",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -974,7 +974,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Yuuka":{
 "name":"Yuuka",
 "school":"Millennium",
 "combatClass":"Main",
@@ -982,7 +982,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Momoi":{
 "name":"Momoi",
 "school":"Millennium",
 "combatClass":"Main",
@@ -990,7 +990,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Kirino":{
 "name":"Kirino",
 "school":"Valkyrie",
 "combatClass":"Main",
@@ -998,7 +998,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Haruka":{
 "name":"Haruka",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1006,7 +1006,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Asuna":{
 "name":"Asuna",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1014,7 +1014,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Kotori":{
 "name":"Kotori",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1022,7 +1022,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Suzumi":{
 "name":"Suzumi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1030,7 +1030,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Pina":{
 "name":"Pina",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -1038,7 +1038,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Tsurugi (Swimsuit)":{
 "name":"Tsurugi (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1046,7 +1046,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Izumi (Swimsuit)":{
 "name":"Izumi (Swimsuit)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1054,7 +1054,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Tomoe":{
 "name":"Tomoe",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -1062,7 +1062,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Fubuki":{
 "name":"Fubuki",
 "school":"Valkyrie",
 "combatClass":"Main",
@@ -1070,7 +1070,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Michiru":{
 "name":"Michiru",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -1078,7 +1078,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Hibiki (Cheer Squad)":{
 "name":"Hibiki (Cheer Squad)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1086,7 +1086,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"7"},
-{
+"Hasumi (Track)":{
 "name":"Hasumi (Track)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1094,7 +1094,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Junko (New Year)":{
 "name":"Junko (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1102,7 +1102,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"2"},
-{
+"Koharu (Swimsuit)":{
 "name":"Koharu (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1110,7 +1110,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Ibuki":{
 "name":"Ibuki",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1118,7 +1118,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Airi (Band)":{
 "name":"Airi (Band)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1126,7 +1126,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"2"},
-{
+"Hibiki":{
 "name":"Hibiki",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1134,7 +1134,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Karin":{
 "name":"Karin",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1142,7 +1142,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Saya":{
 "name":"Saya",
 "school":"Shanhaijing",
 "combatClass":"Support",
@@ -1150,7 +1150,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"6"},
-{
+"Mashiro":{
 "name":"Mashiro",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1158,7 +1158,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Mashiro (Swimsuit)":{
 "name":"Mashiro (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1166,7 +1166,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Hifumi (Swimsuit)":{
 "name":"Hifumi (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1174,7 +1174,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"10"},
-{
+"Saya (Casual)":{
 "name":"Saya (Casual)",
 "school":"Shanhaijing",
 "combatClass":"Support",
@@ -1182,7 +1182,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Hatsune Miku":{
 "name":"Hatsune Miku",
 "school":"ETC",
 "combatClass":"Support",
@@ -1190,7 +1190,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Ako":{
 "name":"Ako",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1198,7 +1198,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Cherino (Hot Spring)":{
 "name":"Cherino (Hot Spring)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1206,7 +1206,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Nodoka (Hot Spring)":{
 "name":"Nodoka (Hot Spring)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1214,7 +1214,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Serika (New Year)":{
 "name":"Serika (New Year)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1222,7 +1222,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Sena":{
 "name":"Sena",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1230,7 +1230,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Chihiro":{
 "name":"Chihiro",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1238,7 +1238,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Saki":{
 "name":"Saki",
 "school":"SRT",
 "combatClass":"Support",
@@ -1246,7 +1246,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Kaede":{
 "name":"Kaede",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1254,7 +1254,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Iroha":{
 "name":"Iroha",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1262,7 +1262,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"8"},
-{
+"Hiyori":{
 "name":"Hiyori",
 "school":"Arius",
 "combatClass":"Support",
@@ -1270,7 +1270,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Moe":{
 "name":"Moe",
 "school":"SRT",
 "combatClass":"Support",
@@ -1278,7 +1278,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Akane (Bunny)":{
 "name":"Akane (Bunny)",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1286,7 +1286,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Himari":{
 "name":"Himari",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1294,7 +1294,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Hanae (Christmas)":{
 "name":"Hanae (Christmas)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1302,7 +1302,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Fuuka (New Year)":{
 "name":"Fuuka (New Year)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1310,7 +1310,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Kanna":{
 "name":"Kanna",
 "school":"Valkyrie",
 "combatClass":"Support",
@@ -1318,7 +1318,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Nagisa":{
 "name":"Nagisa",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1326,7 +1326,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Haruka (New Year)":{
 "name":"Haruka (New Year)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1334,7 +1334,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Minori":{
 "name":"Minori",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1342,7 +1342,7 @@
 "damageType":"Explosion",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Shiroko (Swimsuit)":{
 "name":"Shiroko (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1350,7 +1350,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Hinata (Swimsuit)":{
 "name":"Hinata (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1358,7 +1358,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"6"},
-{
+"Mimori (Swimsuit)":{
 "name":"Mimori (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1366,7 +1366,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Haruna (Track)":{
 "name":"Haruna (Track)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1374,7 +1374,7 @@
 "damageType":"Sonic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Shigure (Hot Spring)":{
 "name":"Shigure (Hot Spring)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1382,7 +1382,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Eimi (Swimsuit)":{
 "name":"Eimi (Swimsuit)",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1390,7 +1390,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Makoto":{
 "name":"Makoto",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1398,7 +1398,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"6"},
-{
+"Akari (New Year)":{
 "name":"Akari (New Year)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1406,7 +1406,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Tsubaki (Guide)":{
 "name":"Tsubaki (Guide)",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1414,7 +1414,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Serika (Swimsuit)":{
 "name":"Serika (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1422,7 +1422,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"6"},
-{
+"Fubuki (Swimsuit)":{
 "name":"Fubuki (Swimsuit)",
 "school":"Valkyrie",
 "combatClass":"Support",
@@ -1430,7 +1430,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Tomoe (Qipao)":{
 "name":"Tomoe (Qipao)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1438,7 +1438,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Kisaki":{
 "name":"Kisaki",
 "school":"Shanhaijing",
 "combatClass":"Support",
@@ -1446,7 +1446,7 @@
 "damageType":"Sonic",
 "armorType":"ElasticArmor",
 "skill":"3"},
-{
+"Satsuki":{
 "name":"Satsuki",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1454,7 +1454,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Rio":{
 "name":"Rio",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1462,7 +1462,7 @@
 "damageType":"Mystic",
 "armorType":"ElasticArmor",
 "skill":"2"},
-{
+"Airi":{
 "name":"Airi",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1470,7 +1470,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Fuuka":{
 "name":"Fuuka",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1478,7 +1478,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Hanae":{
 "name":"Hanae",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1486,7 +1486,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Hare":{
 "name":"Hare",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1494,7 +1494,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Utaha":{
 "name":"Utaha",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1502,7 +1502,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Ayane":{
 "name":"Ayane",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1510,7 +1510,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Shizuko":{
 "name":"Shizuko",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1518,7 +1518,7 @@
 "damageType":"Mystic",
 "armorType":"Unarmed",
 "skill":"3"},
-{
+"Hanako":{
 "name":"Hanako",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1526,7 +1526,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"5"},
-{
+"Chinatsu":{
 "name":"Chinatsu",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1534,7 +1534,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Kotama":{
 "name":"Kotama",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1542,7 +1542,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Juri":{
 "name":"Juri",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1550,7 +1550,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Serina":{
 "name":"Serina",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1558,7 +1558,7 @@
 "damageType":"Mystic",
 "armorType":"LightArmor",
 "skill":"2"},
-{
+"Shimiko":{
 "name":"Shimiko",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1566,7 +1566,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"3"},
-{
+"Yoshimi":{
 "name":"Yoshimi",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1574,7 +1574,7 @@
 "damageType":"Pierce",
 "armorType":"HeavyArmor",
 "skill":"4"},
-{
+"Nodoka":{
 "name":"Nodoka",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1582,7 +1582,7 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Ayane (Swimsuit)":{
 "name":"Ayane (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1590,7 +1590,7 @@
 "damageType":"Pierce",
 "armorType":"LightArmor",
 "skill":"4"},
-{
+"Shizuko (Swimsuit)":{
 "name":"Shizuko (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1598,7 +1598,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"3"},
-{
+"Yuzu (Maid)":{
 "name":"Yuzu (Maid)",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1606,7 +1606,7 @@
 "damageType":"Explosion",
 "armorType":"ElasticArmor",
 "skill":"5"},
-{
+"Miyu (Swimsuit)":{
 "name":"Miyu (Swimsuit)",
 "school":"SRT",
 "combatClass":"Support",
@@ -1614,7 +1614,7 @@
 "damageType":"Explosion",
 "armorType":"LightArmor",
 "skill":"5"},
-{
+"Saten Ruiko":{
 "name":"Saten Ruiko",
 "school":"Sakugawa",
 "combatClass":"Support",
@@ -1622,7 +1622,7 @@
 "damageType":"Pierce",
 "armorType":"Unarmed",
 "skill":"4"},
-{
+"Kirino (Swimsuit)":{
 "name":"Kirino (Swimsuit)",
 "school":"Valkyrie",
 "combatClass":"Support",
@@ -1630,7 +1630,7 @@
 "damageType":"Mystic",
 "armorType":"HeavyArmor",
 "skill":"5"},
-{
+"Atsuko (Swimsuit)":{
 "name":"Atsuko (Swimsuit)",
 "school":"Arius",
 "combatClass":"Support",
@@ -1638,7 +1638,7 @@
 "damageType":"Sonic",
 "armorType":"Unarmed",
 "skill":"2"},
-{
+"Karin (Uniform)":{
 "name":"Karin (Uniform)",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1646,4 +1646,4 @@
 "damageType":"Explosion",
 "armorType":"HeavyArmor",
 "skill":"7"}
-]
+}

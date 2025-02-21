@@ -3,22 +3,27 @@
 $json_file = file_get_contents("student-list.json");
 $json_data = json_decode($json_file);
 
-$index = 0;
-
-function studentName() {
-  foreach ($json_data as $name) {
-    $name = $json_data[$index]->name;
-    echo $name, "\n";
-    $index++;
-  }
+function studentName()
+{
+    $index = 0;
+    foreach ($GLOBALS["json_data"] as $name) {
+        $name = $GLOBALS["json_data"][$index]->name;
+        echo $name, "\n";
+        $index++;
+    }
 }
 
-function studentSchool() {
-  foreach ($json_data as $school) {
-    $school = $json_data[$index]->school;
-    echo $school, "\n";
-    $index++;
-  }
+function studentSchool($index)
+{
+    $school = $GLOBALS["json_data"][$index]->school;
+    echo $school;
 }
-studentName();
+
+function studentInfo($index)
+{
+    $name = $GLOBALS["json_data"]->$index->name;
+    $school = $GLOBALS["json_data"]->$index->school;
+    echo "Name: ", $name, "\n", "School: ", $school;
+}
+studentInfo("Shiroko*Terror");
 ?>
