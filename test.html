@@ -31,14 +31,14 @@
                     }
                     }
                     " class="search">
-                    <input x-on:click="open = ! open" x-model="search"
+                    <input x-on:click="console.log('clicked')" x-model="search"
                         class="searchbox"
                         type="search"
                         placeholder="Type a student name to begin"
                     >
                 </div>
                 <div x-show="open" class="search-results">
-                    <template x-show x-for="item in filteredItems" :key="item">
+                    <template x-show="open" x-for="item in filteredItems" :key="item">
                     <div x-text="item"></div>
                     </template>
                 </div>
