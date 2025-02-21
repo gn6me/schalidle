@@ -34,7 +34,7 @@
             >
                 <input x-on:click="open = ! open" x-model="search" placeholder="Search...">
 
-                <ul x-show="open">
+                <ul x-show.important="open">
                     <template x-for="item in filteredItems" :key="item">
                         <li x-text="item"></li>
                     </template>
