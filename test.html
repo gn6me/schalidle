@@ -21,14 +21,14 @@
             </div>
             <div x-data="{open:false}" id="content">
                 <div x-data="{
-                    search: '',
-                    items: ['shiro', 'aru', 'iroha'],
+                        search: '',
+                        items: ['shiro', 'aru', 'iroha'],
 
-                    get filteredItems() {
-                    return this.items.filter(
-                    i => i.startsWith(this.search)
-                    )
-                    }
+                        get filteredItems() {
+                            return this.items.filter(
+                                i => i.startsWith(this.search)
+                            )
+                        }
                     }
                     " class="search">
                     <input x-on:click="console.log('clicked')" x-model="search"
