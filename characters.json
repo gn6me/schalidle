@@ -1,0 +1,22 @@
+{
+    "Diluc": {
+        "name": "Diluc",
+        "school": "Dawn Winery"
+    },
+    "Jean": {
+        "name": "Jean",
+        "school": "Knights of Favonius"
+    },
+    "Keqing": {
+        "name": "Keqing",
+        "school": "Liyue Qixing"
+    },
+    "Qiqi": {
+        "name": "Qiqi",
+        "school": "Bubu Pharmacy"
+    },
+    "Venti": {
+        "name": "Venti",
+        "school": "Mondstadt"
+    }
+}
