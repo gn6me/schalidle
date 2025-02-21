@@ -23,7 +23,7 @@
                 x-data="{
                     search: '',
 
-                    items: ['foo', 'bar', 'baz'],
+                    items: ['shiro', 'saya', 'aru'],
 
                     get filteredItems() {
                         return this.items.filter(
@@ -32,15 +32,16 @@
                     }
                 }"
             >
-                <input x-model="search" placeholder="Search...">
+                <input x-on:click="open = ! open" x-model="search" placeholder="Search...">
 
-                <ul>
-                    <template x-for="item in filteredItems" :key="item">
+                <ul x-data="{open:false}">
+                    <template x-show="open" x-for="item in filteredItems" :key="item">
                         <li x-text="item"></li>
                     </template>
                 </ul>
             </div>
                 </div>
-
+            </div>
+        </div>
     </body>
 </html>
