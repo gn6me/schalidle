@@ -1,4 +1,4 @@
-async function search(query) {
+async function search() {
   const jsonFile = "student-list.json";
   try {
     const response = await fetch(jsonFile);
@@ -9,4 +9,4 @@ async function search(query) {
     console.error(error);
   }
 }
-console.log(search(students[0]["name"]));
+console.log(search()[0]["name"]);
