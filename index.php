@@ -1,7 +1,6 @@
 <?php
-
-$json_file = "student-list.json";
-$json_data = json_decode($json_file);
+//$json_file = "student-list.json";
+//$json_data = json_decode($json_file);
 ?>
 <html>
     <head>
