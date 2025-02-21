@@ -1,12 +1,8 @@
 async function search() {
   const jsonFile = "student-list.json";
-  try {
-    const response = await fetch(jsonFile);
-    const data = await response.json();
-    const students = data.results;
-    return students;
-  } catch (error) {
-    console.error(error);
-  }
+  const response = await fetch(jsonFile).catch((e) => console.error(error));
+  const data = await response.json().catch((e) => console.error(error));
+  const students = data.results;
+  return students;
 }
 console.log(search());
