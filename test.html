@@ -10,6 +10,7 @@
             integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
             crossorigin="anonymous"
         ></script>
+        <script src="alpineinit.js"></script>"
         <link rel="stylesheet" href="style.css" />
     </head>
 
@@ -18,20 +19,8 @@
             <div id="header">
                 <h3>Schalidle</h3>
             </div>
-            <div
-                x-data="{open:false,
-                    search: '',
-
-                    items: ['shiro', 'saya', 'aru'],
-
-                    get filteredItems() {
-                        return this.items.filter(
-                            i => i.startsWith(this.search)
-                        )
-                    }
-                }"
-            >
-                <input x-on:focus="open = ! open" x-model="search" placeholder="Search...">
+            <div x-data="searchlist">
+                <input x-on:focus="toggle" x-model="search" placeholder="Search...">
 
                 <ul x-show.important="open">
                     <template x-for="item in filteredItems" :key="item">
