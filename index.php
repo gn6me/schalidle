@@ -2,7 +2,6 @@
 
 $json_file = file_get_contents("student-list.json");
 $json_data = json_decode($json_file);
-
 ?>
 <html>
     <head>
@@ -21,18 +20,7 @@ $json_data = json_decode($json_file);
 
     <body>
         <div id="container">
-            <div
-                id="header"
-                x-data="{ search: '', students: [],
-        get filteredItems() {
-          return this.students.filter(
-            i => i.startsWith(this.search)
-          )
-        }
-        }"
-                x-init="fetch('student-list.json').then(response => response.json()).then(data => { students = data }).catch(error => { console.error('Error fetching data:', error);});
-                "
-            >
+            <div id="header">
                 <h3>Schalidle</h3>
             </div>
             <div id="content">
