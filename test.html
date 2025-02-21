@@ -1,5 +1,48 @@
-<html>
-  <body>
-    <p>Hello World!</p>
-  </body>
+<!doctype html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="json.js"></script>
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+        ></script>
+        <script
+            src="https://unpkg.com/htmx.org@2.0.4"
+            integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <h3>Schalidle</h3>
+            </div>
+            <div id="content">
+                <div x-data="{
+                    search: '',
+                    items: ['shiro', 'aru', 'iroha'],
+
+                    get filteredItems() {
+                    return this.items.filter(
+                    i => i.startsWith(this.search)
+                    )
+                    }
+                    }
+                    " class="search">
+                    <input x-on:click="open = ! open" x-model="search"
+                        class="searchbox"
+                        type="search"
+                        placeholder="Type a student name to begin"
+                    >
+                </div>
+                <div x-show="open" class="search-results">
+                    <template x-show x-for="item in filteredItems" :key="item">
+                    <div x-text="item"></div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
