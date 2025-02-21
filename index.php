@@ -1,3 +1,9 @@
+<?php
+
+$json_file = file_get_contents("student-list.json");
+$json_data = json_decode($json_file);
+
+?>
 <html>
     <head>
         <script
@@ -25,7 +31,6 @@
         }
         }"
                 x-init="fetch('student-list.json').then(response => response.json()).then(data => { students = data }).catch(error => { console.error('Error fetching data:', error);});
-                students = await (await fetch(student-list)).json()
                 "
             >
                 <h3>Schalidle</h3>
