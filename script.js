@@ -47,11 +47,11 @@ searchInput.addEventListener('input', function () {
         if (filteredCharacters.length > 0) {
             filteredCharacters.forEach(name => {
                 const suggestion = document.createElement('div');
-                suggestions.innerHTML = `
-                    <!--<img src="${characters[name].img}" alt="${name}">-->
-                    <span>${characters[name].img}</span>
+                    suggestion.innerHTML = `
+                    <img src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
+                suggestion.textContent = name;
                 suggestion.addEventListener('click', () => {
                     searchInput.value = name;
                     suggestionsDiv.style.display = 'none';
