@@ -34,6 +34,10 @@ input[type="text"] {
 #suggestions div:hover {
     background-color: #f0f0f0;
 }
+.imgbox {
+    height: 100%;
+    width: 50%;
+}
 .searchimg {
     object-fit: contain;
     height: auto;
