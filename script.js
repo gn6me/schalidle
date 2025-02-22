@@ -4,6 +4,58 @@ let guessesRemaining = 6;
 const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
 
+function generateEmojiResults(guesses, targetCharacter) {
+    const correctEmoji = '🟩'; // Green square for correct
+    const incorrectEmoji = '⬜'; // White square for incorrect
+
+    let emojiResults = 'Genshin Guess Results:\n\n';
+
+    guesses.forEach(guess => {
+        const attributes = [
+            guess.img,
+            guess.name,
+            guess.school,
+            guess.combatClass,
+            guess.role,
+            guess.damageType,
+            guess.armorType,
+            guess.skill
+        ];
+
+        const targetAttributes = [
+            targetCharacter.img,
+            targetCharacter.name,
+            targetCharacter.school,
+            targetCharacter.combatClass,
+            targetCharacter.role,
+            targetCharacter.damageType,
+            targetCharacter.armorType,
+            targetCharacter.skill
+        ];
+
+        let emojiRow = '';
+        attributes.forEach((attr, index) => {
+            if (attr === targetAttributes[index]) {
+                emojiRow += correctEmoji;
+            } else {
+                emojiRow += incorrectEmoji;
+            }
+        });
+
+        emojiResults += emojiRow + '\n';
+    });
+
+    return emojiResults;
+}
+
+// Function to copy emoji results to clipboard
+function copyEmojiResultsToClipboard(emojiResults) {
+    navigator.clipboard.writeText(emojiResults).then(() => {
+        alert("Results copied to clipboard as emojis!");
+    }).catch(() => {
+        alert("Failed to copy results. Please copy them manually.");
+    });
+}
 // Get daily character
 function getDailyCharacter() {
     const today = new Date().toDateString();
@@ -66,10 +118,15 @@ searchInput.addEventListener('input', function () {
     }
 });
 
+let guessHistory = [];
+
 // Make a guess
 function makeGuess() {
     if (guessesRemaining === 0) {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
+        const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
+        resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')">Copy Results</button>`;
         return;
     }
 
@@ -90,9 +147,15 @@ function makeGuess() {
 
     if (guessedCharacter.name === targetCharacter.name) {
         resultDiv.textContent = "Correct! You guessed the character!";
+        const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
+        resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')">Copy Results</button>`;
         guessesRemaining = 0; // End the game
     } else if (guessesRemaining === 0) {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
+        const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
+        resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')">Copy Emoji Results</button>`;
     }
 }
 
