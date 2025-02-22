@@ -124,12 +124,8 @@ function displayGuess(character) {
             img.style.objectFit = 'cover';
             square.appendChild(img);
         } else {
-            if (attr === character.name) {
-
-            } else {
-                // Display text
-                square.textContent = attr;
-            }
+            // Display text
+            square.textContent = attr;
         }
 
         // Check if the attribute matches the target character
@@ -137,8 +133,11 @@ function displayGuess(character) {
         if (attr === targetAttr) {
             square.classList.add('correct');
         }
+        if (attr === character.name) {
 
-        guessRow.appendChild(square);
+        } else {
+            guessRow.appendChild(square);
+        }
     });
 
     guessesDiv.appendChild(guessRow);
