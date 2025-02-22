@@ -10,11 +10,10 @@ fetch('student-list.json')
     .then(data => {
         characters = data;
         // Randomly select a target character
-            });
-const characterNames = Object.keys(characters);
-        targetCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
+        const characterNames = Object.keys(characters);
+        targetCharacter = setInterval(characters[characterNames[Math.floor(Math.random() * characterNames.length)]], 500);
         console.log("Target Character:", targetCharacter); // For debugging
-
+    });
 
 // Live search functionality
 const searchInput = document.getElementById('searchInput');
