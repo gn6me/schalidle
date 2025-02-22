@@ -1,3 +1,35 @@
+beforeMount() {
+            console.log("beforeMount clientApp");
+            this.$isLoading(true); // loading screen display
+            const assets = require.context(
+                '../public',
+                true,
+                /^.*(\.jpg|\.png)$/
+            ).keys();
+            const getImage = url => (
+                new Promise((resolve, reject) => {
+                    const image = new Image()                    
+                    image.onload = e => {
+                    resolve(image)
+                    }
+                    image.onerror = e => {
+                        reject(Error("Network Error"))
+                    }
+                    image.src = url
+                })
+            );
+            const loadImages = assets => (
+                 assets.map(getImage)
+            )
+            Promise.all(loadImages(assets))
+            .then(()=>{
+                console.log("images loaded")
+                this.$isLoading(false);
+            }) // Done callback
+            .catch((e)=>{
+                console.error("images error")
+            })
+        },
 let characters = {};
 let targetCharacter = null;
 let guessesRemaining = 6;
