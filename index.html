@@ -1,80 +1,20 @@
-<!doctype html>
-    <head>
-        <script src="json.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css" />
-    </head>
-
-    <body>
-        <div id="container">
-            <div id="header">
-                <h3>Schalidle</h3>
-            </div>
-            <div id="content">
-                <div class="search">
-                    <input class="searchbox" type="search" placeholder="Type a student name to begin">
-                    <div class="students">
-                        <ul>
-                            <li><a href="#">Shiroko</a></li>
-                            <li><a href="#">Shiroko</a></li>
-                            <li><a href="#">Shiroko</a></li>
-                            <li><a href="#">Shiroko</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="search-results">
-                    <div class="row 1">
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                    </div>
-                    <div class="row 2">
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                    </div>
-                    <div class="row 3">
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                    </div>
-                    <div class="row 4">
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                    </div>
-                    <div class="row 5">
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                    </div>
-                    <div class="row 6">
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Guess</title>
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Genshin Guess</h1>
+        <input type="text" id="searchInput" placeholder="Search for a character...">
+        <div id="suggestions"></div>
+        <button onclick="makeGuess()">Guess</button>
+        <div id="guesses"></div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>

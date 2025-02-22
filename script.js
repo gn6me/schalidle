@@ -5,7 +5,7 @@ const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
 
 // Fetch characters from JSON file
-fetch('characters.json')
+fetch('student-list.json')
     .then(response => response.json())
     .then(data => {
         characters = data;
