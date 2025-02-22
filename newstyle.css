@@ -74,23 +74,26 @@ input[type="text"] {
 	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-.2 {
+.guess-square.2 {
     animation-delay: 0.1s;
 }
-.3 {
+.guess-square.3 {
     animation-delay: 0.2s;
 }
-.4 {
+.guess-square.4 {
     animation-delay: 0.3s;
 }
-.) {
+.guess-square.5 {
     animation-delay: 0.4s;
 }
-.6 {
+.guess-square.6 {
     animation-delay: 0.5s;
 }
-.7 {
+.guess-square.7 {
     animation-delay: 0.6s;
+}
+.guess-square.8 {
+    animation-delay: 0.7s;
 }
 .guess-square.correct {
     background-color: green;
