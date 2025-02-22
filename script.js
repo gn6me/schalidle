@@ -123,10 +123,13 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
-        } else if (attr === character.name) {
         } else {
-            // Display text
-            square.textContent = attr;
+            if (attr === character.name) {
+
+            } else {
+                // Display text
+                square.textContent = attr;
+            }
         }
 
         // Check if the attribute matches the target character
