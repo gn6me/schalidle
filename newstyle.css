@@ -64,6 +64,7 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
     border: 1px solid transparent;
+    color: #e7e7e7;
 }
 
 pre {
@@ -96,7 +97,7 @@ pre {
 .guess-square img {
     border-radius: 12px;
 }
-.sq-2,.sq-3,.sq-4,.sq-5,.sq-6,.sq-7,.sq-8 {
+.sq2,.sq3,.sq4,.sq5,.sq6,.sq7,.sq8 {
 	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
