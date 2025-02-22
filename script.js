@@ -7,8 +7,8 @@ const resultDiv = document.getElementById('result');
 // Get daily character
 function getDailyCharacter() {
     const today = new Date().toDateString();
-    const storedDate = localStorage.getItem('getDailyCharacterDate');
-    const storedCharacter = localStorage.getItem('getDailyCharacter');
+    const storedDate = localStorage.getItem('dailyCharacterDate');
+    const storedCharacter = localStorage.getItem('dailyCharacter');
 
     if (storedDate === today && storedCharacter) {
         return JSON.parse(storedCharacter);
