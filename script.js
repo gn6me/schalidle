@@ -111,10 +111,9 @@ function displayGuess(character) {
         character.armorType,
         character.skill
     ];
-
+    sID = 1;
     attributes.forEach((attr, index) => {
         const square = document.createElement('div');
-        sID = 1;
         square.className = 'guess-square ' + String(sID);
         if (typeof attr === 'string' && attr.startsWith('http')) {
             // Display image
@@ -138,8 +137,8 @@ function displayGuess(character) {
 
         } else {
             guessRow.appendChild(square);
-            sID++;
         }
+        sID++;
     });
 
     guessesDiv.appendChild(guessRow);
