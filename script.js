@@ -4,20 +4,31 @@ let guessesRemaining = 6;
 const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
 
+// Get daily character
+function getDailyCharacter() {
+    const today = new Date().toDateString();
+    const storedDate = localStorage.getItem('getDailyCharacterDate');
+    const storedCharacter = localStorage.getItem('getDailyCharacter');
+
+    if (storedDate === today && storedCharacter) {
+        return JSON.parse(storedCharacter);
+    } else {
+        const characterNames = Object.keys(characters);
+        const randomCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
+        localStorage.setItem('dailyCharacterDate', today);
+        localStorage.setItem('dailyCharacter', JSON.stringify(randomCharacter));
+
+        return randomCharacter;
+    }
+}
+
 // Fetch characters from JSON file
 fetch('student-list.json')
     .then(response => response.json())
     .then(data => {
         characters = data;
-        // Randomly select a target character
-        const characterNames = Object.keys(characters);
-        today = true;
-        if (targetCharacter === null) {
-        let targetCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
-        console.log("Target Character:", targetCharacter); // For debugging
-        } else {
-            console.log("Target Character:", targetCharacter);
-        }
+        targetCharacter = getDailyCharacter();
+        console.log("Target Character:", targetCharacter); // debug
     });
 
 // Live search functionality
