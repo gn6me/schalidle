@@ -4,6 +4,7 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    background: url("imgs/__hibiki_and_maki_blue_archive.jpg") no-repeat cover;
 }
 
 .container {
@@ -63,6 +64,10 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
     border: 1px solid transparent;
+}
+
+pre {
+    display: none;
 }
 
 #guesses {
