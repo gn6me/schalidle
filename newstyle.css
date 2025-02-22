@@ -43,6 +43,13 @@ input[type="text"] {
     background-color: #f0f0f0;
 }
 
+#headrow {
+    margin-top: 20px;
+    display: flex;
+    flex-driection: column;
+    align-items: center;
+}
+
 #guesses {
     margin-top: 20px;
     display: flex;
@@ -64,15 +71,59 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
     background-color: white;
-    animation: fadeIn 0.5s ease-in-out;
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
+.guess-row:nth-child(2) {
+    animation-delay: 0.1s;
+}
+.guess-row:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.guess-row:nth-child(4) {
+    animation-delay: 0.3s;
+}
+.guess-row:nth-child(5) {
+    animation-delay: 0.4s;
+}
+.guess-row:nth-child(6) {
+    animation-delay: 0.5s;
+}
+.guess-row:nth-child(7) {
+    animation-delay: 0.6s;
+}
 .guess-square.correct {
     background-color: green;
     color: white;
-    animation: pop 0.3s ease-in-out;
+    -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+	animation: swirl-in-fwd 0.6s ease-out both;
 }
 
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -84,6 +135,35 @@ input[type="text"] {
     }
 }
 
+/**
+ * ----------------------------------------
+ * animation swirl-in-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
 @keyframes pop {
     0% {
         transform: scale(1);
