@@ -39,8 +39,7 @@ input[type="text"] {
     width: 50%;
 }
 .searchimg {
-    object-fit: contain;
-    height: auto;
+    height: 100%;
 }
 
 #guesses {
