@@ -49,7 +49,7 @@ function generateEmojiResults(guesses, targetCharacter) {
 // Function to copy emoji results to clipboard
 function copyEmojiResultsToClipboard(emojiResults) {
     navigator.clipboard.writeText(emojiResults).then(() => {
-        alert("Results copied to clipboard as emojis!");
+        console.log("Results copied to clipboard as emojis!");
     }).catch(() => {
         alert("Failed to copy results. Please copy them manually.");
     });
@@ -141,6 +141,7 @@ function makeGuess() {
     }
 
     guessesRemaining--;
+    guessHistory.push(guessedCharacter);
     displayGuess(guessedCharacter);
 
     if (guessedCharacter.name === targetCharacter.name) {
