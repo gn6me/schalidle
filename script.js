@@ -51,7 +51,6 @@ searchInput.addEventListener('input', function () {
                     <img src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
-                suggestion.textContent = name;
                 suggestion.addEventListener('click', () => {
                     searchInput.value = name;
                     suggestionsDiv.style.display = 'none';
