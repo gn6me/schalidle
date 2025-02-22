@@ -13,6 +13,10 @@ body {
     margin-top: 50px;
 }
 
+h1 {
+    color: #e7e7e7;
+}
+
 input[type="text"] {
     padding: 10px;
     font-size: 16px;
@@ -65,12 +69,20 @@ input[type="text"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     color: #e7e7e7;
 }
 
 pre {
     display: none;
+}
+
+#result {
+    color: #e7e7e7;
+    transition: all 0.3s;
+}
+#result button {
+    margin-left: 10px;
 }
 
 #guesses {
@@ -89,12 +101,13 @@ pre {
 .guess-square {
     width: 100px;
     height: 100px;
-    border: 1px solid #555;
+    border: 2px solid #555;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #111;
     border-radius: 12px;
+    color: #e7e7e7;
 }
 .guess-square img {
     border-radius: 12px;
