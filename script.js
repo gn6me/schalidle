@@ -190,6 +190,10 @@ function displayGuess(character) {
             square.textContent = attr;
         }
 
+        if (attr === "Explosion") {
+            square.classList.add('explosive')
+        }
+
         // Check if the attribute matches the target character
         const targetAttr = Object.values(targetCharacter)[index];
         if (attr === targetAttr) {
