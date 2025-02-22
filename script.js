@@ -12,7 +12,6 @@ function generateEmojiResults(guesses, targetCharacter) {
 
     guesses.forEach(guess => {
         const attributes = [
-            guess.img,
             guess.name,
             guess.school,
             guess.combatClass,
@@ -23,7 +22,6 @@ function generateEmojiResults(guesses, targetCharacter) {
         ];
 
         const targetAttributes = [
-            targetCharacter.img,
             targetCharacter.name,
             targetCharacter.school,
             targetCharacter.combatClass,
