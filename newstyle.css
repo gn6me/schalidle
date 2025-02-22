@@ -6,7 +6,8 @@ body {
     padding: 0;
     background: url("imgs/__hibiki_and_maki_blue_archive.jpg") center no-repeat;
     background-size: cover;
-    height: 3000px;
+    height: 2000px;
+    overflow: hidden;
 }
 
 .container {
