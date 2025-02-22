@@ -26,12 +26,16 @@ input[type="text"] {
 }
 
 #suggestions div {
+    height: 50px;
     padding: 10px;
     cursor: pointer;
 }
 
 #suggestions div:hover {
     background-color: #f0f0f0;
+}
+.searchimg {
+    height: auto;
 }
 
 #guesses {
