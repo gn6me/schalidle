@@ -17,6 +17,11 @@ h1 {
     color: #e7e7e7;
 }
 
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
 input[type="text"] {
     padding: 10px;
     font-size: 16px;
