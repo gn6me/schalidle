@@ -1,5 +1,5 @@
 {"Aru":{
-    "img":"imgs/icon.png",
+    "img":"/imgs/icon.png",
 "name":"Aru",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -8,7 +8,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Eimi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Eimi",
 "school":"Millennium",
 "combatClass":"Main",
@@ -17,7 +17,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Haruna":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Haruna",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -26,7 +26,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Hifumi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hifumi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -35,7 +35,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Hina":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hina",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -44,7 +44,7 @@
 "armorType":"HeavyArmor",
 "skill":"7"},
 "Hoshino":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hoshino",
 "school":"Abydos",
 "combatClass":"Main",
@@ -53,7 +53,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Iori":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Iori",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -62,7 +62,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Maki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Maki",
 "school":"Millennium",
 "combatClass":"Main",
@@ -71,7 +71,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Neru":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Neru",
 "school":"Millennium",
 "combatClass":"Main",
@@ -80,7 +80,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Izumi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Izumi",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -89,7 +89,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Shiroko":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shiroko",
 "school":"Abydos",
 "combatClass":"Main",
@@ -98,7 +98,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Shun":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shun",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -107,7 +107,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Sumire":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Sumire",
 "school":"Millennium",
 "combatClass":"Main",
@@ -116,7 +116,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Tsurugi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Tsurugi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -125,7 +125,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Izuna":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Izuna",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -134,7 +134,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Aris":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Aris",
 "school":"Millennium",
 "combatClass":"Main",
@@ -143,7 +143,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Midori":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Midori",
 "school":"Millennium",
 "combatClass":"Main",
@@ -152,7 +152,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Cherino":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Cherino",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -161,7 +161,7 @@
 "armorType":"LightArmor",
 "skill":"7"},
 "Yuzu":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yuzu",
 "school":"Millennium",
 "combatClass":"Main",
@@ -170,7 +170,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Azusa":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Azusa",
 "school":"Trinity",
 "combatClass":"Main",
@@ -179,7 +179,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Koharu":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Koharu",
 "school":"Trinity",
 "combatClass":"Main",
@@ -188,7 +188,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Azusa (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Azusa (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -197,7 +197,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Hina (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hina (Swimsuit)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -206,7 +206,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Iori (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Iori (Swimsuit)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -215,7 +215,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Shiroko (Cycling)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shiroko (Cycling)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -224,7 +224,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Shun (Small)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shun (Small)",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -233,7 +233,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Neru (Bunny)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Neru (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -242,7 +242,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Karin (Bunny)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Karin (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -251,7 +251,7 @@
 "armorType":"HeavyArmor",
 "skill":"7"},
 "Asuna (Bunny)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Asuna (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -260,7 +260,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Natsu":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Natsu",
 "school":"Trinity",
 "combatClass":"Main",
@@ -269,7 +269,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Chinatsu (Hot Spring)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Chinatsu (Hot Spring)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -278,7 +278,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Aru (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Aru (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -287,7 +287,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Mutsuki (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mutsuki (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -296,7 +296,7 @@
 "armorType":"HeavyArmor",
 "skill":"2"},
 "Wakamo":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Wakamo",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -305,7 +305,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Mimori":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mimori",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -314,7 +314,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Ui":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ui",
 "school":"Trinity",
 "combatClass":"Main",
@@ -323,7 +323,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Hinata":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hinata",
 "school":"Trinity",
 "combatClass":"Main",
@@ -332,7 +332,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Marina":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Marina",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -341,7 +341,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Miyako":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Miyako",
 "school":"SRT",
 "combatClass":"Main",
@@ -350,7 +350,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Miyu":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Miyu",
 "school":"SRT",
 "combatClass":"Main",
@@ -359,7 +359,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Tsukuyo":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Tsukuyo",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -368,7 +368,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Misaki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Misaki",
 "school":"Arius",
 "combatClass":"Main",
@@ -377,7 +377,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Atsuko":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Atsuko",
 "school":"Arius",
 "combatClass":"Main",
@@ -386,7 +386,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Wakamo (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Wakamo (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -395,7 +395,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Nonomi (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Nonomi (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -404,7 +404,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Hoshino (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hoshino (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -413,7 +413,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Izuna (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Izuna (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -422,7 +422,7 @@
 "armorType":"Unarmed",
 "skill":"2"},
 "Chise (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Chise (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -431,7 +431,7 @@
 "armorType":"LightArmor",
 "skill":"6"},
 "Saori":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Saori",
 "school":"Arius",
 "combatClass":"Main",
@@ -440,7 +440,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Kazusa":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kazusa",
 "school":"Trinity",
 "combatClass":"Main",
@@ -449,7 +449,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Kokona":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kokona",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -458,7 +458,7 @@
 "armorType":"Unarmed",
 "skill":"2"},
 "Utaha (Cheer Squad)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Utaha (Cheer Squad)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -467,7 +467,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Noa":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Noa",
 "school":"Millennium",
 "combatClass":"Main",
@@ -476,7 +476,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Yuuka (Track)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yuuka (Track)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -485,7 +485,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Mari (Track)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mari (Track)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -494,7 +494,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Shigure":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shigure",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -503,7 +503,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Serina (Christmas)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Serina (Christmas)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -512,7 +512,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Haruna (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Haruna (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -521,7 +521,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Mine":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mine",
 "school":"Trinity",
 "combatClass":"Main",
@@ -530,7 +530,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Mika":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mika",
 "school":"Trinity",
 "combatClass":"Main",
@@ -539,7 +539,7 @@
 "armorType":"LightArmor",
 "skill":"6"},
 "Megu":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Megu",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -548,7 +548,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Sakurako":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Sakurako",
 "school":"Trinity",
 "combatClass":"Main",
@@ -557,7 +557,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Toki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Toki",
 "school":"Millennium",
 "combatClass":"Main",
@@ -566,7 +566,7 @@
 "armorType":"ElasticArmor",
 "skill":"2"},
 "Koyuki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Koyuki",
 "school":"Millennium",
 "combatClass":"Main",
@@ -575,7 +575,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Kayoko (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kayoko (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -584,7 +584,7 @@
 "armorType":"Unarmed",
 "skill":"2"},
 "Kaho":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kaho",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -593,7 +593,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Aris (Maid)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Aris (Maid)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -602,7 +602,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Toki (Bunny)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Toki (Bunny)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -611,7 +611,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Reisa":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Reisa",
 "school":"Trinity",
 "combatClass":"Main",
@@ -620,7 +620,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Rumi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Rumi",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -629,7 +629,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Mina":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mina",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -638,7 +638,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Miyako (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Miyako (Swimsuit)",
 "school":"SRT",
 "combatClass":"Main",
@@ -647,7 +647,7 @@
 "armorType":"HeavyArmor",
 "skill":"2"},
 "Saki (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Saki (Swimsuit)",
 "school":"SRT",
 "combatClass":"Main",
@@ -656,7 +656,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Ui (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ui (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -665,7 +665,7 @@
 "armorType":"ElasticArmor",
 "skill":"4"},
 "Hanako (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hanako (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -674,7 +674,7 @@
 "armorType":"HeavyArmor",
 "skill":"2"},
 "Meru":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Meru",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -683,7 +683,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Kotori (Cheer Squad)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kotori (Cheer Squad)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -692,7 +692,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Ichika":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ichika",
 "school":"Trinity",
 "combatClass":"Main",
@@ -701,7 +701,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Kasumi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kasumi",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -710,7 +710,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Misaka Mikoto":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Misaka Mikoto",
 "school":"Tokiwadai",
 "combatClass":"Main",
@@ -719,7 +719,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Shokuhou Misaki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shokuhou Misaki",
 "school":"Tokiwadai",
 "combatClass":"Main",
@@ -728,7 +728,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Yukari":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yukari",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -737,7 +737,7 @@
 "armorType":"HeavyArmor",
 "skill":"7"},
 "Renge":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Renge",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -746,7 +746,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Kikyou":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kikyou",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -755,7 +755,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Kotama (Camp)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kotama (Camp)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -764,7 +764,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Hare (Camp)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hare (Camp)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -773,7 +773,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Hina (Dress)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hina (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -782,7 +782,7 @@
 "armorType":"ElasticArmor",
 "skill":"6"},
 "Ako (Dress)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ako (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -791,7 +791,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Kayoko (Dress)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kayoko (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -800,7 +800,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Aru (Dress)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Aru (Dress)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -809,7 +809,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Umika":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Umika",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -818,7 +818,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Kazusa (Band)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kazusa (Band)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -827,7 +827,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Yoshimi (Band)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yoshimi (Band)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -836,7 +836,7 @@
 "armorType":"Unarmed",
 "skill":"10"},
 "Kirara":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kirara",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -845,7 +845,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Momoi (Maid)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Momoi (Maid)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -854,7 +854,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Midori (Maid)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Midori (Maid)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -863,7 +863,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Kanna (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kanna (Swimsuit)",
 "school":"Valkyrie",
 "combatClass":"Main",
@@ -872,7 +872,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Moe (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Moe (Swimsuit)",
 "school":"SRT",
 "combatClass":"Main",
@@ -881,7 +881,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Hoshino (Armed)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hoshino (Armed)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -890,7 +890,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Hoshino (Armed)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hoshino (Armed)",
 "school":"Abydos",
 "combatClass":"Main",
@@ -899,7 +899,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Shiroko*Terror":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shiroko*Terror",
 "school":"Abydos",
 "combatClass":"Main",
@@ -908,7 +908,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Saori (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Saori (Swimsuit)",
 "school":"Arius",
 "combatClass":"Main",
@@ -917,7 +917,7 @@
 "armorType":"HeavyArmor",
 "skill":"7"},
 "Hiyori (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hiyori (Swimsuit)",
 "school":"Arius",
 "combatClass":"Main",
@@ -926,7 +926,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Marina (Qipao)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Marina (Qipao)",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -935,7 +935,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Reijo":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Reijo",
 "school":"Shanhaijing",
 "combatClass":"Main",
@@ -944,7 +944,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Mari (Idol)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mari (Idol)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -953,7 +953,7 @@
 "armorType":"HeavyArmor",
 "skill":"2"},
 "Sakurako (Idol)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Sakurako (Idol)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -962,7 +962,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Chiaki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Chiaki",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -971,7 +971,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Yuuka (Pajamas)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yuuka (Pajamas)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -980,7 +980,7 @@
 "armorType":"HeavyArmor",
 "skill":"2"},
 "Noa (Pajamas)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Noa (Pajamas)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -989,7 +989,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Seia":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Seia",
 "school":"Trinity",
 "combatClass":"Main",
@@ -998,7 +998,7 @@
 "armorType":"ElasticArmor",
 "skill":"3"},
 "Neru (Uniform)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Neru (Uniform)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1007,7 +1007,7 @@
 "armorType":"ElasticArmor",
 "skill":"1"},
 "Akane":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Akane",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1016,7 +1016,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Chise":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Chise",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -1025,7 +1025,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Akari":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Akari",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1034,7 +1034,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Hasumi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hasumi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1043,7 +1043,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Nonomi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Nonomi",
 "school":"Abydos",
 "combatClass":"Main",
@@ -1052,7 +1052,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Kayoko":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kayoko",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1061,7 +1061,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Mutsuki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mutsuki",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1070,7 +1070,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Junko":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Junko",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1079,7 +1079,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Serika":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Serika",
 "school":"Abydos",
 "combatClass":"Main",
@@ -1088,7 +1088,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Tsubaki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Tsubaki",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -1097,7 +1097,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Yuuka":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yuuka",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1106,7 +1106,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Momoi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Momoi",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1115,7 +1115,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Kirino":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kirino",
 "school":"Valkyrie",
 "combatClass":"Main",
@@ -1124,7 +1124,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Haruka":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Haruka",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1133,7 +1133,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Asuna":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Asuna",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1142,7 +1142,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Kotori":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kotori",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1151,7 +1151,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Suzumi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Suzumi",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1160,7 +1160,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Pina":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Pina",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -1169,7 +1169,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Tsurugi (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Tsurugi (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1178,7 +1178,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Izumi (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Izumi (Swimsuit)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1187,7 +1187,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Tomoe":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Tomoe",
 "school":"RedWinter",
 "combatClass":"Main",
@@ -1196,7 +1196,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Fubuki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Fubuki",
 "school":"Valkyrie",
 "combatClass":"Main",
@@ -1205,7 +1205,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Michiru":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Michiru",
 "school":"Hyakkiyako",
 "combatClass":"Main",
@@ -1214,7 +1214,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Hibiki (Cheer Squad)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hibiki (Cheer Squad)",
 "school":"Millennium",
 "combatClass":"Main",
@@ -1223,7 +1223,7 @@
 "armorType":"LightArmor",
 "skill":"7"},
 "Hasumi (Track)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hasumi (Track)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1232,7 +1232,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Junko (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Junko (New Year)",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1241,7 +1241,7 @@
 "armorType":"HeavyArmor",
 "skill":"2"},
 "Koharu (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Koharu (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1250,7 +1250,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Ibuki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ibuki",
 "school":"Gehenna",
 "combatClass":"Main",
@@ -1259,7 +1259,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Airi (Band)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Airi (Band)",
 "school":"Trinity",
 "combatClass":"Main",
@@ -1268,7 +1268,7 @@
 "armorType":"Unarmed",
 "skill":"2"},
 "Hibiki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hibiki",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1277,7 +1277,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Karin":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Karin",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1286,7 +1286,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Saya":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Saya",
 "school":"Shanhaijing",
 "combatClass":"Support",
@@ -1295,7 +1295,7 @@
 "armorType":"LightArmor",
 "skill":"6"},
 "Mashiro":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mashiro",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1304,7 +1304,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Mashiro (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mashiro (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1313,7 +1313,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Hifumi (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hifumi (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1322,7 +1322,7 @@
 "armorType":"HeavyArmor",
 "skill":"10"},
 "Saya (Casual)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Saya (Casual)",
 "school":"Shanhaijing",
 "combatClass":"Support",
@@ -1331,7 +1331,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Hatsune Miku":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hatsune Miku",
 "school":"ETC",
 "combatClass":"Support",
@@ -1340,7 +1340,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Ako":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ako",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1349,7 +1349,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Cherino (Hot Spring)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Cherino (Hot Spring)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1358,7 +1358,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Nodoka (Hot Spring)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Nodoka (Hot Spring)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1367,7 +1367,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Serika (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Serika (New Year)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1376,7 +1376,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Sena":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Sena",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1385,7 +1385,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Chihiro":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Chihiro",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1394,7 +1394,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Saki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Saki",
 "school":"SRT",
 "combatClass":"Support",
@@ -1403,7 +1403,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Kaede":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kaede",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1412,7 +1412,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Iroha":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Iroha",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1421,7 +1421,7 @@
 "armorType":"HeavyArmor",
 "skill":"8"},
 "Hiyori":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hiyori",
 "school":"Arius",
 "combatClass":"Support",
@@ -1430,7 +1430,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Moe":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Moe",
 "school":"SRT",
 "combatClass":"Support",
@@ -1439,7 +1439,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Akane (Bunny)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Akane (Bunny)",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1448,7 +1448,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Himari":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Himari",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1457,7 +1457,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Hanae (Christmas)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hanae (Christmas)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1466,7 +1466,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Fuuka (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Fuuka (New Year)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1475,7 +1475,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Kanna":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kanna",
 "school":"Valkyrie",
 "combatClass":"Support",
@@ -1484,7 +1484,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Nagisa":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Nagisa",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1493,7 +1493,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Haruka (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Haruka (New Year)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1502,7 +1502,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Minori":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Minori",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1511,7 +1511,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Shiroko (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shiroko (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1520,7 +1520,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Hinata (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hinata (Swimsuit)",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1529,7 +1529,7 @@
 "armorType":"LightArmor",
 "skill":"6"},
 "Mimori (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Mimori (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1538,7 +1538,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Haruna (Track)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Haruna (Track)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1547,7 +1547,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Shigure (Hot Spring)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shigure (Hot Spring)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1556,7 +1556,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Eimi (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Eimi (Swimsuit)",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1565,7 +1565,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Makoto":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Makoto",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1574,7 +1574,7 @@
 "armorType":"Unarmed",
 "skill":"6"},
 "Akari (New Year)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Akari (New Year)",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1583,7 +1583,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Tsubaki (Guide)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Tsubaki (Guide)",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1592,7 +1592,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Serika (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Serika (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1601,7 +1601,7 @@
 "armorType":"HeavyArmor",
 "skill":"6"},
 "Fubuki (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Fubuki (Swimsuit)",
 "school":"Valkyrie",
 "combatClass":"Support",
@@ -1610,7 +1610,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Tomoe (Qipao)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Tomoe (Qipao)",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1619,7 +1619,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Kisaki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kisaki",
 "school":"Shanhaijing",
 "combatClass":"Support",
@@ -1628,7 +1628,7 @@
 "armorType":"ElasticArmor",
 "skill":"3"},
 "Satsuki":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Satsuki",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1637,7 +1637,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Rio":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Rio",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1646,7 +1646,7 @@
 "armorType":"ElasticArmor",
 "skill":"2"},
 "Airi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Airi",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1655,7 +1655,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Fuuka":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Fuuka",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1664,7 +1664,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Hanae":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hanae",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1673,7 +1673,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Hare":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hare",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1682,7 +1682,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Utaha":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Utaha",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1691,7 +1691,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Ayane":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ayane",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1700,7 +1700,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Shizuko":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shizuko",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1709,7 +1709,7 @@
 "armorType":"Unarmed",
 "skill":"3"},
 "Hanako":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Hanako",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1718,7 +1718,7 @@
 "armorType":"Unarmed",
 "skill":"5"},
 "Chinatsu":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Chinatsu",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1727,7 +1727,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Kotama":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kotama",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1736,7 +1736,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Juri":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Juri",
 "school":"Gehenna",
 "combatClass":"Support",
@@ -1745,7 +1745,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Serina":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Serina",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1754,7 +1754,7 @@
 "armorType":"LightArmor",
 "skill":"2"},
 "Shimiko":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shimiko",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1763,7 +1763,7 @@
 "armorType":"LightArmor",
 "skill":"3"},
 "Yoshimi":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yoshimi",
 "school":"Trinity",
 "combatClass":"Support",
@@ -1772,7 +1772,7 @@
 "armorType":"HeavyArmor",
 "skill":"4"},
 "Nodoka":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Nodoka",
 "school":"RedWinter",
 "combatClass":"Support",
@@ -1781,7 +1781,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Ayane (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Ayane (Swimsuit)",
 "school":"Abydos",
 "combatClass":"Support",
@@ -1790,7 +1790,7 @@
 "armorType":"LightArmor",
 "skill":"4"},
 "Shizuko (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Shizuko (Swimsuit)",
 "school":"Hyakkiyako",
 "combatClass":"Support",
@@ -1799,7 +1799,7 @@
 "armorType":"HeavyArmor",
 "skill":"3"},
 "Yuzu (Maid)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Yuzu (Maid)",
 "school":"Millennium",
 "combatClass":"Support",
@@ -1808,7 +1808,7 @@
 "armorType":"ElasticArmor",
 "skill":"5"},
 "Miyu (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Miyu (Swimsuit)",
 "school":"SRT",
 "combatClass":"Support",
@@ -1817,7 +1817,7 @@
 "armorType":"LightArmor",
 "skill":"5"},
 "Saten Ruiko":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Saten Ruiko",
 "school":"Sakugawa",
 "combatClass":"Support",
@@ -1826,7 +1826,7 @@
 "armorType":"Unarmed",
 "skill":"4"},
 "Kirino (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Kirino (Swimsuit)",
 "school":"Valkyrie",
 "combatClass":"Support",
@@ -1835,7 +1835,7 @@
 "armorType":"HeavyArmor",
 "skill":"5"},
 "Atsuko (Swimsuit)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Atsuko (Swimsuit)",
 "school":"Arius",
 "combatClass":"Support",
@@ -1844,7 +1844,7 @@
 "armorType":"Unarmed",
 "skill":"2"},
 "Karin (Uniform)":{
-        "img":"imgs/icon.png",
+        "img":"/imgs/icon.png",
 "name":"Karin (Uniform)",
 "school":"Millennium",
 "combatClass":"Support",
