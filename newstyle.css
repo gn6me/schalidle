@@ -26,20 +26,21 @@ input[type="text"] {
 }
 
 #suggestions div {
-    height: 50px;
     padding: 10px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#suggestions div img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
 #suggestions div:hover {
     background-color: #f0f0f0;
-}
-.imgbox {
-    height: 100%;
-    width: 50%;
-}
-.searchimg {
-    height: 100%;
 }
 
 #guesses {
@@ -63,11 +64,36 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
     background-color: white;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 .guess-square.correct {
     background-color: green;
     color: white;
+    animation: pop 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 #result {
