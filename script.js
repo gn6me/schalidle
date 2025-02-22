@@ -13,7 +13,7 @@ fetch('student-list.json')
         const characterNames = Object.keys(characters);
         today = true;
         if (targetCharacter === null) {
-        targetCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
+        let targetCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
         console.log("Target Character:", targetCharacter); // For debugging
         } else {
             console.log("Target Character:", targetCharacter);
