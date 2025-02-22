@@ -17,12 +17,18 @@ input[type="text"] {
 }
 
 #suggestions {
+    position: absolute;
+    inset: 0;
+    top: 150px;
+    z-index: 100;
     margin: 10px auto;
     width: 320px;
+    height: 300px;
     text-align: left;
     background-color: white;
     border: 1px solid #ccc;
     display: none;
+    overflow: scroll;
 }
 
 #suggestions div {
