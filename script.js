@@ -115,7 +115,7 @@ function displayGuess(character) {
     attributes.forEach((attr, index) => {
         const square = document.createElement('div');
         sID = 1;
-        square.className = 'guess-square' + String(sID);
+        square.className = 'guess-square ' + String(sID);
         if (typeof attr === 'string' && attr.startsWith('http')) {
             // Display image
             const img = document.createElement('img');
