@@ -5,7 +5,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -15,7 +15,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -45,7 +45,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "7"
     },
@@ -95,7 +95,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
     },
@@ -105,7 +105,7 @@
         "school": "Abydos",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
     },
@@ -115,7 +115,7 @@
         "school": "Shanhaijing",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
     },
@@ -195,7 +195,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "5"
     },
@@ -205,7 +205,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "Healer",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -225,7 +225,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -235,7 +235,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
     },
@@ -255,7 +255,7 @@
         "school": "Shanhaijing",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
     },
@@ -265,7 +265,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -355,7 +355,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
     },
@@ -415,7 +415,7 @@
         "school": "Arius",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "5"
     },
@@ -425,7 +425,7 @@
         "school": "Arius",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
     },
@@ -445,7 +445,7 @@
         "school": "Abydos",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "6"
     },
@@ -455,7 +455,7 @@
         "school": "Abydos",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "6"
     },
@@ -485,7 +485,7 @@
         "school": "Arius",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
     },
@@ -555,7 +555,7 @@
         "school": "RedWinter",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "5"
     },
@@ -575,7 +575,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
     },
@@ -585,7 +585,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -605,7 +605,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "5"
     },
@@ -625,7 +625,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Elastic",
         "skill": "2"
     },
@@ -675,7 +675,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
     },
@@ -695,7 +695,7 @@
         "school": "Shanhaijing",
         "combatClass": "Striker",
         "role": "Healer",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -705,7 +705,7 @@
         "school": "Shanhaijing",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -715,7 +715,7 @@
         "school": "SRT",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "2"
     },
@@ -725,7 +725,7 @@
         "school": "SRT",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -765,7 +765,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "3"
     },
@@ -805,7 +805,7 @@
         "school": "Tokiwadai",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "5"
     },
@@ -855,7 +855,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
     },
@@ -865,7 +865,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Elastic",
         "skill": "6"
     },
@@ -875,7 +875,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "5"
     },
@@ -915,7 +915,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "3"
     },
@@ -925,7 +925,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "10"
     },
@@ -965,7 +965,7 @@
         "school": "Valkyrie",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
     },
@@ -1055,7 +1055,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "Healer",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "2"
     },
@@ -1065,7 +1065,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -1085,7 +1085,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "2"
     },
@@ -1145,7 +1145,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -1175,7 +1175,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "6"
     },
@@ -1185,7 +1185,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -1205,7 +1205,7 @@
         "school": "Abydos",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
     },
@@ -1225,7 +1225,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -1245,7 +1245,7 @@
         "school": "Valkyrie",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "3"
     },
@@ -1255,7 +1255,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "Tank",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -1285,7 +1285,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -1315,7 +1315,7 @@
         "school": "Gehenna",
         "combatClass": "Striker",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -1355,7 +1355,7 @@
         "school": "Millennium",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "7"
     },
@@ -1405,7 +1405,7 @@
         "school": "Trinity",
         "combatClass": "Striker",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "2"
     },
@@ -1415,7 +1415,7 @@
         "school": "Millennium",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -1435,7 +1435,7 @@
         "school": "Shanhaijing",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "6"
     },
@@ -1445,7 +1445,7 @@
         "school": "Trinity",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -1485,7 +1485,7 @@
         "school": "ETC",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
     },
@@ -1505,7 +1505,7 @@
         "school": "RedWinter",
         "combatClass": "Special",
         "role": "Vehicle",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "6"
     },
@@ -1515,7 +1515,7 @@
         "school": "RedWinter",
         "combatClass": "Special",
         "role": "Healer",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
     },
@@ -1565,7 +1565,7 @@
         "school": "Hyakkiyako",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
     },
@@ -1585,7 +1585,7 @@
         "school": "Arius",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
     },
@@ -1655,7 +1655,7 @@
         "school": "Trinity",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -1665,7 +1665,7 @@
         "school": "Gehenna",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -1675,7 +1675,7 @@
         "school": "RedWinter",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
     },
@@ -1695,7 +1695,7 @@
         "school": "Trinity",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "6"
     },
@@ -1785,7 +1785,7 @@
         "school": "Valkyrie",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -1815,7 +1815,7 @@
         "school": "Gehenna",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -1835,7 +1835,7 @@
         "school": "Trinity",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
     },
@@ -1845,7 +1845,7 @@
         "school": "Gehenna",
         "combatClass": "Special",
         "role": "Healer",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "5"
     },
@@ -1855,7 +1855,7 @@
         "school": "Trinity",
         "combatClass": "Special",
         "role": "Healer",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
     },
@@ -1865,7 +1865,7 @@
         "school": "Millennium",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
     },
@@ -1925,7 +1925,7 @@
         "school": "Millennium",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
     },
@@ -1935,7 +1935,7 @@
         "school": "Gehenna",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
     },
@@ -1955,7 +1955,7 @@
         "school": "Trinity",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
     },
@@ -1975,7 +1975,7 @@
         "school": "RedWinter",
         "combatClass": "Special",
         "role": "Supporter",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
     },
@@ -2005,7 +2005,7 @@
         "school": "Millennium",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Elastic",
         "skill": "5"
     },
@@ -2015,7 +2015,7 @@
         "school": "SRT",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
     },
@@ -2055,7 +2055,7 @@
         "school": "Millennium",
         "combatClass": "Special",
         "role": "DPS",
-        "damageType": "Explosive",
+        "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "7"
     }
