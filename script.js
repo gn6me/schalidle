@@ -102,6 +102,7 @@ function displayGuess(character) {
     guessRow.className = 'guess-row';
 
     const attributes = [
+        character.name,
         character.img,
         character.school,
         character.combatClass,
@@ -122,6 +123,7 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
+        } else if (attr === name) {
         } else {
             // Display text
             square.textContent = attr;
