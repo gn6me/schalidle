@@ -103,7 +103,6 @@ function displayGuess(character) {
 
     const attributes = [
         character.img,
-        character.name,
         character.school,
         character.combatClass,
         character.role,
