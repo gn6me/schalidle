@@ -8,7 +8,7 @@ function generateEmojiResults(guesses, targetCharacter) {
     const correctEmoji = '🟩'; // Green square for correct
     const incorrectEmoji = '⬜'; // White square for incorrect
 
-    let emojiResults = 'Genshin Guess Results:\n\n';
+    let emojiResults = '';
 
     guesses.forEach(guess => {
         const attributes = [
@@ -155,7 +155,7 @@ function makeGuess() {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
-        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')">Copy Emoji Results</button>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')">Copy Results</button>`;
     }
 }
 
