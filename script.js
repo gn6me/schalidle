@@ -49,7 +49,7 @@ searchInput.addEventListener('input', function () {
                 const suggestion = document.createElement('div');
                 suggestions.innerHTML = `
                     <!--<img src="${characters[name].img}" alt="${name}">-->
-                    <span>${characers[name].img}</span>
+                    <span>${characters[name].img}</span>
                     <span>${name}</span>
                 `;
                 suggestion.addEventListener('click', () => {
