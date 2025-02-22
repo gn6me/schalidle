@@ -4,7 +4,7 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background: url("imgs/__hibiki_and_maki_blue_archive.jpg") no-repeat cover;
+    background: url("imgs/__hibiki_and_maki_blue_archive.jpg") center no-repeat;
 }
 
 .container {
@@ -96,36 +96,36 @@ pre {
 .guess-square img {
     border-radius: 12px;
 }
-.guess-row > .guess-square {
+.sq-2,.sq-3,.sq-4,.sq-5,.sq-6,.sq-7,.sq-8 {
 	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-delay: 0.5s;
 }
 .guess-row > .guess-square.correct {
     background-color: green;
     color: white;
     -webkit-animation: swirl-in-fwd 0.6s ease-out both;
 	animation: swirl-in-fwd 0.6s ease-out both;
-    animation-delay: 0.5s;
 }
-.guess-row:nth-child(2) {
+.sq-2 {
     animation-delay: 0.1s;
 }
-.guess-row:nth-child(3) {
+.sq-3 {
     animation-delay: 0.2s;
 }
-.guess-row:nth-child(4) {
+.sq-4 {
     animation-delay: 0.3s;
 }
-.guess-row:nth-child(5) {
+.sq-5 {
     animation-delay: 0.4s;
 }
-.guess-row:nth-child(6) {
+.sq-6 {
     animation-delay: 0.5s;
 }
-.guess-row:nth-child(7) {
+.sq-7 {
     animation-delay: 0.6s;
 }
-.guess-row:nth-child(8) {
+.sq-8 {
     animation-delay: 0.7s;
 }
 
