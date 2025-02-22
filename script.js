@@ -123,7 +123,7 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
-        } else if (attr === name) {
+        } else if (attr === character.name) {
         } else {
             // Display text
             square.textContent = attr;
