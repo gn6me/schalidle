@@ -46,8 +46,14 @@ input[type="text"] {
 #headrow {
     margin-top: 20px;
     display: flex;
-    flex-driection: column;
     align-items: center;
+    text-align: center;
+}
+#headrow div {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #guesses {
