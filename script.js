@@ -4,6 +4,7 @@ let guessesRemaining = 6;
 const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
 
+targetCharacter = null;
 // Fetch characters from JSON file
 fetch('student-list.json')
     .then(response => response.json())
@@ -11,8 +12,13 @@ fetch('student-list.json')
         characters = data;
         // Randomly select a target character
         const characterNames = Object.keys(characters);
-        targetCharacter = setInterval(characters[characterNames[Math.floor(Math.random() * characterNames.length)]], 500);
+        today = true;
+        if (targetCharacter = null) {
+        targetCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
         console.log("Target Character:", targetCharacter); // For debugging
+        } else {
+            console.log("Target Character:", targetCharacter);
+        }
     });
 
 // Live search functionality
