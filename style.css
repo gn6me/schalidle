@@ -60,7 +60,7 @@ input[type="text"] {
 #suggestions {
     position: absolute;
     inset: 0;
-    top: 180px;
+    top: 195px;
     z-index: 100;
     margin: 10px auto;
     width: 520px;
