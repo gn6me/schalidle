@@ -257,6 +257,13 @@ function makeGuess() {
     }
 }
 
+searchInput.addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        makeGuess();
+    }
+});
+
 // Display a guess in the grid
 function displayGuess(character) {
     const guessRow = document.createElement('div');
