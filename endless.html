@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Schalidle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Endless Mode</h1>
+        <div id="streak">Streak: 0</div>
+        <input type="text" id="searchInput" placeholder="Search for a character...">
+        <div id="suggestions"></div>
+        <button onclick="makeGuess()">Guess</button>
+        <div id="guesses">
+            <div id="headrow">
+                <div>Name</div>
+                <div>School</div>
+                <div>Class</div>
+                <div>Role</div>
+                <div>Damage</div>
+                <div>Armor</div>
+                <div>EX Cost</div>
+            </div>
+        </div>
+        <div id="result"></div>
+        <button id="continueButton" onclick="startNewRound()" style="display: none;">Continue</button>
+    </div>
+    <script src="endless.js"></script>
+</body>
+
+</html>
