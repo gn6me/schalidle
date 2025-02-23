@@ -22,7 +22,7 @@ body {
     text-align: center;
 }
 #previous-day-character p {
-    background: alpha(#333333, 0.7);
+    background: rgba(51, 51, 51, 0.7);
     padding: 10px;
     border-radius: 12px;
 }
@@ -39,7 +39,7 @@ body {
     width: 30%;
     border-radius: 12px;
     padding: 10px;
-    background: alpha(#333333, 0.7);
+    background: rgba(51, 51, 51, 0.7);
 }
 
 h1 {
