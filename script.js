@@ -189,6 +189,11 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
+        } else if (attr === 'Explosion') || (attr === 'Mystic') {
+            const dmgImg = document.createElement('img');
+            img.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
+            img.className = 'dmgIcon';
+            square.appendChild(dmgImg);
         } else {
             // Display text
             square.textContent = attr;
@@ -196,9 +201,6 @@ function displayGuess(character) {
 
         // Check if the attribute matches the target character
         const targetAttr = Object.values(targetCharacter)[index];
-        if (attr === 'Explosion') {
-            square.classList.add('explosion');
-        }
         if (attr === targetAttr) {
             square.classList.add('correct');
         }
