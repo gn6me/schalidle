@@ -340,9 +340,9 @@ function displayGuess(character) {
 
             square.textContent = attr;
             if (guessedSkillCost > targetSkillCost) {
-                square.innerHTML += ' <i class="fa-solid fa-arrow-up"></i>';
-            } else if (guessedSkillCost < targetSkillCost) {
                 square.innerHTML += ' <i class="fa-solid fa-arrow-down"></i>';
+            } else if (guessedSkillCost < targetSkillCost) {
+                square.innerHTML += ' <i class="fa-solid fa-arrow-up"></i>';
             } else {
             }
         } else {
