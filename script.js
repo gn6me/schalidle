@@ -191,8 +191,8 @@ function displayGuess(character) {
             square.appendChild(img);
         } else if (attr === 'Explosion' || attr === 'Mystic') {
             const dmgImg = document.createElement('img');
-            img.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
-            img.className = 'dmgIcon';
+            dmgImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
+            dmgImg.className = 'dmgIcon';
             square.appendChild(dmgImg);
         } else {
             // Display text
