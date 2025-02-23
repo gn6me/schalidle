@@ -84,7 +84,7 @@ fetch('student-list.json')
         targetCharacter = getDailyCharacter();
         console.log("Target Character:", targetCharacter); // debug
     });
-/ Live search functionality
+// Live search functionality
 const searchInput = document.getElementById('searchInput');
 const suggestionsDiv = document.getElementById('suggestions');
 
