@@ -194,6 +194,11 @@ function displayGuess(character) {
             dmgImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
             dmgImg.className = 'dmgIcon';
             square.appendChild(dmgImg);
+        } else if (attr === character.school) {
+            const schoolImg = document.createElement('img');
+            schoolImg.src = 'https://schalidle.vercel.app/imgs/schools/' + attr + '_Icon.webp';
+            schoolImg.className = 'schoolImg';
+            square.appendChild(schoolImg);
         } else {
             // Display text
             square.textContent = attr;
