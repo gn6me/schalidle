@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schalidle</title>
-    <script src="https://kit.fontawesome.com/67e92cb0dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <h1>Schalidle</h1>
         <input type="text" id="searchInput" value=" " placeholder="Search for a character...">
         <div id="suggestions"></div>
-        <button onclick="makeGuess()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button onclick="makeGuess()"><ion-icon name="search-outline"></ion-icon></button>
         <div id="result"></div>
         <div id="guesses">
             <div id="headrow">

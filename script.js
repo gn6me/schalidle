@@ -215,41 +215,6 @@ document.addEventListener('click', (event) => {
     }
 });
 
-// Live search functionality
-//const searchInput = document.getElementById('searchInput');
-//const suggestionsDiv = document.getElementById('suggestions');
-//
-//searchInput.addEventListener('input', function () {
-//    const query = searchInput.value.toLowerCase();
-//    suggestionsDiv.innerHTML = '';
-//
-//    if (query) {
-//        const filteredCharacters = Object.keys(characters).filter(name =>
-//            name.toLowerCase().includes(query)
-//        );
-//
-//        if (filteredCharacters.length > 0) {
-//            filteredCharacters.forEach(name => {
-//                const suggestion = document.createElement('div');
-//                    suggestion.innerHTML = `
-//                    <img class="searchimg" src="${characters[name].img}" alt="${name}">
-//                    <span>${name}</span>
-//                `;
-//                suggestion.addEventListener('click', () => {
-//                    searchInput.value = name;
-//                    suggestionsDiv.style.display = 'none';
-//                });
-//                suggestionsDiv.appendChild(suggestion);
-//            });
-//            suggestionsDiv.style.display = 'block';
-//        } else {
-//            suggestionsDiv.style.display = 'none';
-//        }
-//    } else {
-//        suggestionsDiv.style.display = 'none';
-//    }
-//});
-
 let guessHistory = [];
 
 // Make a guess
@@ -258,7 +223,7 @@ function makeGuess() {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
-        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><i class="fa-solid fa-copy"></i></button>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy-outline"></ion-icon></button>`;
         return;
     }
 
@@ -282,13 +247,13 @@ function makeGuess() {
         resultDiv.textContent = "Correct! You guessed the character!";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
-        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><i class="fa-solid fa-copy"></i></button>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy-outline"></ion-icon></button>`;
         guessesRemaining = 0; // End the game
     } else if (guessesRemaining === 0) {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
-        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><i class="fa-solid fa-copy"></i></button>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy-outline"></ion-icon></button>`;
     }
 }
 
