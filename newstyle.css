@@ -115,7 +115,7 @@ pre {
     border-radius: 12px;
     color: #e7e7e7;
 }
-.dmgIcon,.schoolImg {
+.dmgIcon,.schoolImg,.roleImg {
     width: 50%;
 }
 .guess-square img {

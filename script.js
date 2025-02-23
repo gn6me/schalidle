@@ -189,7 +189,7 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
-        } else if (attr === character.damageType || attr === character.armorType) {
+        } else if (attr === character.damageType || attr === character.armorType || attr === character.role) {
             const dmgImg = document.createElement('img');
             dmgImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
             dmgImg.className = 'dmgIcon';
@@ -199,6 +199,11 @@ function displayGuess(character) {
             schoolImg.src = 'https://schalidle.vercel.app/imgs/schools/' + attr + '_Icon.webp';
             schoolImg.className = 'schoolImg';
             square.appendChild(schoolImg);
+        } else if (attr === character.role) {
+            const roleImg = document.createElement('img');
+            roleImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '_role.webp';
+            roleImg.className = 'dmgIcon';
+            square.appendChild(roleImg);
         } else {
             // Display text
             square.textContent = attr;

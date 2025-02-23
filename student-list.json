@@ -4,7 +4,7 @@
         "name": "Aru",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
@@ -24,7 +24,7 @@
         "name": "Haruna",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "4"
@@ -44,7 +44,7 @@
         "name": "Hina",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "7"
@@ -64,7 +64,7 @@
         "name": "Iori",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "3"
@@ -74,7 +74,7 @@
         "name": "Maki",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "5"
@@ -84,7 +84,7 @@
         "name": "Neru",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "2"
@@ -94,7 +94,7 @@
         "name": "Izumi",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
@@ -104,7 +104,7 @@
         "name": "Shiroko",
         "school": "Abydos",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
@@ -114,7 +114,7 @@
         "name": "Shun",
         "school": "Shanhaijing",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "3"
@@ -124,7 +124,7 @@
         "name": "Sumire",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Special",
         "skill": "3"
@@ -134,7 +134,7 @@
         "name": "Tsurugi",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "3"
@@ -144,7 +144,7 @@
         "name": "Izuna",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "3"
@@ -154,7 +154,7 @@
         "name": "Aris",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "6"
@@ -164,7 +164,7 @@
         "name": "Midori",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "3"
@@ -174,7 +174,7 @@
         "name": "Cherino",
         "school": "RedWinter",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "7"
@@ -184,7 +184,7 @@
         "name": "Yuzu",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Special",
         "skill": "4"
@@ -194,7 +194,7 @@
         "name": "Azusa",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "5"
@@ -214,7 +214,7 @@
         "name": "Azusa (Swimsuit)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "5"
@@ -224,7 +224,7 @@
         "name": "Hina (Swimsuit)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
@@ -234,7 +234,7 @@
         "name": "Iori (Swimsuit)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
@@ -244,7 +244,7 @@
         "name": "Shiroko (Cycling)",
         "school": "Abydos",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "4"
@@ -254,7 +254,7 @@
         "name": "Shun (Small)",
         "school": "Shanhaijing",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
@@ -274,7 +274,7 @@
         "name": "Karin (Bunny)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "7"
@@ -314,7 +314,7 @@
         "name": "Aru (New Year)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Special",
         "skill": "6"
@@ -324,7 +324,7 @@
         "name": "Mutsuki (New Year)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "2"
@@ -334,7 +334,7 @@
         "name": "Wakamo",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "4"
@@ -364,7 +364,7 @@
         "name": "Hinata",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "6"
@@ -414,7 +414,7 @@
         "name": "Misaki",
         "school": "Arius",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "5"
@@ -434,7 +434,7 @@
         "name": "Wakamo (Swimsuit)",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "5"
@@ -444,7 +444,7 @@
         "name": "Nonomi (Swimsuit)",
         "school": "Abydos",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "6"
@@ -464,7 +464,7 @@
         "name": "Izuna (Swimsuit)",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "2"
@@ -484,7 +484,7 @@
         "name": "Saori",
         "school": "Arius",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
@@ -494,7 +494,7 @@
         "name": "Kazusa",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "4"
@@ -514,7 +514,7 @@
         "name": "Utaha (Cheer Squad)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "5"
@@ -554,7 +554,7 @@
         "name": "Shigure",
         "school": "RedWinter",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "5"
@@ -574,7 +574,7 @@
         "name": "Haruna (New Year)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
@@ -594,7 +594,7 @@
         "name": "Mika",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "6"
@@ -604,7 +604,7 @@
         "name": "Megu",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "5"
@@ -614,7 +614,7 @@
         "name": "Sakurako",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "4"
@@ -624,7 +624,7 @@
         "name": "Toki",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Elastic",
         "skill": "2"
@@ -634,7 +634,7 @@
         "name": "Koyuki",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "4"
@@ -654,7 +654,7 @@
         "name": "Kaho",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "5"
@@ -664,7 +664,7 @@
         "name": "Aris (Maid)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "4"
@@ -674,7 +674,7 @@
         "name": "Toki (Bunny)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
@@ -744,7 +744,7 @@
         "name": "Hanako (Swimsuit)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Heavy",
         "skill": "2"
@@ -754,7 +754,7 @@
         "name": "Meru",
         "school": "RedWinter",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "5"
@@ -764,7 +764,7 @@
         "name": "Kotori (Cheer Squad)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "3"
@@ -774,7 +774,7 @@
         "name": "Ichika",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Heavy",
         "skill": "6"
@@ -784,7 +784,7 @@
         "name": "Kasumi",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Heavy",
         "skill": "4"
@@ -794,7 +794,7 @@
         "name": "Misaka Mikoto",
         "school": "Tokiwadai",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "3"
@@ -814,7 +814,7 @@
         "name": "Yukari",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Heavy",
         "skill": "7"
@@ -824,7 +824,7 @@
         "name": "Renge",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Heavy",
         "skill": "3"
@@ -864,7 +864,7 @@
         "name": "Hina (Dress)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Elastic",
         "skill": "6"
@@ -884,7 +884,7 @@
         "name": "Kayoko (Dress)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "5"
@@ -904,7 +904,7 @@
         "name": "Umika",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "3"
@@ -914,7 +914,7 @@
         "name": "Kazusa (Band)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "3"
@@ -924,7 +924,7 @@
         "name": "Yoshimi (Band)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "10"
@@ -934,7 +934,7 @@
         "name": "Kirara",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Light",
         "skill": "4"
@@ -944,7 +944,7 @@
         "name": "Momoi (Maid)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Light",
         "skill": "4"
@@ -954,7 +954,7 @@
         "name": "Midori (Maid)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Light",
         "skill": "5"
@@ -974,7 +974,7 @@
         "name": "Moe (Swimsuit)",
         "school": "SRT",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Special",
         "skill": "6"
@@ -994,7 +994,7 @@
         "name": "Hoshino (Armed)",
         "school": "Abydos",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "6"
@@ -1004,7 +1004,7 @@
         "name": "Shiroko*Terror",
         "school": "Abydos",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "3"
@@ -1014,7 +1014,7 @@
         "name": "Saori (Swimsuit)",
         "school": "Arius",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "7"
@@ -1024,7 +1024,7 @@
         "name": "Hiyori (Swimsuit)",
         "school": "Arius",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "4"
@@ -1034,7 +1034,7 @@
         "name": "Marina (Qipao)",
         "school": "RedWinter",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "6"
@@ -1074,7 +1074,7 @@
         "name": "Chiaki",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Sonic",
         "armorType": "Special",
         "skill": "6"
@@ -1094,7 +1094,7 @@
         "name": "Noa (Pajamas)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "5"
@@ -1114,7 +1114,7 @@
         "name": "Neru (Uniform)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Elastic",
         "skill": "1"
@@ -1134,7 +1134,7 @@
         "name": "Chise",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "4"
@@ -1144,7 +1144,7 @@
         "name": "Akari",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
@@ -1154,7 +1154,7 @@
         "name": "Hasumi",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "5"
@@ -1164,7 +1164,7 @@
         "name": "Nonomi",
         "school": "Abydos",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "5"
@@ -1184,7 +1184,7 @@
         "name": "Mutsuki",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "4"
@@ -1194,7 +1194,7 @@
         "name": "Junko",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "5"
@@ -1204,7 +1204,7 @@
         "name": "Serika",
         "school": "Abydos",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "2"
@@ -1234,7 +1234,7 @@
         "name": "Momoi",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "3"
@@ -1264,7 +1264,7 @@
         "name": "Asuna",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "2"
@@ -1294,7 +1294,7 @@
         "name": "Pina",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "4"
@@ -1304,7 +1304,7 @@
         "name": "Tsurugi (Swimsuit)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "3"
@@ -1334,7 +1334,7 @@
         "name": "Fubuki",
         "school": "Valkyrie",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "4"
@@ -1344,7 +1344,7 @@
         "name": "Michiru",
         "school": "Hyakkiyako",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "5"
@@ -1354,7 +1354,7 @@
         "name": "Hibiki (Cheer Squad)",
         "school": "Millennium",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "7"
@@ -1364,7 +1364,7 @@
         "name": "Hasumi (Track)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Special",
         "skill": "3"
@@ -1374,7 +1374,7 @@
         "name": "Junko (New Year)",
         "school": "Gehenna",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "2"
@@ -1384,7 +1384,7 @@
         "name": "Koharu (Swimsuit)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "3"
@@ -1404,7 +1404,7 @@
         "name": "Airi (Band)",
         "school": "Trinity",
         "combatClass": "Striker",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "2"
@@ -1414,7 +1414,7 @@
         "name": "Hibiki",
         "school": "Millennium",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
@@ -1424,7 +1424,7 @@
         "name": "Karin",
         "school": "Millennium",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "4"
@@ -1434,7 +1434,7 @@
         "name": "Saya",
         "school": "Shanhaijing",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "6"
@@ -1444,7 +1444,7 @@
         "name": "Mashiro",
         "school": "Trinity",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
@@ -1454,7 +1454,7 @@
         "name": "Mashiro (Swimsuit)",
         "school": "Trinity",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "4"
@@ -1474,7 +1474,7 @@
         "name": "Saya (Casual)",
         "school": "Shanhaijing",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Special",
         "skill": "5"
@@ -1544,7 +1544,7 @@
         "name": "Chihiro",
         "school": "Millennium",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "3"
@@ -1554,7 +1554,7 @@
         "name": "Saki",
         "school": "SRT",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Special",
         "skill": "4"
@@ -1594,7 +1594,7 @@
         "name": "Moe",
         "school": "SRT",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Light",
         "skill": "4"
@@ -1604,7 +1604,7 @@
         "name": "Akane (Bunny)",
         "school": "Millennium",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "3"
@@ -1644,7 +1644,7 @@
         "name": "Kanna",
         "school": "Valkyrie",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "3"
@@ -1654,7 +1654,7 @@
         "name": "Nagisa",
         "school": "Trinity",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
@@ -1674,7 +1674,7 @@
         "name": "Minori",
         "school": "RedWinter",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Special",
         "skill": "4"
@@ -1684,7 +1684,7 @@
         "name": "Shiroko (Swimsuit)",
         "school": "Abydos",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Light",
         "skill": "3"
@@ -1694,7 +1694,7 @@
         "name": "Hinata (Swimsuit)",
         "school": "Trinity",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "6"
@@ -1744,7 +1744,7 @@
         "name": "Makoto",
         "school": "Gehenna",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Special",
         "skill": "6"
@@ -1774,7 +1774,7 @@
         "name": "Serika (Swimsuit)",
         "school": "Abydos",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "6"
@@ -1784,7 +1784,7 @@
         "name": "Fubuki (Swimsuit)",
         "school": "Valkyrie",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "4"
@@ -1814,7 +1814,7 @@
         "name": "Satsuki",
         "school": "Gehenna",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "3"
@@ -1874,7 +1874,7 @@
         "name": "Utaha",
         "school": "Millennium",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "4"
@@ -1964,7 +1964,7 @@
         "name": "Yoshimi",
         "school": "Trinity",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Heavy",
         "skill": "4"
@@ -2004,7 +2004,7 @@
         "name": "Yuzu (Maid)",
         "school": "Millennium",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Elastic",
         "skill": "5"
@@ -2014,7 +2014,7 @@
         "name": "Miyu (Swimsuit)",
         "school": "SRT",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Light",
         "skill": "5"
@@ -2024,7 +2024,7 @@
         "name": "Saten Ruiko",
         "school": "Sakugawa",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Piercing",
         "armorType": "Special",
         "skill": "4"
@@ -2054,7 +2054,7 @@
         "name": "Karin (Uniform)",
         "school": "Millennium",
         "combatClass": "Special",
-        "role": "DPS",
+        "role": "Attacker",
         "damageType": "Explosion",
         "armorType": "Heavy",
         "skill": "7"
