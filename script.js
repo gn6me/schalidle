@@ -89,7 +89,7 @@ fetch('student-list.json')
 const searchInput = document.getElementById('searchInput');
 const suggestionsDiv = document.getElementById('suggestions');
 
-searchInput.addEventListener('focus', function () {
+searchInput.addEventListener('input', function () {
     const query = searchInput.value.toLowerCase();
     suggestionsDiv.innerHTML = '';
 
