@@ -4,6 +4,13 @@ let guessesRemaining = 6;
 const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
 
+function preloadImages(characters) {
+    Object.values(characters).forEach(character => {
+        const img = new Image();
+        img.src = character.img;
+    });
+}
+
 function generateEmojiResults(guesses, targetCharacter) {
     const correctEmoji = '🟩'; // Green square for correct
     const incorrectEmoji = '⬜'; // White square for incorrect
@@ -131,6 +138,8 @@ fetch('student-list.json')
         characters = data;
         targetCharacter = getDailyCharacter();
         console.log("Target Character:", targetCharacter); // debug
+
+        preloadImages(characters);
 
         displayPreviousDayCharacter();
 
