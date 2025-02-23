@@ -223,7 +223,7 @@ function makeGuess() {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
-        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy-outline"></ion-icon></button>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy"></ion-icon></button>`;
         return;
     }
 
@@ -247,13 +247,13 @@ function makeGuess() {
         resultDiv.textContent = "Correct! You guessed the character!";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
-        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy-outline"></ion-icon></button>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy"></ion-icon></button>`;
         guessesRemaining = 0; // End the game
     } else if (guessesRemaining === 0) {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
-        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy-outline"></ion-icon></button>`;
+        resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy"></ion-icon></button>`;
     }
 }
 
