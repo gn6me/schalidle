@@ -16,6 +16,7 @@ body {
 }
 
 #previous-day-character {
+    color: #e7e7e7;
     margin: 20px 0;
     text-align: center;
 }
@@ -29,7 +30,7 @@ body {
     margin: 10px 0;
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #e7e7e7;;
 }
 
 h1 {

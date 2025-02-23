@@ -119,9 +119,8 @@ function displayPreviousDayCharacter() {
     const previousDayCharacter = getPreviousDayCharacter();
     const previousDayElement = document.getElementById('previous-day-character');
     previousDayElement.innerHTML = `
-        <p>Yesterday's Character:</p>
+        <p>Yesterday's Character Was:</p>
         <img src="${previousDayCharacter.img}" alt="${previousDayCharacter.name}" width="100">
-        <p>${previousDayCharacter.name}</p>
     `;
 }
 
