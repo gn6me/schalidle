@@ -305,9 +305,9 @@ function displayGuess(character) {
 
             square.textContent = attr;
             if (guessedSkillCost > targetSkillCost) {
-                square.innerHTML += ' <ion-icon name="arrow-down"></ion-icon>';
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
             } else if (guessedSkillCost < targetSkillCost) {
-                square.innerHTML += ' <ion-icon name="arrow-up"></ion-icon>';
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
             } else {
             }
         } else {
