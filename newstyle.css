@@ -112,6 +112,7 @@ pre {
 }
 
 #guesses {
+    min-height:400px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
