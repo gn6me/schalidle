@@ -76,6 +76,55 @@ function getDailyCharacter() {
     return charactersArray[dailyIndex];
 }
 
+function getPreviousDayCharacter() {
+    const charactersArray = Object.values(characters);
+    const seed = 12345; // Fixed seed for consistency
+    const now = new Date();
+
+    const offset = -5; // Eastern Time is UTC-5
+    const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
+
+    const previousDayStart = new Date(easternTime);
+    previousDayStart.setHours(19, 0, 0, 0); // 7 PM Eastern Time
+    previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
+
+    const previousDaySeed = previousDayStart.getFullYear() * 10000 + (previousDayStart.getMonth() + 1) * 100 + previousDayStart.getDate();
+    const previousDayIndex = (seed + previousDaySeed) % charactersArray.length;
+    return charactersArray[previousDayIndex];
+}
+
+function updateCountdown() {
+    const now = new Date();
+    const offset = -5; // Eastern Time is UTC-5
+    const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
+
+    // Calculate the next 7 PM Eastern Time
+    const nextSelectionTime = new Date(easternTime);
+    nextSelectionTime.setHours(19, 0, 0, 0); // 7 PM Eastern Time
+    if (easternTime >= nextSelectionTime) {
+        nextSelectionTime.setDate(nextSelectionTime.getDate() + 1); // Next day
+    }
+
+    // Calculate the time difference
+    const timeDiff = nextSelectionTime - easternTime;
+    const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+    const countdownElement = document.getElementById('countdown');
+    countdownElement.textContent = `Next character in: ${hours}h ${minutes}m ${seconds}s`;
+}
+
+function displayPreviousDayCharacter() {
+    const previousDayCharacter = getPreviousDayCharacter();
+    const previousDayElement = document.getElementById('previous-day-character');
+    previousDayElement.innerHTML = `
+        <p>Yesterday's Character:</p>
+        <img src="${previousDayCharacter.img}" alt="${previousDayCharacter.name}" width="100">
+        <p>${previousDayCharacter.name}</p>
+    `;
+}
+
 // Fetch characters from JSON file
 fetch('student-list.json')
     .then(response => response.json())
@@ -83,6 +132,12 @@ fetch('student-list.json')
         characters = data;
         targetCharacter = getDailyCharacter();
         console.log("Target Character:", targetCharacter); // debug
+
+        displayPreviousDayCharacter();
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
     });
 // Live search functionality
 const searchInput = document.getElementById('searchInput');
