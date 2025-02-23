@@ -56,20 +56,24 @@ function copyEmojiResultsToClipboard(emojiResults) {
 }
 // Get daily character
 function getDailyCharacter() {
-    const today = new Date().toDateString();
-    const storedDate = localStorage.getItem('dailyCharacterDate');
-    const storedCharacter = localStorage.getItem('dailyCharacter');
+    const charactersArray = Object.values(characters);
+    const seed = 12345; // fixed value for consistency
+    const now = new Date();
 
-    if (storedDate === today && storedCharacter) {
-        return JSON.parse(storedCharacter);
-    } else {
-        const characterNames = Object.keys(characters);
-        const randomCharacter = characters[characterNames[Math.floor(Math.random() * characterNames.length)]];
-        localStorage.setItem('dailyCharacterDate', today);
-        localStorage.setItem('dailyCharacter', JSON.stringify(randomCharacter));
+    // Convert time to EST
+    const offset = -5;
+    const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
-        return randomCharacter;
+    const dayStart = new Date(easternTime);
+    dayStart.setHours(19, 0, 0, 0);
+    if(easternTime < dayStart) {
+        dayStart.setDate(dayStart.getDate() - 1);
     }
+
+    const daySeed = dayStart.getFullYear() * 1000 + (dayStart.getMonth() + 1) * 100 + dayStart.getDate();
+    const dailyIndex = (seed + daySeed) % charactersArray.length;
+
+    return charactersArray[dailyIndex];
 }
 
 // Fetch characters from JSON file
@@ -78,7 +82,7 @@ fetch('student-list.json')
     .then(data => {
         characters = data;
         targetCharacter = getDailyCharacter();
-        //console.log("Target Character:", targetCharacter); // debug
+        console.log("Target Character:", targetCharacter); // debug
     });
 
 // Live search functionality
@@ -190,12 +194,11 @@ function displayGuess(character) {
             square.textContent = attr;
         }
 
-        if (attr === "Explosion") {
-            square.classList.add('explosive')
-        }
-
         // Check if the attribute matches the target character
         const targetAttr = Object.values(targetCharacter)[index];
+        if (attr === 'Explosion') {
+            square.classList.add('explosion');
+        }
         if (attr === targetAttr) {
             square.classList.add('correct');
         }
