@@ -334,6 +334,17 @@ function displayGuess(character) {
             roleImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '_role.webp';
             roleImg.className = 'roleImg';
             square.appendChild(roleImg);
+        } else if(index === 7) {
+            const guessedSkillCost = parseInt(attr, 10);
+            const targetSkillCost = parseInt(targetCharacter.skill, 10);
+
+            square.textContent = attr;
+            if (guessedSkillCost > targetSkillCost) {
+                square.innerHTML += ' <i class="fa-solid fa-arrow-up"></i>';
+            } else if (guessedSkillCost < targetSkillCost) {
+                square.innerHTML += ' <i class="fa-solid fa-arrow-down"></i>';
+            } else {
+            }
         } else {
             // Display text
             square.textContent = attr;
