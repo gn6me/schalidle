@@ -6,12 +6,12 @@ body {
     padding: 0;
     background: url("imgs/__arona_blue_archive.jpg") center no-repeat;
     background-size: cover;
-    height: 2000px;
+    height: 100vh;
     overflow: auto;
 }
 
 .container {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 h1 {
@@ -32,7 +32,7 @@ input[type="text"] {
 #suggestions {
     position: absolute;
     inset: 0;
-    top: 150px;
+    top: 180px;
     z-index: 100;
     margin: 10px auto;
     width: 520px;
