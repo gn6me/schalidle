@@ -202,7 +202,7 @@ function displayGuess(character) {
         } else if (attr === character.combatClass) {
             const roleImg = document.createElement('img');
             roleImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '_role.webp';
-            roleImg.className = 'dmgIcon';
+            roleImg.className = 'roleImg';
             square.appendChild(roleImg);
         } else {
             // Display text
