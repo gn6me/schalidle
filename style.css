@@ -16,21 +16,30 @@ body {
 }
 
 #previous-day-character {
+    width: 30%;
     color: #e7e7e7;
-    margin: 20px 0;
+    margin: 20px auto;
     text-align: center;
 }
-
+#previous-day-character p {
+    background: alpha(#333333, 0.7);
+    padding: 10px;
+    border-radius: 12px;
+}
 #previous-day-character img {
     border-radius: 10px;
     margin-top: 10px;
 }
 
 #countdown {
-    margin: 10px 0;
+    margin: 10px auto;
     font-size: 18px;
     font-weight: bold;
-    color: #e7e7e7;;
+    color: #e7e7e7;
+    width: 30%;
+    border-radius: 12px;
+    padding: 10px;
+    background: alpha(#333333, 0.7);
 }
 
 h1 {
