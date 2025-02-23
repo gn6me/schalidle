@@ -85,24 +85,35 @@ fetch('student-list.json')
         console.log("Target Character:", targetCharacter); // debug
     });
 
-// Live search functionality
-const searchInput = document.getElementById('searchInput');
-const suggestionsDiv = document.getElementById('suggestions');
-
-searchInput.addEventListener('input', function () {
-    const query = searchInput.value.toLowerCase();
+function showAllSuggestions() {
     suggestionsDiv.innerHTML = '';
-
+    Object.keys(characters).forEach(name => {
+        const suggestion = document.createElement('div');
+        suggestion.innerHTML = `
+            <img class="searchImg" src="${characters[name].img}" alt="${name}">
+            <span>${name}</span>
+        `;
+        suggestion.addEventListener('click', () => {
+            searchInput.value = name;
+            suggestionsDiv.style.display = 'none';
+        });
+        suggestionsDiv.appendChild(suggestion);
+    });
+    suggestionsDiv.style.display = 'block';
+}
+// Function to filter suggestions based on user input
+function filterSuggestions(query) {
+    suggestionsDiv.innerHTML = '';
     if (query) {
         const filteredCharacters = Object.keys(characters).filter(name =>
-            name.toLowerCase().includes(query)
+            name.toLowerCase().includes(query.toLowerCase())
         );
 
         if (filteredCharacters.length > 0) {
             filteredCharacters.forEach(name => {
                 const suggestion = document.createElement('div');
-                    suggestion.innerHTML = `
-                    <img class="searchimg" src="${characters[name].img}" alt="${name}">
+                suggestion.innerHTML = `
+                    <img class="searchImg" src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
                 suggestion.addEventListener('click', () => {
@@ -116,9 +127,62 @@ searchInput.addEventListener('input', function () {
             suggestionsDiv.style.display = 'none';
         }
     } else {
+        showAllSuggestions();
+    }
+}
+
+// Event listener for search input focus
+searchInput.addEventListener('focus', () => {
+    showAllSuggestions();
+});
+
+// Event listener for search input typing
+searchInput.addEventListener('input', () => {
+    const query = searchInput.value.trim();
+    filterSuggestions(query);
+});
+
+// Event listener to hide suggestions when clicking outside
+document.addEventListener('click', (event) => {
+    if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target)) {
         suggestionsDiv.style.display = 'none';
     }
 });
+
+// Live search functionality
+//const searchInput = document.getElementById('searchInput');
+//const suggestionsDiv = document.getElementById('suggestions');
+//
+//searchInput.addEventListener('input', function () {
+//    const query = searchInput.value.toLowerCase();
+//    suggestionsDiv.innerHTML = '';
+//
+//    if (query) {
+//        const filteredCharacters = Object.keys(characters).filter(name =>
+//            name.toLowerCase().includes(query)
+//        );
+//
+//        if (filteredCharacters.length > 0) {
+//            filteredCharacters.forEach(name => {
+//                const suggestion = document.createElement('div');
+//                    suggestion.innerHTML = `
+//                    <img class="searchimg" src="${characters[name].img}" alt="${name}">
+//                    <span>${name}</span>
+//                `;
+//                suggestion.addEventListener('click', () => {
+//                    searchInput.value = name;
+//                    suggestionsDiv.style.display = 'none';
+//                });
+//                suggestionsDiv.appendChild(suggestion);
+//            });
+//            suggestionsDiv.style.display = 'block';
+//        } else {
+//            suggestionsDiv.style.display = 'none';
+//        }
+//    } else {
+//        suggestionsDiv.style.display = 'none';
+//    }
+//});
 
 let guessHistory = [];
 
