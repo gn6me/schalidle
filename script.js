@@ -189,7 +189,7 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
-        } else if (attr === scharacter.damageType || attr === character.armorType) {
+        } else if (attr === character.damageType || attr === character.armorType) {
             const dmgImg = document.createElement('img');
             dmgImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
             dmgImg.className = 'dmgIcon';
