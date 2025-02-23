@@ -98,7 +98,7 @@ searchInput.addEventListener('input', function () {
             name.toLowerCase().includes(query)
         );
 
-        if (filteredCharacters.length > 0) {
+        if (filteredCharacters.length >= 0) {
             filteredCharacters.forEach(name => {
                 const suggestion = document.createElement('div');
                     suggestion.innerHTML = `
