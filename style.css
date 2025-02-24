@@ -109,7 +109,7 @@ input[type="text"] {
     overflow: scroll;
 }
 .endlessSuggestion {
-    top: 240px;
+    top: 240px !important;
 }
 
 #suggestions div {
