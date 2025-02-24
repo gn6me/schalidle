@@ -7,12 +7,26 @@ body {
     padding: 0;
     background: url("imgs/__arona_blue_archive.jpg") center no-repeat;
     background-size: cover;
-    min-height: 2000px;;
+    min-height: 100vh;
     overflow: auto;
 }
 
 .container {
-    padding-top: 50px;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+#endless a {
+    text-decoration: none;
+}
+#endless button {
+    background: #a60c17;
+    border-color: #a60c17;
+    color: #fff;
 }
 
 #previous-day-character {
@@ -233,6 +247,7 @@ pre {
 
 #retryButton, #continueButton {
     margin: 10px auto;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 /**
  * ----------------------------------------
