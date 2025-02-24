@@ -98,9 +98,9 @@ function getPreviousDayCharacter() {
 
     console.log(previousDayStart);
 
-    //if (easternTime < previousDayStart) {
-    //    previousDayStart.setDate(previousDayStart.getDate() - 1);
-    //}
+    if (easternTime < previousDayStart) {
+        previousDayStart.setDate(previousDayStart.getDate() - 1);
+    }
 
     const previousDaySeed = previousDayStart.getFullYear() * 10000 + (previousDayStart.getMonth() + 1) * 100 + previousDayStart.getDate();
     const previousDayIndex = (seed + previousDaySeed) % charactersArray.length;
