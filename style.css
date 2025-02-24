@@ -108,7 +108,7 @@ input[type="text"] {
 #suggestions {
     position: absolute;
     inset: 0;
-    top: 20vh;
+    top: 22vh;
     z-index: 100;
     margin: 10px auto;
     width: 520px;
@@ -120,7 +120,7 @@ input[type="text"] {
     overflow: scroll;
 }
 .endlessSuggestion {
-    top: 22vh !important;
+    top: 24vh !important;
 }
 
 #suggestions div {
