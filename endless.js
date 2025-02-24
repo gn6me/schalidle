@@ -6,6 +6,7 @@ const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
 const streakElement = document.getElementById('streak');
 const continueButton = document.getElementById('continueButton');
+const retryButton = document.getElementById('retryButton');
 
 // Function to preload all images
 function preloadImages(characters) {
@@ -30,6 +31,7 @@ function startNewRound() {
     resultDiv.innerHTML = '';
     searchInput.value = '';
     continueButton.style.display = 'none';
+    retryButton.style.display = 'none';
     selectNewCharacter();
 }
 
@@ -52,20 +54,37 @@ fetch('student-list.json')
 const searchInput = document.getElementById('searchInput');
 const suggestionsDiv = document.getElementById('suggestions');
 
-searchInput.addEventListener('input', function () {
-    const query = searchInput.value.toLowerCase();
-    suggestionsDiv.innerHTML = '';
 
+function showAllSuggestions() {
+    suggestionsDiv.innerHTML = '';
+    Object.keys(characters).forEach(name => {
+        const suggestion = document.createElement('div');
+        suggestion.innerHTML = `
+            <img class="searchImg" src="${characters[name].img}" alt="${name}">
+            <span>${name}</span>
+        `;
+        suggestion.addEventListener('click', () => {
+            searchInput.value = name;
+            suggestionsDiv.style.display = 'none';
+        });
+        suggestionsDiv.appendChild(suggestion);
+    });
+    suggestionsDiv.style.display = 'block';
+}
+
+// Function to filter suggestions based on user input
+function filterSuggestions(query) {
+    suggestionsDiv.innerHTML = '';
     if (query) {
         const filteredCharacters = Object.keys(characters).filter(name =>
-            name.toLowerCase().includes(query)
+            name.toLowerCase().includes(query.toLowerCase())
         );
 
         if (filteredCharacters.length > 0) {
             filteredCharacters.forEach(name => {
                 const suggestion = document.createElement('div');
                 suggestion.innerHTML = `
-                    <img src="${characters[name].img}" alt="${name}">
+                    <img class="searchImg" src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
                 suggestion.addEventListener('click', () => {
@@ -79,6 +98,24 @@ searchInput.addEventListener('input', function () {
             suggestionsDiv.style.display = 'none';
         }
     } else {
+        showAllSuggestions();
+    }
+}
+
+// Event listener for search input focus
+searchInput.addEventListener('focus', () => {
+    showAllSuggestions();
+});
+
+// Event listener for search input typing
+searchInput.addEventListener('input', () => {
+    const query = searchInput.value.trim();
+    filterSuggestions(query);
+});
+
+// Event listener to hide suggestions when clicking outside
+document.addEventListener('click', (event) => {
+    if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target)) {
         suggestionsDiv.style.display = 'none';
     }
 });
@@ -90,6 +127,7 @@ function makeGuess() {
         streak = 0; // Reset streak
         updateStreak();
         continueButton.style.display = 'none';
+        retryButton.style.display = 'block';
         return;
     }
 
@@ -113,11 +151,13 @@ function makeGuess() {
         streak++; // Increase streak
         updateStreak();
         continueButton.style.display = 'block'; // Show continue button
+        retryButton.style.display = 'none';
     } else if (guessesRemaining === 0) {
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         streak = 0; // Reset streak
         updateStreak();
         continueButton.style.display = 'none';
+        retryButton.style.display = 'block';
     }
 }
 
@@ -127,8 +167,8 @@ function displayGuess(character) {
     guessRow.className = 'guess-row';
 
     const attributes = [
-        character.img,
         character.name,
+        character.img,
         character.school,
         character.combatClass,
         character.role,
@@ -136,10 +176,10 @@ function displayGuess(character) {
         character.armorType,
         character.skill
     ];
-
+    sID = 1;
     attributes.forEach((attr, index) => {
         const square = document.createElement('div');
-        square.className = 'guess-square';
+        square.className = 'guess-square ' + 'sq' + String(sID);
         if (typeof attr === 'string' && attr.startsWith('http')) {
             // Display image
             const img = document.createElement('img');
@@ -148,18 +188,31 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
-        } else if (index === 7) { // Skill cost attribute
+        } else if (attr === character.damageType || attr === character.armorType || attr === character.role) {
+            const dmgImg = document.createElement('img');
+            dmgImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
+            dmgImg.className = 'dmgIcon';
+            square.appendChild(dmgImg);
+        } else if (attr === character.school) {
+            const schoolImg = document.createElement('img');
+            schoolImg.src = 'https://schalidle.vercel.app/imgs/schools/' + attr + '_Icon.webp';
+            schoolImg.className = 'schoolImg';
+            square.appendChild(schoolImg);
+        } else if (attr === character.combatClass) {
+            const roleImg = document.createElement('img');
+            roleImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '_role.webp';
+            roleImg.className = 'roleImg';
+            square.appendChild(roleImg);
+        } else if(index === 7) {
             const guessedSkillCost = parseInt(attr, 10);
             const targetSkillCost = parseInt(targetCharacter.skill, 10);
 
-            // Display skill cost with arrow
             square.textContent = attr;
             if (guessedSkillCost > targetSkillCost) {
-                square.innerHTML += ' ↓'; // Down arrow for higher skill cost
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
             } else if (guessedSkillCost < targetSkillCost) {
-                square.innerHTML += ' ↑'; // Up arrow for lower skill cost
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
             } else {
-                square.innerHTML += ' ✓'; // Checkmark for correct skill cost
             }
         } else {
             // Display text
@@ -171,8 +224,12 @@ function displayGuess(character) {
         if (attr === targetAttr) {
             square.classList.add('correct');
         }
+        if (attr === character.name) {
 
-        guessRow.appendChild(square);
+        } else {
+            guessRow.appendChild(square);
+        }
+        sID++;
     });
 
     guessesDiv.appendChild(guessRow);
