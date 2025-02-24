@@ -28,7 +28,8 @@ function selectNewCharacter() {
 function startNewRound() {
     guessesRemaining = 6;
     guessesDiv.innerHTML = '';
-    resultDiv.innerHTML = 'Enter character name to start';
+    resultDiv.innerHTML = '';
+    resultDiv.textContent = "Enter character to start";
     searchInput.value = '';
     continueButton.style.display = 'none';
     retryButton.style.display = 'none';
