@@ -280,9 +280,22 @@ pre {
     transform: skewX(-10deg);
 }
 #retryButton {
+    color: #fff;
+    background: #a60c17;
+    border-color: #a60c17;
+    border-radius: 5px;
+}
+#retryButton:hover {
+    background: #000;
+    border-color: #000;
+}
+#continueButton {
+    background: #7cd5eb;
+    border-color: #7cd5eb;
+}
+#continueButton:hover {
     background: #e1e052;
     border-color: #e1e052;
-    border-radius: 5px;
 }
 /**
  * ----------------------------------------
