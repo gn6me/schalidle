@@ -157,6 +157,9 @@ input[type="text"] {
     justify-content: center;
     border: 2px solid transparent;
     color: #e7e7e7;
+    background: #3b5472;
+    border-radius: 5px;
+    transform: skewX(-10deg);
 }
 
 pre {
