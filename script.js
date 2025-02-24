@@ -111,7 +111,7 @@ function updateCountdown() {
 
     // Calculate the next 7 PM Eastern Time
     const nextSelectionTime = new Date(easternTime);
-    nextSelectionTime.setHours(10, 0, 0, 0); // 7 PM Eastern Time
+    nextSelectionTime.setHours(01, 08, 0, 0); // 7 PM Eastern Time
     if (easternTime >= nextSelectionTime) {
         nextSelectionTime.setDate(nextSelectionTime.getDate() + 1); // Next day
     }
