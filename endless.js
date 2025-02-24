@@ -39,7 +39,7 @@ function updateStreak() {
 }
 
 // Fetch characters from JSON file
-fetch('characters.json')
+fetch('student-lis.json')
     .then(response => response.json())
     .then(data => {
         characters = data;
