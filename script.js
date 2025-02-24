@@ -80,6 +80,7 @@ function getDailyCharacter() {
     const daySeed = dayStart.getFullYear() * 1000 + (dayStart.getMonth() + 1) * 100 + dayStart.getDate();
     const dailyIndex = (seed + daySeed) % charactersArray.length;
 
+    console.log("Daily Index " + dailyIndex);
     return charactersArray[dailyIndex];
 }
 
@@ -104,6 +105,8 @@ function getPreviousDayCharacter() {
     const previousDaySeed = previousDayStart.getFullYear() * 10000 + (previousDayStart.getMonth() + 1) * 100 + previousDayStart.getDate();
     const previousDayIndex = (seed + previousDaySeed) % charactersArray.length;
     return charactersArray[previousDayIndex];
+
+    console.log("Previous day index " + previousDayIndex);
 }
 
 function updateCountdown() {
