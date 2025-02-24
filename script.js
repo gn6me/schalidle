@@ -92,7 +92,7 @@ function getPreviousDayCharacter() {
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const previousDayStart = new Date(easternTime);
-    previousDayStart.setHours(01, 04, 0, 0); // 7 PM Eastern Time
+    previousDayStart.setHours(19, 0, 0, 0); // 7 PM Eastern Time
     previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
 
     if (easternTime < previousDayStart) {
@@ -111,7 +111,7 @@ function updateCountdown() {
 
     // Calculate the next 7 PM Eastern Time
     const nextSelectionTime = new Date(easternTime);
-    nextSelectionTime.setHours(19, 0, 0, 0); // 7 PM Eastern Time
+    nextSelectionTime.setHours(10, 0, 0, 0); // 7 PM Eastern Time
     if (easternTime >= nextSelectionTime) {
         nextSelectionTime.setDate(nextSelectionTime.getDate() + 1); // Next day
     }
