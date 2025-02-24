@@ -72,7 +72,7 @@ function getDailyCharacter() {
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const dayStart = new Date(easternTime);
-    dayStart.setHours(01, 12, 0, 0);
+    dayStart.setHours(01, 19, 0, 0);
     if(easternTime < dayStart) {
         dayStart.setDate(dayStart.getDate() - 1);
     }
@@ -93,7 +93,7 @@ function getPreviousDayCharacter() {
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const previousDayStart = new Date(easternTime);
-    previousDayStart.setHours(01, 12, 0, 0); // 7 PM Eastern Time
+    previousDayStart.setHours(01, 19, 0, 0); // 7 PM Eastern Time
     previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
 
     console.log(previousDayStart);
