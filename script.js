@@ -64,7 +64,7 @@ function copyEmojiResultsToClipboard(emojiResults) {
 // Get daily character
 function getDailyCharacter() {
     const charactersArray = Object.values(characters);
-    const seed = 123456; // fixed value for consistency
+    const seed = 12345; // fixed value for consistency
     const now = new Date();
 
     // Convert time to EST
@@ -72,7 +72,7 @@ function getDailyCharacter() {
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const dayStart = new Date(easternTime);
-    dayStart.setHours(01, 19, 0, 0);
+    dayStart.setHours(14, 0, 0, 0);
     if(easternTime < dayStart) {
         dayStart.setDate(dayStart.getDate() - 1);
     }
@@ -86,14 +86,14 @@ function getDailyCharacter() {
 
 function getPreviousDayCharacter() {
     const charactersArray = Object.values(characters);
-    const seed = 123456; // Fixed seed for consistency
+    const seed = 12345; // Fixed seed for consistency
     const now = new Date();
 
     const offset = 0; // Eastern Time is UTC-5
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const previousDayStart = new Date(easternTime);
-    previousDayStart.setHours(01, 19, 0, 0); // 7 PM Eastern Time
+    previousDayStart.setHours(14, 0, 0, 0); // 7 PM Eastern Time
     previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
 
     console.log(previousDayStart);
