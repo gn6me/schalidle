@@ -24,35 +24,39 @@
         <button id="searchButton" onclick="makeGuess()">
             <div class="unskew">Guess</<div>
         </button>
-        <div id="result" class="resultNormal"></div>
-        <div id="guesses">
-            <div id="headrow">
-                <div>
-                    <div class="unskew">Name</div>
-                </div>
-                <div>
-                    <div class="unskew">School</div>
-                </div>
-                <div>
-                    <div class="unskew">Class</div>
-                </div>
-                <div>
-                    <div class="unskew">Role</div>
-                </div>
-                <div>
-                    <div class="unskew">Damage</div>
-                </div>
-                <div>
-                    <div class="unskew">Armor</div>
-                </div>
-                <div>
-                    <div class="unskew">EX Cost</div>
-                </div>
+        <div id="result" class="endlessResult"></div>
+        <button id="continueButton" onclick="startNewRound()" style="display: none;">
+            <div clas="unskew">Continue</div>
+        </button>
+        <button id="retryButton" onclick="startNewRound()" style="display:none">
+            <div class="unskew">Start Over</div>
+        </button>
+    </div>
+
+    <div id="guesses">
+        <div id="headrow">
+            <div>
+                <div class="unskew">Name</div>
+            </div>
+            <div>
+                <div class="unskew">School</div>
+            </div>
+            <div>
+                <div class="unskew">Class</div>
+            </div>
+            <div>
+                <div class="unskew">Role</div>
+            </div>
+            <div>
+                <div class="unskew">Damage</div>
+            </div>
+            <div>
+                <div class="unskew">Armor</div>
+            </div>
+            <div>
+                <div class="unskew">EX Cost</div>
             </div>
         </div>
-        <div id="result" class="endlessResult"></div>
-        <button id="continueButton" onclick="startNewRound()" style="display: none;">Continue</button>
-        <button id="retryButton" onclick="startNewRound()" style="display:none">Start Over</button>
     </div>
     <script src="endless.js"></script>
 </body>
