@@ -28,6 +28,10 @@ body {
     border-color: #a60c17;
     color: #fff;
 }
+#nedless button:hover {
+    background: #000;
+    border-color: #000;
+}
 
 #previous-day-character {
     width: 30%;
@@ -92,7 +96,7 @@ input[type="text"] {
 #suggestions {
     position: absolute;
     inset: 0;
-    top: 195px;
+    top: 210px;;
     z-index: 100;
     margin: 10px auto;
     width: 520px;
