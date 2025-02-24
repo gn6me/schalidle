@@ -133,10 +133,15 @@ pre {
 #result {
     color: #e7e7e7;
     transition: all 0.3s;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
 }
 #result button {
     margin-left: 10px;
     font-size: 2.5vw;
+}
+.resultNormal button {
+    font-size: 18px;
 }
 
 #guesses {
