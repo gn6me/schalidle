@@ -68,11 +68,11 @@ function getDailyCharacter() {
     const now = new Date();
 
     // Convert time to EST
-    const offset = -5;
+    const offset = 0;
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const dayStart = new Date(easternTime);
-    dayStart.setHours(01, 08, 0, 0);
+    dayStart.setHours(01, 09, 0, 0);
     if(easternTime < dayStart) {
         dayStart.setDate(dayStart.getDate() - 1);
     }
@@ -88,11 +88,11 @@ function getPreviousDayCharacter() {
     const seed = 12345; // Fixed seed for consistency
     const now = new Date();
 
-    const offset = -5; // Eastern Time is UTC-5
+    const offset = 0; // Eastern Time is UTC-5
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const previousDayStart = new Date(easternTime);
-    previousDayStart.setHours(01, 08, 0, 0); // 7 PM Eastern Time
+    previousDayStart.setHours(01, 09, 0, 0); // 7 PM Eastern Time
     previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
 
     if (easternTime < previousDayStart) {
@@ -111,7 +111,7 @@ function updateCountdown() {
 
     // Calculate the next 7 PM Eastern Time
     const nextSelectionTime = new Date(easternTime);
-    nextSelectionTime.setHours(01, 08, 0, 0); // 7 PM Eastern Time
+    nextSelectionTime.setHours(01, 09, 0, 0); // 7 PM Eastern Time
     if (easternTime >= nextSelectionTime) {
         nextSelectionTime.setDate(nextSelectionTime.getDate() + 1); // Next day
     }
