@@ -105,7 +105,7 @@ input[type="text"] {
 #suggestions {
     position: absolute;
     inset: 0;
-    top: 210px;
+    top: 20vh;
     z-index: 100;
     margin: 10px auto;
     width: 520px;
@@ -155,7 +155,7 @@ input[type="text"] {
     justify-content: center;
     border: 2px solid transparent;
     color: #e7e7e7;
-    background: #3b5472;
+    background: #213a57;
     border-radius: 5px;
     transform: skewX(-10deg);
 }
@@ -409,11 +409,6 @@ pre {
     font-size: 18px;
 }
 
-@media only screen and (min-width: 1600px) {
-    #suggestions {
-        top: 280px;
-    }
-}
 @media only screen and (min-width: 1024px) {
     .guess-row, #headrow {
         width: 60%;
@@ -425,12 +420,6 @@ pre {
     }
     #header button {
         font-size: 10px;
-    }
-    #suggestions {
-        top: 160px;
-    }
-    .endlessSuggestion {
-        top: 180px !important;
     }
 }
 .unskew {
