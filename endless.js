@@ -29,8 +29,8 @@ function startNewRound() {
     guessesRemaining = 6;
     guessesDiv.innerHTML = '';
     resultDiv.innerHTML = '';
-    resultDiv.textContent = "Enter character to start";
     searchInput.value = '';
+    resultDiv.style.display = 'none';
     continueButton.style.display = 'none';
     retryButton.style.display = 'none';
     selectNewCharacter();
@@ -124,6 +124,7 @@ document.addEventListener('click', (event) => {
 // Make a guess
 function makeGuess() {
     if (guessesRemaining === 0) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         streak = 0; // Reset streak
         updateStreak();
@@ -134,12 +135,14 @@ function makeGuess() {
 
     const guessInput = searchInput.value.trim();
     if (!guessInput) {
+        resultDiv.style.display = "block";i
         resultDiv.textContent = "Please enter a character name.";
         return;
     }
 
     const guessedCharacter = characters[guessInput];
     if (!guessedCharacter) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "Character not found.";
         return;
     }
@@ -148,12 +151,15 @@ function makeGuess() {
     displayGuess(guessedCharacter);
 
     if (guessedCharacter.name === targetCharacter.name) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "Correct! You guessed the character!";
         streak++; // Increase streak
         updateStreak();
+        resultDiv.style.display = "block";
         continueButton.style.display = 'block'; // Show continue button
         retryButton.style.display = 'none';
     } else if (guessesRemaining === 0) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         streak = 0; // Reset streak
         updateStreak();
