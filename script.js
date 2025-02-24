@@ -3,6 +3,7 @@ let targetCharacter = null;
 let guessesRemaining = 6;
 const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
+resultDiv.style.display = "none";
 
 function preloadImages(characters) {
     Object.values(characters).forEach(character => {
@@ -229,8 +230,10 @@ let guessHistory = [];
 // Make a guess
 function makeGuess() {
     if (guessesRemaining === 0) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
+
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
         resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy"></ion-icon></button>`;
         return;
@@ -238,12 +241,14 @@ function makeGuess() {
 
     const guessInput = searchInput.value.trim();
     if (!guessInput) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "Please enter a character name.";
         return;
     }
 
     const guessedCharacter = characters[guessInput];
     if (!guessedCharacter) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "Character not found.";
         return;
     }
@@ -253,12 +258,14 @@ function makeGuess() {
     displayGuess(guessedCharacter);
 
     if (guessedCharacter.name === targetCharacter.name) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "Correct! You guessed the character!";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
         resultDiv.innerHTML += `<button onclick="copyEmojiResultsToClipboard('${emojiResults.replace(/\n/g, '\\n')}')"><ion-icon name="copy"></ion-icon></button>`;
         guessesRemaining = 0; // End the game
     } else if (guessesRemaining === 0) {
+        resultDiv.style.display = "block";
         resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
         const emojiResults = generateEmojiResults(guessHistory, targetCharacter);
         resultDiv.innerHTML += `<pre>${emojiResults}</pre>`;
