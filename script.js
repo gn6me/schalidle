@@ -95,6 +95,10 @@ function getPreviousDayCharacter() {
     previousDayStart.setHours(19, 0, 0, 0); // 7 PM Eastern Time
     previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
 
+    if (easternTime < previosDayStart) {
+        previousDayStart.setDate(previousDayStart.getDate() - 1);
+    }
+
     const previousDaySeed = previousDayStart.getFullYear() * 10000 + (previousDayStart.getMonth() + 1) * 100 + previousDayStart.getDate();
     const previousDayIndex = (seed + previousDaySeed) % charactersArray.length;
     return charactersArray[previousDayIndex];
