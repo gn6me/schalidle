@@ -95,7 +95,7 @@ function getPreviousDayCharacter() {
     previousDayStart.setHours(01, 04, 0, 0); // 7 PM Eastern Time
     previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
 
-    if (easternTime < previosDayStart) {
+    if (easternTime < previousDayStart) {
         previousDayStart.setDate(previousDayStart.getDate() - 1);
     }
 
