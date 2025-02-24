@@ -112,13 +112,13 @@ input[type="text"] {
     z-index: 100;
     margin: 10px auto;
     width: 520px;
+    max-width: 90vw;
     height: 30vw;
     text-align: left;
     background-color: white;
     border: 1px solid #ccc;
     display: none;
     overflow: scroll;
-    font-size: 1.5vw;
 }
 #suggestions img {
     width: 5vw !important;
@@ -176,7 +176,6 @@ pre {
 #result {
     display: none;
     color: #e7e7e7;
-    transition: all 0.3s;
     animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
 }
