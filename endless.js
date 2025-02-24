@@ -21,7 +21,7 @@ function selectNewCharacter() {
     const charactersArray = Object.values(characters);
     const randomIndex = Math.floor(Math.random() * charactersArray.length);
     targetCharacter = charactersArray[randomIndex];
-    console.log("Target Character:", targetCharacter); // For debugging
+    //console.log("Target Character:", targetCharacter); // For debugging
 }
 
 // Function to reset the game for a new round

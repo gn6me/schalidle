@@ -147,7 +147,7 @@ fetch('student-list.json')
     .then(data => {
         characters = data;
         targetCharacter = getDailyCharacter();
-        console.log("Target Character:", targetCharacter); // debug
+        //console.log("Target Character:", targetCharacter); // debug
 
         preloadImages(characters);
 
