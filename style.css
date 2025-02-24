@@ -408,7 +408,7 @@ pre {
     font-size: 18px;
 }
 
-@media only screen (min-width: 1600px) {
+@media only screen and (min-width: 1600px) {
     #suggestions {
         top: 280px;
     }
@@ -433,6 +433,6 @@ pre {
     }
 }
 .unskew {
-    transform: skewX(10deg);
+    transform: skewX(10deg) !important;
 }
 
