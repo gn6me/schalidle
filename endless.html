@@ -21,16 +21,33 @@
         <div id="streak">Streak: 0</div>
         <input type="text" id="searchInput" placeholder="Search for a character...">
         <div id="suggestions" class="endlessSuggestion"></div>
-        <button onclick="makeGuess()">Guess</button>
+        <button id="searchButton" onclick="makeGuess()">
+            <div class="unskew">Guess</<div>
+        </button>
+        <div id="result" class="resultNormal"></div>
         <div id="guesses">
             <div id="headrow">
-                <div>Name</div>
-                <div>School</div>
-                <div>Class</div>
-                <div>Role</div>
-                <div>Damage</div>
-                <div>Armor</div>
-                <div>EX Cost</div>
+                <div>
+                    <div class="unskew">Name</div>
+                </div>
+                <div>
+                    <div class="unskew">School</div>
+                </div>
+                <div>
+                    <div class="unskew">Class</div>
+                </div>
+                <div>
+                    <div class="unskew">Role</div>
+                </div>
+                <div>
+                    <div class="unskew">Damage</div>
+                </div>
+                <div>
+                    <div class="unskew">Armor</div>
+                </div>
+                <div>
+                    <div class="unskew">EX Cost</div>
+                </div>
             </div>
         </div>
         <div id="result" class="endlessResult"></div>
