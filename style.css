@@ -68,19 +68,30 @@ button {
     padding: 10px;
     cursor: pointer;
     transform: skewX(-10deg);
-    text-transform: uppercase;
     color: #21709e;
     border: 1px solid #fff;
     transition: all 0.3s;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     margin-left: 10px;
-    border-radius: 7px;
+    border-radius: 5px;
+}
+.unskew {
+    transform: skewX(10deg);
 }
 button:hover {
     background: #21709e;
     color: #fff;
     border-color: #21709e;
+}
+#searchButton {
+    background: #7cd5eb;
+    color: #3b506c;
+    border-color: #7cd5eb;
+}
+#searchButton:hover {
+    background: #e1e052;
+    border-color: #e1e052;
 }
 #suggestions button {
     margin-left: 10px;
