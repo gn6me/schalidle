@@ -111,12 +111,12 @@ function getPreviousDayCharacter() {
 
 function updateCountdown() {
     const now = new Date();
-    const offset = +5; // Eastern Time is UTC-5
+    const offset = 0; // Eastern Time is UTC-5
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     // Calculate the next 7 PM Eastern Time
     const nextSelectionTime = new Date(easternTime);
-    nextSelectionTime.setHours(19, 0, 0, 0); // 7 PM Eastern Time
+    nextSelectionTime.setHours(12, 0, 0, 0); // 7 PM Eastern Time
     if (easternTime >= nextSelectionTime) {
         nextSelectionTime.setDate(nextSelectionTime.getDate() + 1); // Next day
     }
