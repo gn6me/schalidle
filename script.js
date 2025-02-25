@@ -75,24 +75,17 @@ function getDailyCharacter() {
     const sevenPM = new Date(easternTime);
     sevenPM.setHours(19, 0, 0, 0);
 
+    // Set start time and check for new day
     const dayStart = new Date(easternTime);
     dayStart.setHours(0, 0, 0, 0);
     if(easternTime < sevenPM) {
         dayStart.setDate(dayStart.getDate() - 1);
     }
 
+    // Consistent seed generation and calculate target character
     const daySeed = dayStart.getFullYear() * 1000 + (dayStart.getMonth() + 1) * 100 + dayStart.getDate();
-
-    // Calculate daily character
     const dailyIndex = Math.abs((seed + daySeed) % charactersArray.length);
 
-    console.log("Eastern Time " + easternTime);
-    console.log("Daily Index " + dailyIndex);
-    console.log("Day Seed " + daySeed);
-    console.log("Day Start " + dayStart);
-    console.log(charactersArray);
-    console.log(charactersArray[dailyIndex]);
-    
     return charactersArray[dailyIndex];
 }
 
@@ -101,28 +94,28 @@ function getPreviousDayCharacter() {
     const seed = 69420; // Fixed seed for consistency
     const now = new Date();
 
+    // Correctly determine EST
     const easternTime = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
 
+    // Set target time
     const sevenPM = new Date(easternTime);
     sevenPM.setHours(19, 0, 0, 0);
 
+    // Determine day for previous character
     const previousDayStart = new Date(easternTime);
-    previousDayStart.setHours(0, 0, 0, 0); // 7 PM Eastern Time
+    previousDayStart.setHours(0, 0, 0, 0); // Day start
 
+    // Before 7pm, character from 2 days ago will be shown
+    // After 7pm, character from the previous day is shown
     if (easternTime < sevenPM) {
-        previousDayStart.setDate(previousDayStart.getDate() - 1);
+        previousDayStart.setDate(previousDayStart.getDate() - 2);
     } else {
         previousDayStart.setDate(previousDayStart.getDate() - 1);
     }
 
-    console.log(previousDayStart);
-
+    // Consistent seed format
     const previousDaySeed = previousDayStart.getFullYear() * 10000 + (previousDayStart.getMonth() + 1) * 100 + previousDayStart.getDate();
     const previousDayIndex = Math.abs((seed + previousDaySeed) % charactersArray.length);
-
-    console.log("Previous day index " + previousDayIndex);
-    console.log("Previous Day Seed:", previousDaySeed);
-    console.log("Previous Day Index:", previousDayIndex);
 
     return charactersArray[previousDayIndex];
 }
@@ -131,7 +124,7 @@ function updateCountdown() {
     const now = new Date();
     const easternTime = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
 
-    // Calculate the next 7 PM Eastern Time
+    // Calculate the next selection at 7pm EST
     const nextSelectionTime = new Date(easternTime);
     nextSelectionTime.setHours(19, 0, 0, 0); // 7 PM Eastern Time
     if (easternTime >= nextSelectionTime) {
