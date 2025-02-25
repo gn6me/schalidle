@@ -313,6 +313,7 @@ function displayGuess(character) {
     attributes.forEach((attr, index) => {
         const square = document.createElement('div');
         square.className = 'guess-square ' + 'sq' + String(sID);
+        // Create profile image for character
         if (typeof attr === 'string' && attr.startsWith('http')) {
             // Display image
             const img = document.createElement('img');
@@ -321,17 +322,20 @@ function displayGuess(character) {
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
-        } else if (attr === character.damageType || attr === character.armorType || attr === character.role) {
+            // Create icons for Role, Damage, and Armor boxes
+        } else if (index === 4 || index === 5 || index === 6) {
             const dmgImg = document.createElement('img');
             dmgImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
             dmgImg.className = 'dmgIcon';
             square.appendChild(dmgImg);
-        } else if (attr === character.school) {
+            // Create icons for School
+        } else if (index === 2) {
             const schoolImg = document.createElement('img');
             schoolImg.src = 'https://schalidle.vercel.app/imgs/schools/' + attr + '_Icon.webp';
             schoolImg.className = 'schoolImg';
             square.appendChild(schoolImg);
-        } else if (attr === character.combatClass) {
+            // Create icons for Class
+        } else if (attr === 3) {
             const roleImg = document.createElement('img');
             roleImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '_role.webp';
             roleImg.className = 'roleImg';
@@ -341,6 +345,8 @@ function displayGuess(character) {
             const targetSkillCost = parseInt(targetCharacter.skill, 10);
 
             square.textContent = attr;
+
+            // Show arrows indicating target skill cost
             if (guessedSkillCost > targetSkillCost) {
                 square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
             } else if (guessedSkillCost < targetSkillCost) {
