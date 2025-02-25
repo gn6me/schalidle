@@ -16,7 +16,7 @@ function getEasternTime() {
 
 // Utility function to generate date seed
 function generateDateSeed(date) {
-    return date.getFullYear() * 1000 + (date.getMonth() + 1) * 100 + date.getDate();
+    return date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
 }
 
 function preloadImages(characters) {
@@ -181,12 +181,29 @@ function displayResult(message, guesses = null) {
     }
 }
 
+// Get available character names (not yet guessed) in alphabetical order
+function getAvailableCharacters() {
+    // Get all character names
+    const allCharacters = Object.keys(characters);
+    
+    // Create a set of guessed character names for faster lookups
+    const guessedCharactersSet = new Set(guessHistory.map(guess => guess.name));
+    
+    // Filter out guessed characters and sort alphabetically
+    return allCharacters
+        .filter(name => !guessedCharactersSet.has(name))
+        .sort((a, b) => a.localeCompare(b));
+}
+
 // Show all suggestions for character selection
 function showAllSuggestions() {
     const fragment = document.createDocumentFragment();
     suggestionsDiv.innerHTML = '';
     
-    Object.keys(characters).forEach(name => {
+    // Get available characters (sorted alphabetically, excluding guessed ones)
+    const availableCharacters = getAvailableCharacters();
+    
+    availableCharacters.forEach(name => {
         const suggestion = document.createElement('div');
         suggestion.dataset.characterName = name;
         suggestion.innerHTML = `
@@ -207,7 +224,11 @@ function filterSuggestions(query) {
     suggestionsDiv.innerHTML = '';
     
     if (query) {
-        const filteredCharacters = Object.keys(characters).filter(name =>
+        // Get available characters (sorted alphabetically, excluding guessed ones)
+        const availableCharacters = getAvailableCharacters();
+        
+        // Filter by query
+        const filteredCharacters = availableCharacters.filter(name =>
             name.toLowerCase().includes(query.toLowerCase())
         );
 
@@ -289,6 +310,12 @@ function makeGuess() {
     const guessedCharacter = characters[guessInput];
     if (!guessedCharacter) {
         displayResult("Character not found.");
+        return;
+    }
+    
+    // Check if character was already guessed
+    if (guessHistory.some(guess => guess.name === guessedCharacter.name)) {
+        displayResult("You've already guessed this character!");
         return;
     }
 
