@@ -65,7 +65,7 @@ function copyEmojiResultsToClipboard(emojiResults) {
 // Get daily character
 function getDailyCharacter() {
     const charactersArray = Object.values(characters);
-    const seed = 12345; // fixed value for consistency
+    const seed = 69420; // fixed value for consistency
     const now = new Date();
 
     // Convert time to EST
@@ -87,7 +87,7 @@ function getDailyCharacter() {
 
 function getPreviousDayCharacter() {
     const charactersArray = Object.values(characters);
-    const seed = 12345; // Fixed seed for consistency
+    const seed = 69420; // Fixed seed for consistency
     const now = new Date();
 
     const offset = -5; // Eastern Time is UTC-5
