@@ -69,7 +69,7 @@ function getDailyCharacter() {
     const now = new Date();
 
     // Convert time to EST
-    const offset = 0;
+    const offset = -5;
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const dayStart = new Date(easternTime);
@@ -90,7 +90,7 @@ function getPreviousDayCharacter() {
     const seed = 12345; // Fixed seed for consistency
     const now = new Date();
 
-    const offset = 0; // Eastern Time is UTC-5
+    const offset = -5; // Eastern Time is UTC-5
     const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
 
     const previousDayStart = new Date(easternTime);
