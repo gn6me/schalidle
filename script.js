@@ -110,7 +110,7 @@ function getPreviousDayCharacter() {
     previousDayStart.setHours(0, 0, 0, 0); // 7 PM Eastern Time
 
     if (easternTime < sevenPM) {
-        previousDayStart.setDate(previousDayStart.getDate() - 2);
+        previousDayStart.setDate(previousDayStart.getDate() - 1);
     } else {
         previousDayStart.setDate(previousDayStart.getDate() - 1);
     }
@@ -145,7 +145,11 @@ function updateCountdown() {
     const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
     const countdownElement = document.getElementById('countdown');
+    if (timeDiff === 0) {
+        countdownElement.textContent = `Refresh the page!`;
+    } else {
     countdownElement.textContent = `Next character in: ${hours}h ${minutes}m ${seconds}s`;
+    }
 }
 
 function displayPreviousDayCharacter() {
