@@ -266,10 +266,11 @@ function makeGuess() {
         return;
     }
 
-    delete characters[Object.keys(guessedCharacter)];
     guessesRemaining--;
     guessHistory.push(guessedCharacter);
     displayGuess(guessedCharacter);
+    console.log(guessedCharacter);
+    delete characters[Object.keys(characters[guessInput])];
 
     if (guessedCharacter.name === targetCharacter.name) {
         resultDiv.style.display = "block";
