@@ -266,6 +266,7 @@ function makeGuess() {
         return;
     }
 
+    delete characters[Object.keys(guessedCharacter)];
     guessesRemaining--;
     guessHistory.push(guessedCharacter);
     displayGuess(guessedCharacter);
