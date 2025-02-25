@@ -16,7 +16,7 @@ function getEasternTime() {
 
 // Utility function to generate date seed
 function generateDateSeed(date) {
-    return date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
+    return date.getFullYear() * 1000 + (date.getMonth() + 1) * 100 + date.getDate();
 }
 
 function preloadImages(characters) {
