@@ -260,7 +260,7 @@ function makeGuess() {
     }
 
     const guessedCharacter = characters[guessInput];
-    const guessedCharacterIndex = guessedCharacter[Object.keys(guessedCharacter[index])];
+    const guessedCharacterIndex = guessedCharacter[Object.keys(guessedCharacter[guessInput])];
     console.log("Index " + guessedCharacterIndex);
     if (!guessedCharacter) {
         resultDiv.style.display = "block";
