@@ -261,7 +261,7 @@ function makeGuess() {
 
     const guessedCharacter = characters[guessInput];
     const guessedCharacterIndex = guessedCharacter[index];
-    console.log("Index " + guessedCharacterIndex;)
+    console.log("Index " + guessedCharacterIndex);
     if (!guessedCharacter) {
         resultDiv.style.display = "block";
         resultDiv.textContent = "Character not found.";
