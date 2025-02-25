@@ -260,7 +260,7 @@ function makeGuess() {
     }
 
     const guessedCharacter = characters[guessInput];
-    const guessedCharacterIndex = guessedCharacter[index];
+    const guessedCharacterIndex = guessedCharacter[Object.keys(guessedCharacter[index]);
     console.log("Index " + guessedCharacterIndex);
     if (!guessedCharacter) {
         resultDiv.style.display = "block";
@@ -272,7 +272,7 @@ function makeGuess() {
     guessHistory.push(guessedCharacter);
     displayGuess(guessedCharacter);
     console.log(guessedCharacter);
-    delete characters[Object.keys(characters[guessInput])];
+    delete guessedCharacterIndex;
 
     if (guessedCharacter.name === targetCharacter.name) {
         resultDiv.style.display = "block";
