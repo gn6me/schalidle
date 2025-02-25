@@ -81,7 +81,9 @@ function getDailyCharacter() {
     const daySeed = dayStart.getFullYear() * 1000 + (dayStart.getMonth() + 1) * 100 + dayStart.getDate();
     const dailyIndex = (seed + daySeed) % charactersArray.length;
 
-    console.log("Daily Index " + dailyIndex);
+    console.log("Daily Index S" + dailyIndex);
+    console.log("Day Seed " + daySeed);
+    console.log("Day Start" + dayStart);
     return charactersArray[dailyIndex];
 }
 
