@@ -69,24 +69,31 @@ function getDailyCharacter() {
     const now = new Date();
 
     // Convert time to EST
-    const offset = -5;
-    const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
+    const easternTime = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
+
+    // Reference for 7pm
+    const sevenPM = new Date(easternTime);
+    sevenPM.setHours(19, 0, 0, 0);
 
     const dayStart = new Date(easternTime);
-    dayStart.setHours(14, 0, 0, 0);
-    if(easternTime < dayStart) {
+    dayStart.setHours(0, 0, 0, 0);
+    if(easternTime < sevenPM) {
         dayStart.setDate(dayStart.getDate() - 1);
     }
 
     const daySeed = dayStart.getFullYear() * 1000 + (dayStart.getMonth() + 1) * 100 + dayStart.getDate();
-    const dailyIndex = (seed + daySeed) % charactersArray.length;
 
-    console.log("Daily Index S" + dailyIndex);
+    // Calculate daily character
+    const dailyIndex = Math.abs((seed + daySeed) % charactersArray.length);
+
+    console.log("Eastern Time " + easternTime);
+    console.log("Daily Index " + dailyIndex);
     console.log("Day Seed " + daySeed);
-    console.log("Day Start" + dayStart);
+    console.log("Day Start " + dayStart);
     console.log(charactersArray);
-    return charactersArray[dailyIndex];
     console.log(charactersArray[dailyIndex]);
+    
+    return charactersArray[dailyIndex];
 }
 
 function getPreviousDayCharacter() {
@@ -94,34 +101,39 @@ function getPreviousDayCharacter() {
     const seed = 69420; // Fixed seed for consistency
     const now = new Date();
 
-    const offset = -5; // Eastern Time is UTC-5
-    const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
+    const easternTime = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
+
+    const sevenPM = new Date(easternTime);
+    sevenPM.setHours(19, 0, 0, 0);
 
     const previousDayStart = new Date(easternTime);
-    previousDayStart.setHours(14, 0, 0, 0); // 7 PM Eastern Time
-    previousDayStart.setDate(previousDayStart.getDate() - 1); // Previous day
+    previousDayStart.setHours(0, 0, 0, 0); // 7 PM Eastern Time
 
-    console.log(previousDayStart);
-
-    if (easternTime < previousDayStart) {
+    if (easternTime < sevenPM) {
+        previousDayStart.setDate(previousDayStart.getDate() - 2);
+    } else {
         previousDayStart.setDate(previousDayStart.getDate() - 1);
     }
 
+    console.log(previousDayStart);
+
     const previousDaySeed = previousDayStart.getFullYear() * 10000 + (previousDayStart.getMonth() + 1) * 100 + previousDayStart.getDate();
-    const previousDayIndex = (seed + previousDaySeed) % charactersArray.length;
-    return charactersArray[previousDayIndex];
+    const previousDayIndex = Math.abs((seed + previousDaySeed) % charactersArray.length);
 
     console.log("Previous day index " + previousDayIndex);
+    console.log("Previous Day Seed:", previousDaySeed);
+    console.log("Previous Day Index:", previousDayIndex);
+
+    return charactersArray[previousDayIndex];
 }
 
 function updateCountdown() {
     const now = new Date();
-    const offset = -5; // Eastern Time is UTC-5
-    const easternTime = new Date(now.getTime() + offset * 60 * 60 * 1000);
+    const easternTime = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
 
     // Calculate the next 7 PM Eastern Time
     const nextSelectionTime = new Date(easternTime);
-    nextSelectionTime.setHours(14, 0, 0, 0); // 7 PM Eastern Time
+    nextSelectionTime.setHours(19, 0, 0, 0); // 7 PM Eastern Time
     if (easternTime >= nextSelectionTime) {
         nextSelectionTime.setDate(nextSelectionTime.getDate() + 1); // Next day
     }
