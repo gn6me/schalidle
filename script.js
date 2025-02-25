@@ -84,7 +84,9 @@ function getDailyCharacter() {
     console.log("Daily Index S" + dailyIndex);
     console.log("Day Seed " + daySeed);
     console.log("Day Start" + dayStart);
+    console.log(charactersArray);
     return charactersArray[dailyIndex];
+    console.log(charactersArray[dailyIndex]);
 }
 
 function getPreviousDayCharacter() {
