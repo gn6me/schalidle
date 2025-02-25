@@ -2,6 +2,8 @@ let characters = {};
 let targetCharacter = null;
 let guessesRemaining = 6;
 let streak = 0;
+// Add a new array to track guessed characters
+let guessedCharacters = [];
 const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
 const streakElement = document.getElementById('streak');
@@ -33,6 +35,8 @@ function startNewRound() {
     resultDiv.style.display = 'none';
     continueButton.style.display = 'none';
     retryButton.style.display = 'none';
+    // Reset the guessed characters array for a new round
+    guessedCharacters = [];
     selectNewCharacter();
 }
 
@@ -55,10 +59,16 @@ fetch('student-list.json')
 const searchInput = document.getElementById('searchInput');
 const suggestionsDiv = document.getElementById('suggestions');
 
-
 function showAllSuggestions() {
     suggestionsDiv.innerHTML = '';
-    Object.keys(characters).forEach(name => {
+    
+    // Get all character names and sort them alphabetically
+    const sortedCharacterNames = Object.keys(characters).sort();
+    
+    // Filter out already guessed characters
+    const availableCharacters = sortedCharacterNames.filter(name => !guessedCharacters.includes(name));
+    
+    availableCharacters.forEach(name => {
         const suggestion = document.createElement('div');
         suggestion.innerHTML = `
             <img class="searchImg" src="${characters[name].img}" alt="${name}">
@@ -77,9 +87,13 @@ function showAllSuggestions() {
 function filterSuggestions(query) {
     suggestionsDiv.innerHTML = '';
     if (query) {
-        const filteredCharacters = Object.keys(characters).filter(name =>
-            name.toLowerCase().includes(query.toLowerCase())
-        );
+        // Filter characters by query and sort alphabetically
+        const filteredCharacters = Object.keys(characters)
+            .filter(name => 
+                name.toLowerCase().includes(query.toLowerCase()) && 
+                !guessedCharacters.includes(name) // Filter out already guessed characters
+            )
+            .sort(); // Sort alphabetically
 
         if (filteredCharacters.length > 0) {
             filteredCharacters.forEach(name => {
@@ -135,7 +149,7 @@ function makeGuess() {
 
     const guessInput = searchInput.value.trim();
     if (!guessInput) {
-        resultDiv.style.display = "block";i
+        resultDiv.style.display = "block";
         resultDiv.textContent = "Please enter a character name.";
         return;
     }
@@ -147,6 +161,9 @@ function makeGuess() {
         return;
     }
 
+    // Add the guessed character to our tracking array
+    guessedCharacters.push(guessedCharacter.name);
+    
     guessesRemaining--;
     displayGuess(guessedCharacter);
 
@@ -166,6 +183,8 @@ function makeGuess() {
         continueButton.style.display = 'none';
         retryButton.style.display = 'block';
     }
+
+    searchInput.value = '';
 }
 
 // Display a guess in the grid
