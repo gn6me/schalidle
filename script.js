@@ -208,6 +208,7 @@ function showAllSuggestions() {
             <img class="searchImg" src="${characters[name].img}" alt="${name}">
             <span>${name}</span>
         `;
+        suggestion.onclick = function () {searchInput.value = name; makeGuess();};
         fragment.appendChild(suggestion);
     });
     
@@ -238,6 +239,7 @@ function filterSuggestions(query) {
                     <img class="searchImg" src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
+                suggestion.onclick = function () {searchInput.value = name; makeGuess();};
                 fragment.appendChild(suggestion);
             });
             
