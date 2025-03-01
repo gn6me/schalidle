@@ -438,7 +438,13 @@ pre {
 
 @media only screen and (min-width: 1024px) {
     .guess-row, #headrow {
-        width: 60%;
+        width: 45%;
+    }
+    #headrow div {
+        font-size: 1.2vw;
+    }
+    .guess-square {
+        font-size: 1.6vw;
     }
 }
 @media only screen and (max-width: 768px) {
