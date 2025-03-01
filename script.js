@@ -37,7 +37,6 @@ function generateEmojiResults(guesses, targetCharacter) {
 
     guesses.forEach(guess => {
         const attributes = [
-            guess.name,
             guess.school,
             guess.combatClass,
             guess.role,
@@ -47,7 +46,6 @@ function generateEmojiResults(guesses, targetCharacter) {
         ];
 
         const targetAttributes = [
-            targetCharacter.name,
             targetCharacter.school,
             targetCharacter.combatClass,
             targetCharacter.role,
@@ -58,14 +56,10 @@ function generateEmojiResults(guesses, targetCharacter) {
 
         let emojiRow = '';
         attributes.forEach((attr, index) => {
-            if (attr === targetCharacter.name) {
-
+            if (attr === targetAttributes[index]) {
+                emojiRow += correctEmoji;
             } else {
-                if (attr === targetAttributes[index]) {
-                    emojiRow += correctEmoji;
-                } else {
-                    emojiRow += incorrectEmoji;
-                }
+                emojiRow += incorrectEmoji;
             }
         });
 
