@@ -58,10 +58,14 @@ function generateEmojiResults(guesses, targetCharacter) {
 
         let emojiRow = '';
         attributes.forEach((attr, index) => {
-            if (attr === targetAttributes[index]) {
-                emojiRow += correctEmoji;
+            if (attr === targetCharacter.name) {
+
             } else {
-                emojiRow += incorrectEmoji;
+                if (attr === targetAttributes[index]) {
+                    emojiRow += correctEmoji;
+                } else {
+                    emojiRow += incorrectEmoji;
+                }
             }
         });
 
