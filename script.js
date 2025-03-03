@@ -208,8 +208,6 @@ function showAllSuggestions() {
             <img class="searchImg" src="${characters[name].img}" alt="${name}">
             <span>${name}</span>
         `;
-        suggestion.onclick = function () {
-            searchInput.value = name; makeGuess();searchInput.value = '';};
         fragment.appendChild(suggestion);
     });
     
@@ -240,7 +238,6 @@ function filterSuggestions(query) {
                     <img class="searchImg" src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
-                suggestion.onclick = function () {searchInput.value = name; makeGuess();searchInput.value = '';};
                 fragment.appendChild(suggestion);
             });
             
@@ -444,6 +441,7 @@ function initializeEventListeners() {
         const suggestion = event.target.closest('div');
         if (suggestion && suggestion.dataset.characterName) {
             searchInput.value = suggestion.dataset.characterName;
+            makeGuess();
             suggestionsDiv.style.display = 'none';
         }
     });
