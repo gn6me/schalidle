@@ -213,7 +213,7 @@ function showAllSuggestions() {
         suggestion.onclick = function () {
             searchInput.value = name;
             makeGuess();
-            suggestionsDiv.innerHTML = '';
+            searchInput.innerHTML = '';
         };
         fragment.appendChild(suggestion);
     });
@@ -248,7 +248,7 @@ function filterSuggestions(query) {
                 suggestion.onclick = function () {
                     searchInput.value = name;
                     makeGuess();
-                    suggestionsDiv.innerHTML = '';
+                    searchInput.innerHTML = '';
                 };
                 fragment.appendChild(suggestion);
             });
