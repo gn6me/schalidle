@@ -448,6 +448,9 @@ pre {
     #header button {
         font-size: 10px;
     }
+    .guess-row,#headrow {
+        width: 90%;
+    }
     .guess-square,#headrow {
         font-size: 1.6vw;
     }
