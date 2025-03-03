@@ -452,6 +452,9 @@ pre {
     #header button {
         font-size: 10px;
     }
+    .guess-square,#headrow {
+        font-size: 1.3vw;
+    }
 }
 .unskew {
     transform: skewX(10deg) !important;
