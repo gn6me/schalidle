@@ -359,8 +359,7 @@ function displayGuess(character) {
         character.role,
         character.damageType,
         character.armorType,
-        character.skill,
-        character.height
+        character.skill
     ];
     
     // Start from index 1 to skip the name in display
