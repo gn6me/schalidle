@@ -1077,26 +1077,15 @@
         "skill": "6",
         "height": "163cm"
     },
-    "Hoshino (Battle)": {
-        "img": "https://schalidle.vercel.app/imgs/Hoshino_(Battle).png",
-        "name": "Hoshino (Battle)",
+    "Hoshino (Armed)": {
+        "img": "https://schalidle.vercel.app/imgs/Hoshino_(Armed).png",
+        "name": "Hoshino (Armed)",
         "school": "Abydos",
         "combatClass": "Striker",
         "role": "Tank",
         "damageType": "Mystic",
         "armorType": "Heavy",
         "skill": "4",
-        "height": "145cm"
-    },
-    "Hoshino (Armed)": {
-        "img": "https://schalidle.vercel.app/imgs/Hoshino_(Armed).png",
-        "name": "Hoshino (Armed)",
-        "school": "Abydos",
-        "combatClass": "Striker",
-        "role": "Attacker",
-        "damageType": "Mystic",
-        "armorType": "Heavy",
-        "skill": "6",
         "height": "145cm"
     },
     "Shiroko*Terror": {
@@ -1241,6 +1230,17 @@
         "armorType": "Light",
         "skill": "2",
         "height": "164cm"
+    },
+    "Hoshino (Battle)": {
+        "img": "https://schalidle.vercel.app/imgs/Hoshino_(Battle).png",
+        "name": "Hoshino (Battle)",
+        "school": "Abydos",
+        "combatClass": "Striker",
+        "role": "Attacker",
+        "damageType": "Mystic",
+        "armorType": "Heavy",
+        "skill": "6",
+        "height": "145cm"
     },
     "Chise": {
         "img": "https://schalidle.vercel.app/imgs/Chise.png",
