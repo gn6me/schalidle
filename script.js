@@ -42,7 +42,8 @@ function generateEmojiResults(guesses, targetCharacter) {
             guess.role,
             guess.damageType,
             guess.armorType,
-            guess.skill
+            guess.skill,
+            guess.height
         ];
 
         const targetAttributes = [
@@ -51,7 +52,8 @@ function generateEmojiResults(guesses, targetCharacter) {
             targetCharacter.role,
             targetCharacter.damageType,
             targetCharacter.armorType,
-            targetCharacter.skill
+            targetCharacter.skill,
+            targetCharacter.height
         ];
 
         let emojiRow = '';
@@ -208,7 +210,11 @@ function showAllSuggestions() {
             <img class="searchImg" src="${characters[name].img}" alt="${name}">
             <span>${name}</span>
         `;
-        suggestion.onclick = function () {searchInput.value = name; makeGuess();};
+        suggestion.onclick = function () {
+            searchInput.value = name;
+            makeGuess();
+            suggestionsDiv.innerHTML = '';
+        };
         fragment.appendChild(suggestion);
     });
     
@@ -239,7 +245,11 @@ function filterSuggestions(query) {
                     <img class="searchImg" src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
-                suggestion.onclick = function () {searchInput.value = name; makeGuess();};
+                suggestion.onclick = function () {
+                    searchInput.value = name;
+                    makeGuess();
+                    suggestionsDiv.innerHTML = '';
+                };
                 fragment.appendChild(suggestion);
             });
             
@@ -349,7 +359,8 @@ function displayGuess(character) {
         character.role,
         character.damageType,
         character.armorType,
-        character.skill
+        character.skill,
+        character.height
     ];
     
     // Start from index 1 to skip the name in display
@@ -390,7 +401,7 @@ function displayGuess(character) {
             square.appendChild(roleImg);
         } 
         // Handle skill cost with up/down arrows
-        else if (index === 7) {
+        if (index === 7) {
             const guessedSkillCost = parseInt(attr, 10);
             const targetSkillCost = parseInt(targetCharacter.skill, 10);
 
@@ -402,7 +413,19 @@ function displayGuess(character) {
             } else if (guessedSkillCost < targetSkillCost) {
                 square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
             }
-        } 
+        } else if (index === 8) {
+            const guessedHeight = parseInt(attr, 10);
+            const targetHeight = parseInt(targetCharacter.height, 10);
+
+            square.textContent = attr;
+
+            // Show arrows indicating target heihgt
+            if (guessedHeight > targetHeight) {
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
+            } else if (guessedHeight < targetHeight) {
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
+            }
+        }
         else {
             // Display text
             square.textContent = attr;
