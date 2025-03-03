@@ -413,6 +413,7 @@ function displayGuess(character) {
             } else if (guessedSkillCost < targetSkillCost) {
                 square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
             }
+        // Handle height with up/down arrows
         } else if (index === 8) {
             const guessedHeight = parseInt(attr, 10);
             const targetHeight = parseInt(targetCharacter.height, 10);
