@@ -1077,9 +1077,9 @@
         "skill": "6",
         "height": "163cm"
     },
-    "Hoshino (Armed)": {
-        "img": "https://schalidle.vercel.app/imgs/Hoshino_(Armed).png",
-        "name": "Hoshino (Armed)",
+    "Hoshino (Battle)": {
+        "img": "https://schalidle.vercel.app/imgs/Hoshino_(Battle).png",
+        "name": "Hoshino (Battle)",
         "school": "Abydos",
         "combatClass": "Striker",
         "role": "Tank",
