@@ -370,7 +370,7 @@ function displayGuess(character) {
         square.className = 'guess-square sq' + index;
         
         // Create profile image for character
-        if (typeof attr === 'string' && attr.startsWith('http')) {
+        if (attr === 1) {
             // Display image
             const img = document.createElement('img');
             img.src = attr;
