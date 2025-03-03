@@ -350,7 +350,8 @@ function displayGuess(character) {
         character.role,
         character.damageType,
         character.armorType,
-        character.skill
+        character.skill,
+        character.height
     ];
     
     // Start from index 1 to skip the name in display
@@ -401,6 +402,20 @@ function displayGuess(character) {
             if (guessedSkillCost > targetSkillCost) {
                 square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
             } else if (guessedSkillCost < targetSkillCost) {
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
+            }
+        } 
+        // Handle skill cost with up/down arrows
+        else if (index === 8) {
+            const guessedHeight = parseInt(attr, 10);
+            const targetHeight  = parseInt(targetCharacter.height, 10);
+
+            square.textContent = attr;
+
+            // Show arrows indicating target skill cost
+            if (guessedHeight > targetHeight) {
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
+            } else if (guessedHeight < targetHeight) {
                 square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
             }
         } 
