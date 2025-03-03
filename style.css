@@ -439,10 +439,10 @@ pre {
         width: 45%;
     }
     #headrow div {
-        font-size: 1.2vw;
+        font-size: 16px;;
     }
     .guess-square {
-        font-size: 1.6vw;
+        font-size: 16px;
     }
 }
 @media only screen and (max-width: 768px) {
