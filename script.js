@@ -209,7 +209,7 @@ function showAllSuggestions() {
             <span>${name}</span>
         `;
         suggestion.onclick = function () {
-            searchInput.value = name; makeGuess();};
+            searchInput.value = name; makeGuess();searchInput.value = '';};
         fragment.appendChild(suggestion);
     });
     
@@ -240,7 +240,7 @@ function filterSuggestions(query) {
                     <img class="searchImg" src="${characters[name].img}" alt="${name}">
                     <span>${name}</span>
                 `;
-                suggestion.onclick = function () {searchInput.value = name; makeGuess();};
+                suggestion.onclick = function () {searchInput.value = name; makeGuess();searchInput.value = '';};
                 fragment.appendChild(suggestion);
             });
             
