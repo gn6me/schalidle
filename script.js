@@ -171,7 +171,7 @@ function displayPreviousDayCharacter() {
   if (previousDayElement) {
     previousDayElement.innerHTML = `
             <p>Yesterday's Character Was:</p>
-            <h3>${previousDayCharacter.name}</h3>
+            <p>${previousDayCharacter.name}</p>
             <img src="${previousDayCharacter.img}" alt="${previousDayCharacter.name}" width="100">
         `;
   }
