@@ -63,8 +63,8 @@ function generateEmojiResults(guesses, targetCharacter) {
       targetCharacter.height,
     ];
 
-    // Force mono-space for Discord
-    let emojiRow = "`";
+    // Add spacer to help with Discord formatting
+    let emojiRow = "";
     attributes.forEach((attr, index) => {
       if (attr === targetAttributes[index]) {
         emojiRow += correctEmoji + spacer;
@@ -72,7 +72,6 @@ function generateEmojiResults(guesses, targetCharacter) {
         emojiRow += incorrectEmoji + spacer;
       }
     });
-    emojiRow += "`";
 
     emojiResults += emojiRow + "\n";
   });
