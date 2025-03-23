@@ -37,6 +37,9 @@ function generateEmojiResults(guesses, targetCharacter) {
   const correctEmoji = "🟩"; // Green square for correct
   const incorrectEmoji = "⬜"; // White square for incorrect
 
+  // To help with alignment
+  const spacer = '';
+
   let emojiResults = "";
 
   guesses.forEach((guess) => {
@@ -60,14 +63,16 @@ function generateEmojiResults(guesses, targetCharacter) {
       targetCharacter.height,
     ];
 
-    let emojiRow = "";
+    // Force mono-space for Discord
+    let emojiRow = "`";
     attributes.forEach((attr, index) => {
       if (attr === targetAttributes[index]) {
-        emojiRow += correctEmoji;
+        emojiRow += correctEmoji + spacer;
       } else {
-        emojiRow += incorrectEmoji;
+        emojiRow += incorrectEmoji + spacer;
       }
     });
+    emojiRow += "`";
 
     emojiResults += emojiRow + "\n";
   });
