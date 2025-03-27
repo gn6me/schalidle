@@ -424,12 +424,10 @@ function displayGuess(character) {
       // Show arrows indicating target skill cost
       if (guessedSkillCost > targetSkillCost) {
         square.innerHTML +=
-          //'<i class="fi fi-sr-down"></i>';
-          '<span class="material-symbols-outlined">arrow_downward_alt</span>';
+          '<ion-icon class="icon" name="arrow-down"></ion-icon>';
       } else if (guessedSkillCost < targetSkillCost) {
         square.innerHTML +=
-          //'<i class="fi fi-sr-up"></i>';
-          '<span class="material-symbols-outlined">arrow_upward_alt</span>';
+          '<ion-icon class="icon" name="arrow-up"></ion-icon>';
       }
     }
     // Handle skill cost with up/down arrows
@@ -442,12 +440,10 @@ function displayGuess(character) {
       // Show arrows indicating target skill cost
       if (guessedHeight > targetHeight) {
         square.innerHTML +=
-          //'<i class="fi fi-sr-down"></i>';
-          '<span class="material-symbols-outlined">arrow_downward_alt</span>';
+          '<ion-icon class="icon" name="arrow-down"></ion-icon>';
       } else if (guessedHeight < targetHeight) {
         square.innerHTML +=
-          //'<i class="fi fi-sr-up"></i>';
-          '<span class="material-symbols-outlined">arrow_upward_alt</span>';
+          '<ion-icon class="icon" name="arrow-up"></ion-icon>';
       }
     } else {
       // Display text
