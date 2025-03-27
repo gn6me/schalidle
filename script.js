@@ -425,7 +425,7 @@ function displayGuess(character) {
       if (guessedSkillCost > targetSkillCost) {
         square.innerHTML +=
           //'<i class="fi fi-sr-down"></i>';
-          '<span class="material-symbols-outlined">arrow_downward_alt</span>';'
+          '<span class="material-symbols-outlined">arrow_downward_alt</span>';
       } else if (guessedSkillCost < targetSkillCost) {
         square.innerHTML +=
           //'<i class="fi fi-sr-up"></i>';
