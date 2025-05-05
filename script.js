@@ -94,7 +94,7 @@ function copyEmojiResultsToClipboard(emojiResults) {
 // Get daily character
 function getDailyCharacter() {
   const charactersArray = Object.values(characters);
-  const seed = 69420; // fixed value for consistency
+  const seed = 6969; // fixed value for consistency
   const easternTime = getEasternTime();
 
   // Reference for 7pm
@@ -117,7 +117,7 @@ function getDailyCharacter() {
 
 function getPreviousDayCharacter() {
   const charactersArray = Object.values(characters);
-  const seed = 69420; // Fixed seed for consistency
+  const seed = 6969; // Fixed seed for consistency
   const easternTime = getEasternTime();
 
   // Set target time
