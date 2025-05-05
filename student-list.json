@@ -1,4 +1,159 @@
-{
+"Makoto": {
+        "img": "https://schalidle.vercel.app/imgs/Makoto.png",
+        "name": "Makoto",
+        "school": "Gehenna",
+        "combatClass": "Special",
+        "role": "Attacker",
+        "damageType": "Piercing",
+        "armorType": "Special",
+        "skill": "6",
+        "height": "169cm"
+    },
+    "Yuzu": {
+        "img": "https://schalidle.vercel.app/imgs/Yuzu.png",
+        "name": "Yuzu",
+        "school": "Millennium",
+        "combatClass": "Striker",
+        "role": "Attacker",
+        "damageType": "Piercing",
+        "armorType": "Special",
+        "skill": "4",
+        "height": "150cm"
+    },
+    "Fubuki (Swimsuit)": {
+        "img": "https://schalidle.vercel.app/imgs/Fubuki_(Swimsuit).png",
+        "name": "Fubuki (Swimsuit)",
+        "school": "Valkyrie",
+        "combatClass": "Special",
+        "role": "Attacker",
+        "damageType": "Explosion",
+        "armorType": "Heavy",
+        "skill": "4",
+        "height": "148cm"
+    },
+    "Miyako (Swimsuit)": {
+        "img": "https://schalidle.vercel.app/imgs/Miyako_(Swimsuit).png",
+        "name": "Miyako (Swimsuit)",
+        "school": "SRT",
+        "combatClass": "Striker",
+        "role": "Tank",
+        "damageType": "Explosion",
+        "armorType": "Heavy",
+        "skill": "2",
+        "height": "156cm"
+    },
+    "Yuuka": {
+        "img": "https://schalidle.vercel.app/imgs/Yuuka.png",
+        "name": "Yuuka",
+        "school": "Millennium",
+        "combatClass": "Striker",
+        "role": "Tank",
+        "damageType": "Explosion",
+        "armorType": "Heavy",
+        "skill": "3",
+        "height": "156cm"
+    },
+    "Tsubaki (Guide)": {
+        "img": "https://schalidle.vercel.app/imgs/Tsubaki_(Guide).png",
+        "name": "Tsubaki (Guide)",
+        "school": "Hyakkiyako",
+        "combatClass": "Special",
+        "role": "Supporter",
+        "damageType": "Piercing",
+        "armorType": "Heavy",
+        "skill": "6",
+        "height": "162cm"
+    },
+    "Eimi": {
+        "img": "https://schalidle.vercel.app/imgs/Eimi.png",
+        "name": "Eimi",
+        "school": "Millennium",
+        "combatClass": "Striker",
+        "role": "Tank",
+        "damageType": "Explosion",
+        "armorType": "Light",
+        "skill": "4",
+        "height": "167cm"
+    },
+    "Ui (Swimsuit)": {
+        "img": "https://schalidle.vercel.app/imgs/Ui_(Swimsuit).png",
+        "name": "Ui (Swimsuit)",
+        "school": "Trinity",
+        "combatClass": "Striker",
+        "role": "Supporter",
+        "damageType": "Piercing",
+        "armorType": "Elastic",
+        "skill": "4",
+        "height": "165cm"
+    },
+    "Yoshimi (Band)": {
+        "img": "https://schalidle.vercel.app/imgs/Yoshimi_(Band).png",
+        "name": "Yoshimi (Band)",
+        "school": "Trinity",
+        "combatClass": "Striker",
+        "role": "Attacker",
+        "damageType": "Explosion",
+        "armorType": "Special",
+        "skill": "10",
+        "height": "146cm"
+    },
+    "Kokona": {
+        "img": "https://schalidle.vercel.app/imgs/Kokona.png",
+        "name": "Kokona",
+        "school": "Shanhaijing",
+        "combatClass": "Striker",
+        "role": "Healer",
+        "damageType": "Piercing",
+        "armorType": "Special",
+        "skill": "2",
+        "height": "139cm"
+    },
+    "Atsuko": {
+        "img": "https://schalidle.vercel.app/imgs/Atsuko.png",
+        "name": "Atsuko",
+        "school": "Arius",
+        "combatClass": "Striker",
+        "role": "Tank",
+        "damageType": "Explosion",
+        "armorType": "Special",
+        "skill": "4",
+        "height": "158cm"
+    },
+    "Serika (Swimsuit)": {
+        "img": "https://schalidle.vercel.app/imgs/Serika_(Swimsuit).png",
+        "name": "Serika (Swimsuit)",
+        "school": "Abydos",
+        "combatClass": "Special",
+        "role": "Attacker",
+        "damageType": "Mystic",
+        "armorType": "Heavy",
+        "skill": "6",
+        "height": "153cm"
+    },
+    "Tsurugi (Swimsuit)": {
+        "img": "https://schalidle.vercel.app/imgs/Tsurugi_(Swimsuit).png",
+        "name": "Tsurugi (Swimsuit)",
+        "school": "Trinity",
+        "combatClass": "Striker",
+        "role": "Attacker",
+        "damageType": "Mystic",
+        "armorType": "Special",
+        "skill": "3",
+        "height": "162cm"
+    },
+    "Toki (Bunny)": {
+        "img": "https://schalidle.vercel.app/imgs/Toki_(Bunny).png",
+        "name": "Toki (Bunny)",
+        "school": "Millennium",
+        "combatClass": "Striker",
+        "role": "Attacker",
+        "damageType": "Explosion",
+        "armorType": "Light",
+        "skill": "2",
+        "height": "165cm"
+    },
+    "Saya (Casual)": {
+        "img": "https://schalidle{
     "Chinatsu (Hot Spring)": {
         "img": "https://schalidle.vercel.app/imgs/Chinatsu_(Hot_Spring).png",
         "name": "Chinatsu (Hot Spring)",
