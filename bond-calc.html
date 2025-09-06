@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schalidle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+        <title>Bond Level Gift Calculator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a5568;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .input-section {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 5px solid #667eea;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .gifts-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .gift-item {
+            background: #edf2f7;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #cbd5e0;
+            transition: all 0.3s ease;
+        }
+
+        .gift-item:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .gift-item h4 {
+            margin: 0 0 10px 0;
+            color: #2d3748;
+        }
+
+        .gift-xp {
+            font-size: 0.9em;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin: 20px 0;
+            transition: transform 0.2s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(102, 126, 234, 0.3);
+        }
+
+        .results {
+            background: #f0fff4;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #48bb78;
+            margin-top: 20px;
+        }
+
+        .results h3 {
+            color: #2f855a;
+            margin-top: 0;
+        }
+
+        .current-status {
+            background: #e6fffa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 3px solid #38b2ac;
+        }
+
+        .gift-requirements {
+            background: #fff5f5;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #f56565;
+        }
+
+        .gift-req-item {
+            margin: 8px 0;
+            padding: 8px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        .error {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #f56565;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+<div id="header">
+            <div id="home"><a href="https://schalidle.com"><button>
+                        <div class="unskew">Home</div>
+                    </button></a></div>
+            <div id="endless"><a href="https://schalidle.com/endless.html"><button>
+                        <div class="unskew">Endless Mode</div>
+                    </button></a></div>
+        </div>
+        <h1>🎁 Bond Level Gift Calculator</h1>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <label for="currentLevel">Current Bond Level:</label>
+                <select id="currentLevel">
+                    <option value="">Select current level</option>
+                </select>
+            </div>
+            
+            <div class="input-group">
+                <label for="targetLevel">Desired Bond Level:</label>
+                <select id="targetLevel">
+                    <option value="">Select target level</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <h3>Current Gifts Inventory:</h3>
+            <div class="gifts-section">
+                <div class="gift-item">
+                    <h4>2★ Meh Gifts</h4>
+                    <div class="gift-xp">20 XP each</div>
+                    <input type="number" id="gift2Meh" min="0" value="0" placeholder="Quantity">
+                </div>
+                
+                <div class="gift-item">
+                    <h4>2★ Like Gifts</h4>
+                    <div class="gift-xp">40 XP each</div>
+                    <input type="number" id="gift2Like" min="0" value="0" placeholder="Quantity">
+                </div>
+                
+                <div class="gift-item">
+                    <h4>2★ Favorite Gifts</h4>
+                    <div class="gift-xp">60 XP each</div>
+                    <input type="number" id="gift2Fav" min="0" value="0" placeholder="Quantity">
+                </div>
+                
+                <div class="gift-item">
+                    <h4>2★ Loved Gifts</h4>
+                    <div class="gift-xp">80 XP each</div>
+                    <input type="number" id="gift2Love" min="0" value="0" placeholder="Quantity">
+                </div>
+                
+                <div class="gift-item">
+                    <h4>3★ Meh Gifts</h4>
+                    <div class="gift-xp">60 XP each</div>
+                    <input type="number" id="gift3Meh" min="0" value="0" placeholder="Quantity">
+                </div>
+                
+                <div class="gift-item">
+                    <h4>3★ Like Gifts</h4>
+                    <div class="gift-xp">120 XP each</div>
+                    <input type="number" id="gift3Like" min="0" value="0" placeholder="Quantity">
+                </div>
+                
+                <div class="gift-item">
+                    <h4>3★ Favorite Gifts</h4>
+                    <div class="gift-xp">180 XP each</div>
+                    <input type="number" id="gift3Fav" min="0" value="0" placeholder="Quantity">
+                </div>
+                
+                <div class="gift-item">
+                    <h4>3★ Loved Gifts</h4>
+                    <div class="gift-xp">240 XP each</div>
+                    <input type="number" id="gift3Love" min="0" value="0" placeholder="Quantity">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="calculate()">Calculate Gift Requirements</button>
+
+        <div id="results"></div>
+    </div>
+    <script src="gifts.js"></script>
+    </body>
+  </html>
