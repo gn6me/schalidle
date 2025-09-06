@@ -175,7 +175,6 @@ const bondLevels = {
                 resultsHTML += `<strong>${gift2Meh}</strong> × 2★ Meh Gifts = ${gift2Meh * 20} XP`;
                 resultsHTML += `</div>`;
                 
-                resultsHTML += '<p style="margin-top: 15px; font-style: italic; color: #666;">You can also mix and match different gift types as long as the total XP adds up to at least ' + neededXP + ' XP.</p>';
                 resultsHTML += '</div>';
             }
             
