@@ -11,7 +11,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/01/Kurumi.png/266px-Kurumi.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/95/Weapon_Icon_Kurumi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kurumi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kurumi_Title.ogg"
   },
   "Niko": {
@@ -26,7 +25,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/02/Niko.png/266px-Niko.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/3b/Weapon_Icon_Niko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Niko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Niko_Title.ogg"
   },
   "Otogi": {
@@ -41,7 +39,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e8/Otogi.png/266px-Otogi.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/19/Weapon_Icon_Otogi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Otogi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Otogi_Title.ogg"
   },
   "Akane (School Uniform)": {
@@ -56,7 +53,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/ca/Akane_%28School_Uniform%29.png/266px-Akane_%28School_Uniform%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/06/Weapon_Icon_Akane_%28School_Uniform%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Akane_(School_Uniform)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Akane_Title.ogg"
   },
   "Konoka": {
@@ -71,7 +67,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/35/Konoka.png/266px-Konoka.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/66/Weapon_Icon_Konoka.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Konoka_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Konoka_Title.ogg"
   },
   "Rena": {
@@ -86,7 +81,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/7c/Rena.png/266px-Rena.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e2/Weapon_Icon_Rena.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Rena_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Rena_Title.ogg"
   },
   "Koyuki (Pajama)": {
@@ -101,7 +95,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/36/Koyuki_%28Pajama%29.png/266px-Koyuki_%28Pajama%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c4/Weapon_Icon_Koyuki_%28Pajama%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Koyuki_(Pajama)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Koyuki_Title.ogg"
   },
   "Eimi (Battle)": {
@@ -116,7 +109,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d0/Eimi_%28Battle%29.png/266px-Eimi_%28Battle%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/32/Weapon_Icon_Eimi_%28Battle%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Eimi_(Battle)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Eimi_Title.ogg"
   },
   "Yuzu (Battle)": {
@@ -131,7 +123,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/3a/Yuzu_%28Battle%29.png/266px-Yuzu_%28Battle%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/cc/Weapon_Icon_Yuzu_%28Battle%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yuzu_(Battle)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yuzu_Title.ogg"
   },
   "Arisu (Battle)": {
@@ -146,7 +137,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/43/Arisu_%28Battle%29.png/266px-Arisu_%28Battle%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c1/Weapon_Icon_Arisu_%28Battle%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Arisu_(Battle)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Arisu_Title.ogg"
   },
   "Kei": {
@@ -161,7 +151,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a1/Kei.png/266px-Kei.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/7b/Weapon_Icon_Kei.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kei_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kei_Title.ogg"
   },
   "Himari (Battle)": {
@@ -176,7 +165,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/ef/Himari_%28Battle%29.png/266px-Himari_%28Battle%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2e/Weapon_Icon_Himari_%28Battle%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Himari_(Battle)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Himari_Title.ogg"
   },
   "Rio (Battle)": {
@@ -191,7 +179,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/5b/Rio_%28Battle%29.png/266px-Rio_%28Battle%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/96/Weapon_Icon_Rio_%28Battle%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Rio_(Battle)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Rio_Title.ogg"
   },
   "Toki (Battle)": {
@@ -206,7 +193,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/32/Toki_%28Battle%29.png/266px-Toki_%28Battle%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d1/Weapon_Icon_Toki_%28Battle%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Toki_(Battle)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Toki_Title.ogg"
   },
   "Michiru (Dress)": {
@@ -221,7 +207,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/32/Michiru_%28Dress%29.png/266px-Michiru_%28Dress%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/af/Weapon_Icon_Michiru_%28Dress%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Michiru_(Dress)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Michiru_Title.ogg"
   },
   "Tsukuyo (Dress)": {
@@ -236,7 +221,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/ef/Tsukuyo_%28Dress%29.png/266px-Tsukuyo_%28Dress%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d9/Weapon_Icon_Tsukuyo_%28Dress%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tsukuyo_(Dress)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tsukuyo_Title.ogg"
   },
   "Takane": {
@@ -251,7 +235,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0a/Takane.png/266px-Takane.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/ba/Weapon_Icon_Takane.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Takane_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Takane_Title.ogg"
   },
   "Yakumo": {
@@ -266,7 +249,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/ba/Yakumo.png/266px-Yakumo.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/73/Weapon_Icon_Yakumo.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yakumo_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yakumo_Title.ogg"
   },
   "Subaru": {
@@ -281,7 +263,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c3/Subaru.png/266px-Subaru.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/0d/Weapon_Icon_Subaru.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Subaru_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Subaru_Title.ogg"
   },
   "Reisa (Magical)": {
@@ -296,7 +277,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/67/Reisa_%28Magical%29.png/266px-Reisa_%28Magical%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/7a/Weapon_Icon_Reisa_%28Magical%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Reisa_(Magical)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Reisa_Title.ogg"
   },
   "Suzumi (Magical)": {
@@ -311,7 +291,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/54/Suzumi_%28Magical%29.png/266px-Suzumi_%28Magical%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f1/Weapon_Icon_Suzumi_%28Magical%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Suzumi_(Magical)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Suzumi_Title.ogg"
   },
   "Rabu": {
@@ -326,7 +305,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/09/Rabu.png/266px-Rabu.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/43/Weapon_Icon_Rabu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Rabu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Rabu_Title.ogg"
   },
   "Ritsu": {
@@ -341,7 +319,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c8/Ritsu.png/266px-Ritsu.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/dc/Weapon_Icon_Ritsu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ritsu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ritsu_Title.ogg"
   },
   "Fuyu": {
@@ -356,7 +333,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a9/Fuyu.png/266px-Fuyu.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/84/Weapon_Icon_Fuyu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Fuyu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Fuyu_Title.ogg"
   },
   "Miyo": {
@@ -371,7 +347,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/7b/Miyo.png/266px-Miyo.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d1/Weapon_Icon_Miyo.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Miyo_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Miyo_Title.ogg"
   },
   "Misaki (Swimsuit)": {
@@ -386,7 +361,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/2b/Misaki_%28Swimsuit%29.png/266px-Misaki_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/14/Weapon_Icon_Misaki_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Misaki_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Misaki_Title.ogg"
   },
   "Eri": {
@@ -401,7 +375,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/da/Eri.png/266px-Eri.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/af/Weapon_Icon_Eri.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Eri_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Eri_Title.ogg"
   },
   "Kanoe": {
@@ -416,7 +389,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a7/Kanoe.png/266px-Kanoe.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/38/Weapon_Icon_Kanoe.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kanoe_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kanoe_Title.ogg"
   },
   "Mika (Swimsuit)": {
@@ -431,7 +403,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/6e/Mika_%28Swimsuit%29.png/266px-Mika_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/ba/Weapon_Icon_Mika_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mika_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mika_Title.ogg"
   },
   "Nagisa (Swimsuit)": {
@@ -446,7 +417,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d4/Nagisa_%28Swimsuit%29.png/266px-Nagisa_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/00/Weapon_Icon_Nagisa.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nagisa_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nagisa_Title.ogg"
   },
   "Hasumi (Swimsuit)": {
@@ -461,7 +431,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/62/Hasumi_%28Swimsuit%29.png/266px-Hasumi_%28Swimsuit%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/57/Weapon_Icon_Hasumi_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hasumi_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hasumi_Title.ogg"
   },
   "Seia (Swimsuit)": {
@@ -476,7 +445,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f5/Seia_%28Swimsuit%29.png/266px-Seia_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c0/Weapon_Icon_Seia_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Seia_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Seia_Title.ogg"
   },
   "Ichika (Swimsuit)": {
@@ -491,7 +459,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/24/Ichika_%28Swimsuit%29.png/266px-Ichika_%28Swimsuit%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f3/Weapon_Icon_Ichika_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ichika_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ichika_Title.ogg"
   },
   "Kikyou (Swimsuit)": {
@@ -506,7 +473,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/49/Kikyou_%28Swimsuit%29.png/266px-Kikyou_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/7e/Weapon_Icon_Kikyou_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kikyou_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kikyou_Title.ogg"
   },
   "Yukari (Swimsuit)": {
@@ -521,7 +487,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c9/Yukari_%28Swimsuit%29.png/266px-Yukari_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/39/Weapon_Icon_Yukari_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yukari_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yukari_Title.ogg"
   },
   "Renge (Swimsuit)": {
@@ -536,7 +501,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/2f/Renge_%28Swimsuit%29.png/266px-Renge_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/af/Weapon_Icon_Renge_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Renge_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Renge_Title.ogg"
   },
   "Natsu (Band)": {
@@ -551,7 +515,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0a/Natsu_%28Band%29.png/266px-Natsu_%28Band%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/be/Weapon_Icon_Natsu_%28Band%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Natsu_(Band)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Natsu_Title.ogg"
   },
   "Nagusa": {
@@ -566,7 +529,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/bb/Nagusa.png/266px-Nagusa.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/04/Weapon_Icon_Nagusa.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nagusa_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nagusa_Title.ogg"
   },
   "Niya": {
@@ -581,7 +543,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/07/Niya.png/266px-Niya.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/43/Weapon_Icon_Niya.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Niya_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Niya_Title.ogg"
   },
   "Pina (Guide)": {
@@ -596,7 +557,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e5/Pina_%28Guide%29.png/266px-Pina_%28Guide%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/fc/Weapon_Icon_Pina_%28Guide%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Pina_(Guide)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Pina_Title.ogg"
   },
   "Hikari": {
@@ -611,7 +571,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/ee/Hikari.png/266px-Hikari.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f9/Weapon_Icon_Hikari.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hikari_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hikari_Title.ogg"
   },
   "Nozomi": {
@@ -626,7 +585,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0b/Nozomi.png/266px-Nozomi.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/8a/Weapon_Icon_Nozomi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nozomi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nozomi_Title.ogg"
   },
   "Aoba": {
@@ -641,7 +599,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/42/Aoba.png/266px-Aoba.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/56/Weapon_Icon_Aoba.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Aoba_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Aoba_Title.ogg"
   },
   "Saori (Dress)": {
@@ -656,7 +613,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e4/Saori_%28Dress%29.png/266px-Saori_%28Dress%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2e/Weapon_Icon_Saori_%28Dress%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saori_(Dress)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saori_Title.ogg"
   },
   "Rei": {
@@ -671,7 +627,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a3/Rei.png/266px-Rei.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/4e/Weapon_Icon_Rei.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Rei_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Rei_Title.ogg"
   },
   "Sumire (Part-Timer)": {
@@ -686,7 +641,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/66/Sumire_%28Part-Timer%29.png/266px-Sumire_%28Part-Timer%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/ce/Weapon_Icon_Sumire_%28Part-Timer%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Sumire_(Part-Timer)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Sumire_Title.ogg"
   },
   "Izumi (New Year)": {
@@ -701,7 +655,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e3/Izumi_%28New_Year%29.png/266px-Izumi_%28New_Year%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/0b/Weapon_Icon_Izumi_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Izumi_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Izumi_Title.ogg"
   },
   "Juri (Part-Timer)": {
@@ -716,7 +669,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/33/Juri_%28Part-Timer%29.png/266px-Juri_%28Part-Timer%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6d/Weapon_Icon_Juri_%28Part-Timer%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Juri_(Part-Timer)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Juri_Title.ogg"
   },
   "Sena (Casual)": {
@@ -731,7 +683,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b4/Sena_%28Casual%29.png/266px-Sena_%28Casual%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/0c/Weapon_Icon_Sena_%28Casual%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Sena_(Casual)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Sena_Title.ogg"
   },
   "Maki (Camping)": {
@@ -746,7 +697,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/21/Maki_%28Camping%29.png/266px-Maki_%28Camping%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a1/Weapon_Icon_Maki_%28Camping%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Maki_(Camping)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Maki_Title.ogg"
   },
   "Neru (School Uniform)": {
@@ -761,7 +711,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/16/Neru_%28School_Uniform%29.png/266px-Neru_%28School_Uniform%29.png",
     "skill": "1",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b4/Weapon_Icon_Neru_%28School_Uniform%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Neru_(School_Uniform)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Neru_Title.ogg"
   },
   "Rio": {
@@ -776,7 +725,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/4a/Rio.png/266px-Rio.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/ce/Weapon_Icon_Rio.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Rio_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Rio_Title.ogg"
   },
   "Asuna (School Uniform)": {
@@ -791,7 +739,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/01/Asuna_%28School_Uniform%29.png/266px-Asuna_%28School_Uniform%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/23/Weapon_Icon_Asuna_%28School_Uniform%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Asuna_(School_Uniform)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Asuna_Title.ogg"
   },
   "Seia": {
@@ -806,7 +753,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/46/Seia.png/266px-Seia.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/56/Weapon_Icon_Seia.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Seia_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Seia_Title.ogg"
   },
   "Karin (School Uniform)": {
@@ -821,7 +767,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d1/Karin_%28School_Uniform%29.png/266px-Karin_%28School_Uniform%29.png",
     "skill": "7",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a4/Weapon_Icon_Karin_%28School_Uniform%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Karin_(School_Uniform)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Karin_Title.ogg"
   },
   "Noa (Pajama)": {
@@ -836,7 +781,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/14/Noa_%28Pajama%29.png/266px-Noa_%28Pajama%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d9/Weapon_Icon_Noa_%28Pajama%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Noa_(Pajama)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Noa_Title.ogg"
   },
   "Yuuka (Pajama)": {
@@ -851,7 +795,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/ad/Yuuka_%28Pajama%29.png/266px-Yuuka_%28Pajama%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/67/Weapon_Icon_Yuuka_%28Pajama%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yuuka_(Pajama)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yuuka_Title.ogg"
   },
   "Chiaki": {
@@ -866,7 +809,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a4/Chiaki.png/266px-Chiaki.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/ba/Weapon_Icon_Chiaki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Chiaki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Chiaki_Title.ogg"
   },
   "Satsuki": {
@@ -881,7 +823,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e9/Satsuki.png/266px-Satsuki.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/70/Weapon_Icon_Satsuki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Satsuki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Satsuki_Title.ogg"
   },
   "Mari (Idol)": {
@@ -896,7 +837,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f6/Mari_%28Idol%29.png/266px-Mari_%28Idol%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/82/Weapon_Icon_Mari_%28Idol%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mari_(Idol)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mari_Title.ogg"
   },
   "Sakurako (Idol)": {
@@ -911,7 +851,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/27/Sakurako_%28Idol%29.png/266px-Sakurako_%28Idol%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/45/Weapon_Icon_Sakurako.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Sakurako_(Idol)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Sakurako_Title.ogg"
   },
   "Mine (Idol)": {
@@ -926,7 +865,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/29/Mine_%28Idol%29.png/266px-Mine_%28Idol%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/02/Weapon_Icon_Mine_%28Idol%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mine_(Idol)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mine_Title.ogg"
   },
   "Kisaki": {
@@ -941,7 +879,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/55/Kisaki.png/266px-Kisaki.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/ba/Weapon_Icon_Kisaki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kisaki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kisaki_Title.ogg"
   },
   "Reijo": {
@@ -956,7 +893,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/4d/Reijo.png/266px-Reijo.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/9b/Weapon_Icon_Reijo.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Reijo_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Reijo_Title.ogg"
   },
   "Marina (Qipao)": {
@@ -971,7 +907,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/6a/Marina_%28Qipao%29.png/266px-Marina_%28Qipao%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/8f/Weapon_Icon_Marina_%28Qipao%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Marina_(Qipao)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Marina_Title.ogg"
   },
   "Tomoe (Qipao)": {
@@ -986,7 +921,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/2d/Tomoe_%28Qipao%29.png/266px-Tomoe_%28Qipao%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/90/Weapon_Icon_Tomoe_%28Qipao%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tomoe_(Qipao)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tomoe_Title.ogg"
   },
   "Hiyori (Swimsuit)": {
@@ -1001,7 +935,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/53/Hiyori_%28Swimsuit%29.png/266px-Hiyori_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/5b/Weapon_Icon_Hiyori_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hiyori_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hiyori_Title.ogg"
   },
   "Saori (Swimsuit)": {
@@ -1016,7 +949,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/54/Saori_%28Swimsuit%29.png/266px-Saori_%28Swimsuit%29.png",
     "skill": "7",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/73/Weapon_Icon_Saori_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saori_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saori_Title.ogg"
   },
   "Hoshino (Battle)": {
@@ -1031,7 +963,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a2/Hoshino_%28Battle%29.png/266px-Hoshino_%28Battle%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e4/Weapon_Icon_Hoshino_%28Battle%29_Tanker.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hoshino_(Battle)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hoshino_Title.ogg"
   },
   "Shiroko\uff0aTerror": {
@@ -1046,7 +977,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f9/Shiroko%EF%BC%8ATerror.png/266px-Shiroko%EF%BC%8ATerror.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c7/Weapon_Icon_Shiroko%EF%BC%8ATerror.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko\uff0aTerror_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko\uff0aTerror_Title.ogg"
   },
   "Atsuko (Swimsuit)": {
@@ -1061,7 +991,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/1b/Atsuko_%28Swimsuit%29.png/266px-Atsuko_%28Swimsuit%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/9c/Weapon_Icon_Atsuko_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Atsuko_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Atsuko_Title.ogg"
   },
   "Moe (Swimsuit)": {
@@ -1076,7 +1005,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/77/Moe_%28Swimsuit%29.png/266px-Moe_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/4b/Weapon_Icon_Moe_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Moe_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Moe_Title.ogg"
   },
   "Fubuki (Swimsuit)": {
@@ -1091,7 +1019,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/34/Fubuki_%28Swimsuit%29.png/266px-Fubuki_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/36/Weapon_Icon_Fubuki_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Fubuki_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Fubuki_Title.ogg"
   },
   "Kanna (Swimsuit)": {
@@ -1106,7 +1033,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/83/Kanna_%28Swimsuit%29.png/266px-Kanna_%28Swimsuit%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/11/Weapon_Icon_Kanna_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kanna_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kanna_Title.ogg"
   },
   "Kirino (Swimsuit)": {
@@ -1121,7 +1047,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/cc/Kirino_%28Swimsuit%29.png/266px-Kirino_%28Swimsuit%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/99/Weapon_Icon_Kirino_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kirino_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kirino_Title.ogg"
   },
   "Serika (Swimsuit)": {
@@ -1136,7 +1061,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0f/Serika_%28Swimsuit%29.png/266px-Serika_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/0f/Weapon_Icon_Serika_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Serika_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Serika_Title.ogg"
   },
   "Midori (Maid)": {
@@ -1151,7 +1075,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/29/Midori_%28Maid%29.png/266px-Midori_%28Maid%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6e/Weapon_Icon_Midori_%28Maid%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Midori_(Maid)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Midori_Title.ogg"
   },
   "Momoi (Maid)": {
@@ -1166,7 +1089,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/31/Momoi_%28Maid%29.png/266px-Momoi_%28Maid%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/82/Weapon_Icon_Momoi_%28Maid%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Momoi_(Maid)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Momoi_Title.ogg"
   },
   "Kirara": {
@@ -1181,7 +1103,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/3f/Kirara.png/266px-Kirara.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c7/Weapon_Icon_Kirara.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kirara_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kirara_Title.ogg"
   },
   "Kazusa (Band)": {
@@ -1196,7 +1117,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/36/Kazusa_%28Band%29.png/266px-Kazusa_%28Band%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/07/Weapon_Icon_Kazusa_%28Band%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kazusa_(Band)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kazusa_Title.ogg"
   },
   "Yoshimi (Band)": {
@@ -1211,7 +1131,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/ca/Yoshimi_%28Band%29.png/266px-Yoshimi_%28Band%29.png",
     "skill": "10",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2c/Weapon_Icon_Yoshimi_%28Band%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yoshimi_(Band)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yoshimi_Title.ogg"
   },
   "Airi (Band)": {
@@ -1226,7 +1145,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c5/Airi_%28Band%29.png/266px-Airi_%28Band%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/88/Weapon_Icon_Airi_%28Band%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Airi_(Band)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Airi_Title.ogg"
   },
   "Tsubaki (Guide)": {
@@ -1241,7 +1159,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/ef/Tsubaki_%28Guide%29.png/266px-Tsubaki_%28Guide%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/66/Weapon_Icon_Tsubaki_%28Guide%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tsubaki_(Guide)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tsubaki_Title.ogg"
   },
   "Umika": {
@@ -1256,7 +1173,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e2/Umika.png/266px-Umika.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b9/Weapon_Icon_Umika.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Umika_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Umika_Title.ogg"
   },
   "Akari (New Year)": {
@@ -1271,7 +1187,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/ae/Akari_%28New_Year%29.png/266px-Akari_%28New_Year%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e8/Weapon_Icon_Akari_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Akari_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Akari_Title.ogg"
   },
   "Aru (Dress)": {
@@ -1286,7 +1201,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/1f/Aru_%28Dress%29.png/266px-Aru_%28Dress%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e1/Weapon_Icon_Aru_%28Dress%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Aru_(Dress)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Aru_Title.ogg"
   },
   "Kayoko (Dress)": {
@@ -1301,7 +1215,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/9b/Kayoko_%28Dress%29.png/266px-Kayoko_%28Dress%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/ab/Weapon_Icon_Kayoko_%28Dress%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kayoko_(Dress)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kayoko_Title.ogg"
   },
   "Hina (Dress)": {
@@ -1316,7 +1229,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/20/Hina_%28Dress%29.png/266px-Hina_%28Dress%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d9/Weapon_Icon_Hina_%28Dress%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hina_(Dress)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hina_Title.ogg"
   },
   "Ako (Dress)": {
@@ -1331,7 +1243,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/fc/Ako_%28Dress%29.png/266px-Ako_%28Dress%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/bb/Weapon_Icon_Ako_%28Dress%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ako_(Dress)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ako_Title.ogg"
   },
   "Makoto": {
@@ -1346,7 +1257,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/20/Makoto.png/266px-Makoto.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a2/Weapon_Icon_Makoto.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Makoto_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Makoto_Title.ogg"
   },
   "Ibuki": {
@@ -1361,7 +1271,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/75/Ibuki.png/266px-Ibuki.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/8a/Weapon_Icon_Ibuki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ibuki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ibuki_Title.ogg"
   },
   "Hare (Camping)": {
@@ -1376,7 +1285,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a2/Hare_%28Camping%29.png/266px-Hare_%28Camping%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a2/Weapon_Icon_Hare_%28Camping%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hare_(Camping)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hare_Title.ogg"
   },
   "Kotama (Camping)": {
@@ -1391,7 +1299,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/19/Kotama_%28Camping%29.png/266px-Kotama_%28Camping%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b9/Weapon_Icon_Kotama_%28Camping%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kotama_(Camping)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kotama_Title.ogg"
   },
   "Eimi (Swimsuit)": {
@@ -1406,7 +1313,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/ce/Eimi_%28Swimsuit%29.png/266px-Eimi_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/ae/Weapon_Icon_Eimi_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Eimi_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Eimi_Title.ogg"
   },
   "Kikyou": {
@@ -1421,7 +1327,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/62/Kikyou.png/266px-Kikyou.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/68/Weapon_Icon_Kikyou.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kikyou_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kikyou_Title.ogg"
   },
   "Renge": {
@@ -1436,7 +1341,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e4/Renge.png/266px-Renge.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/be/Weapon_Icon_Renge.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Renge_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Renge_Title.ogg"
   },
   "Yukari": {
@@ -1451,7 +1355,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/2b/Yukari.png/266px-Yukari.png",
     "skill": "7",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/31/Weapon_Icon_Yukari.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yukari_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yukari_Title.ogg"
   },
   "Misaka Mikoto": {
@@ -1466,7 +1369,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/76/Misaka_Mikoto.png/266px-Misaka_Mikoto.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6e/Weapon_Icon_Misaka_Mikoto.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Misaka_Mikoto_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Misaka_Mikoto_Title.ogg"
   },
   "Shokuhou Misaki": {
@@ -1481,7 +1383,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/66/Shokuhou_Misaki.png/266px-Shokuhou_Misaki.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/69/Weapon_Icon_Shokuhou_Misaki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shokuhou_Misaki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shokuhou_Misaki_Title.ogg"
   },
   "Saten Ruiko": {
@@ -1496,7 +1397,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b0/Saten_Ruiko.png/266px-Saten_Ruiko.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/7f/Weapon_Icon_Saten_Ruiko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saten_Ruiko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saten_Ruiko_Title.ogg"
   },
   "Shigure (Hot Spring)": {
@@ -1511,7 +1411,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/da/Shigure_%28Hot_Spring%29.png/266px-Shigure_%28Hot_Spring%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/9c/Weapon_Icon_Shigure_%28Hot_Spring%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shigure_(Hot_Spring)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shigure_Title.ogg"
   },
   "Ichika": {
@@ -1526,7 +1425,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b3/Ichika.png/266px-Ichika.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c2/Weapon_Icon_Ichika.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ichika_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ichika_Title.ogg"
   },
   "Kasumi": {
@@ -1541,7 +1439,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/6b/Kasumi.png/266px-Kasumi.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d2/Weapon_Icon_Kasumi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kasumi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kasumi_Title.ogg"
   },
   "Haruna (Sportswear)": {
@@ -1556,7 +1453,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/af/Haruna_%28Sportswear%29.png/266px-Haruna_%28Sportswear%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/ca/Weapon_Icon_Haruna_%28Sportswear%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Haruna_(Sportswear)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Haruna_Title.ogg"
   },
   "Kotori (Cheerleader)": {
@@ -1571,7 +1467,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/89/Kotori_%28Cheerleader%29.png/266px-Kotori_%28Cheerleader%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/94/Weapon_Icon_Kotori_%28Cheerleader%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kotori_(Cheerleader)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kotori_Title.ogg"
   },
   "Meru": {
@@ -1586,7 +1481,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/4f/Meru.png/266px-Meru.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/17/Weapon_Icon_Meru.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Meru_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Meru_Title.ogg"
   },
   "Momiji": {
@@ -1601,7 +1495,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/53/Momiji.png/266px-Momiji.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f1/Weapon_Icon_Momiji.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Momiji_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Momiji_Title.ogg"
   },
   "Mimori (Swimsuit)": {
@@ -1616,7 +1509,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/22/Mimori_%28Swimsuit%29.png/266px-Mimori_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/da/Weapon_Icon_Mimori_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mimori_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mimori_Title.ogg"
   },
   "Hanako (Swimsuit)": {
@@ -1631,7 +1523,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c5/Hanako_%28Swimsuit%29.png/266px-Hanako_%28Swimsuit%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/30/Weapon_Icon_Hanako_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hanako_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hanako_Title.ogg"
   },
   "Hinata (Swimsuit)": {
@@ -1646,7 +1537,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/08/Hinata_%28Swimsuit%29.png/266px-Hinata_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/ce/Weapon_Icon_Hinata_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hinata_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hinata_Title.ogg"
   },
   "Ui (Swimsuit)": {
@@ -1661,7 +1551,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/60/Ui_%28Swimsuit%29.png/266px-Ui_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b1/Weapon_Icon_Ui_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ui_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ui_Title.ogg"
   },
   "Koharu (Swimsuit)": {
@@ -1676,7 +1565,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/df/Koharu_%28Swimsuit%29.png/266px-Koharu_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/41/Weapon_Icon_Koharu_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Koharu_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Koharu_Title.ogg"
   },
   "Shiroko (Swimsuit)": {
@@ -1691,7 +1579,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/4e/Shiroko_%28Swimsuit%29.png/266px-Shiroko_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e2/Weapon_Icon_Shiroko_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko_Title.ogg"
   },
   "Miyako (Swimsuit)": {
@@ -1706,7 +1593,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/97/Miyako_%28Swimsuit%29.png/266px-Miyako_%28Swimsuit%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/78/Weapon_Icon_Miyako_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Miyako_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Miyako_Title.ogg"
   },
   "Saki (Swimsuit)": {
@@ -1721,7 +1607,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/13/Saki_%28Swimsuit%29.png/266px-Saki_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d4/Weapon_Icon_Saki_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saki_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saki_Title.ogg"
   },
   "Miyu (Swimsuit)": {
@@ -1736,7 +1621,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d1/Miyu_%28Swimsuit%29.png/266px-Miyu_%28Swimsuit%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d0/Weapon_Icon_Miyu_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Miyu_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Miyu_Title.ogg"
   },
   "Minori": {
@@ -1751,7 +1635,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/1a/Minori.png/266px-Minori.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/49/Weapon_Icon_Minori.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Minori_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Minori_Title.ogg"
   },
   "Mina": {
@@ -1766,7 +1649,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/6b/Mina.png/266px-Mina.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e4/Weapon_Icon_Mina.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mina_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mina_Title.ogg"
   },
   "Rumi": {
@@ -1781,7 +1663,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/7d/Rumi.png/266px-Rumi.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/19/Weapon_Icon_Rumi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Rumi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Rumi_Title.ogg"
   },
   "Reisa": {
@@ -1796,7 +1677,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/34/Reisa.png/266px-Reisa.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b8/Weapon_Icon_Reisa.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Reisa_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Reisa_Title.ogg"
   },
   "Arisu (Maid)": {
@@ -1811,7 +1691,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b4/Arisu_%28Maid%29.png/266px-Arisu_%28Maid%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/cb/Weapon_Icon_Arisu_%28Maid%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Arisu_(Maid)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Arisu_Title.ogg"
   },
   "Toki (Bunny Girl)": {
@@ -1826,7 +1705,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/83/Toki_%28Bunny_Girl%29.png/266px-Toki_%28Bunny_Girl%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/8b/Weapon_Icon_Toki_%28Bunny_Girl%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Toki_(Bunny_Girl)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Toki_Title.ogg"
   },
   "Yuzu (Maid)": {
@@ -1841,7 +1719,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/17/Yuzu_%28Maid%29.png/266px-Yuzu_%28Maid%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a6/Weapon_Icon_Yuzu_%28Maid%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yuzu_(Maid)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yuzu_Title.ogg"
   },
   "Kaho": {
@@ -1856,7 +1733,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/63/Kaho.png/266px-Kaho.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/ee/Weapon_Icon_Kaho.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kaho_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kaho_Title.ogg"
   },
   "Haruka (New Year)": {
@@ -1871,7 +1747,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d9/Haruka_%28New_Year%29.png/266px-Haruka_%28New_Year%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/af/Weapon_Icon_Haruka_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Haruka_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Haruka_Title.ogg"
   },
   "Kayoko (New Year)": {
@@ -1886,7 +1761,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0d/Kayoko_%28New_Year%29.png/266px-Kayoko_%28New_Year%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/fb/Weapon_Icon_Kayoko_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kayoko_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kayoko_Title.ogg"
   },
   "Koyuki": {
@@ -1901,7 +1775,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/af/Koyuki.png/266px-Koyuki.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/bc/Weapon_Icon_Koyuki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Koyuki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Koyuki_Title.ogg"
   },
   "Nagisa": {
@@ -1916,7 +1789,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/6a/Nagisa.png/266px-Nagisa.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/00/Weapon_Icon_Nagisa.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nagisa_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nagisa_Title.ogg"
   },
   "Toki": {
@@ -1931,7 +1803,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e4/Toki.png/266px-Toki.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/3e/Weapon_Icon_Toki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Toki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Toki_Title.ogg"
   },
   "Sakurako": {
@@ -1946,7 +1817,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f0/Sakurako.png/266px-Sakurako.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/45/Weapon_Icon_Sakurako.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Sakurako_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Sakurako_Title.ogg"
   },
   "Kanna": {
@@ -1961,7 +1831,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/47/Kanna.png/266px-Kanna.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/14/Weapon_Icon_Kanna.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kanna_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kanna_Title.ogg"
   },
   "Megu": {
@@ -1976,7 +1845,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d4/Megu.png/266px-Megu.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/33/Weapon_Icon_Megu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Megu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Megu_Title.ogg"
   },
   "Mika": {
@@ -1991,7 +1859,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c8/Mika.png/266px-Mika.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d4/Weapon_Icon_Mika.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mika_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mika_Title.ogg"
   },
   "Mine": {
@@ -2006,7 +1873,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a0/Mine.png/266px-Mine.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/df/Weapon_Icon_Mine.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mine_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mine_Title.ogg"
   },
   "Fuuka (New Year)": {
@@ -2021,7 +1887,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/13/Fuuka_%28New_Year%29.png/266px-Fuuka_%28New_Year%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/fb/Weapon_Icon_Fuuka_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Fuuka_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Fuuka_Title.ogg"
   },
   "Haruna (New Year)": {
@@ -2036,7 +1901,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b3/Haruna_%28New_Year%29.png/266px-Haruna_%28New_Year%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/23/Weapon_Icon_Haruna_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Haruna_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Haruna_Title.ogg"
   },
   "Junko (New Year)": {
@@ -2051,7 +1915,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d0/Junko_%28New_Year%29.png/266px-Junko_%28New_Year%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/50/Weapon_Icon_Junko_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Junko_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Junko_Title.ogg"
   },
   "Hanae (Christmas)": {
@@ -2066,7 +1929,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/1a/Hanae_%28Christmas%29.png/266px-Hanae_%28Christmas%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6d/Weapon_Icon_Hanae_%28Christmas%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hanae_(Christmas)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hanae_Title.ogg"
   },
   "Serina (Christmas)": {
@@ -2081,7 +1943,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/19/Serina_%28Christmas%29.png/266px-Serina_%28Christmas%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c9/Weapon_Icon_Serina_%28Christmas%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Serina_(Christmas)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Serina_Title.ogg"
   },
   "Shigure": {
@@ -2096,7 +1957,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/da/Shigure.png/266px-Shigure.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b0/Weapon_Icon_Shigure.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shigure_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shigure_Title.ogg"
   },
   "Himari": {
@@ -2111,7 +1971,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/5a/Himari.png/266px-Himari.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/36/Weapon_Icon_Himari.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Himari_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Himari_Title.ogg"
   },
   "Mari (Sportswear)": {
@@ -2126,7 +1985,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/88/Mari_%28Sportswear%29.png/266px-Mari_%28Sportswear%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/4e/Weapon_Icon_Mari_%28Sportswear%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mari_(Sportswear)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mari_Title.ogg"
   },
   "Yuuka (Sportswear)": {
@@ -2141,7 +1999,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/60/Yuuka_%28Sportswear%29.png/266px-Yuuka_%28Sportswear%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/da/Weapon_Icon_Yuuka_%28Sportswear%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yuuka_(Sportswear)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yuuka_Title.ogg"
   },
   "Hasumi (Sportswear)": {
@@ -2156,7 +2013,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/80/Hasumi_%28Sportswear%29.png/266px-Hasumi_%28Sportswear%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f9/Weapon_Icon_Hasumi_%28Sportswear%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hasumi_(Sportswear)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hasumi_Title.ogg"
   },
   "Akane (Bunny Girl)": {
@@ -2171,7 +2027,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/99/Akane_%28Bunny_Girl%29.png/266px-Akane_%28Bunny_Girl%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/1b/Weapon_Icon_Akane_%28Bunny_Girl%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Akane_(Bunny_Girl)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Akane_Title.ogg"
   },
   "Noa": {
@@ -2186,7 +2041,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/23/Noa.png/266px-Noa.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2c/Weapon_Icon_Noa.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Noa_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Noa_Title.ogg"
   },
   "Utaha (Cheerleader)": {
@@ -2201,7 +2055,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/7b/Utaha_%28Cheerleader%29.png/266px-Utaha_%28Cheerleader%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e3/Weapon_Icon_Utaha_%28Cheerleader%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Utaha_(Cheerleader)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Utaha_Title.ogg"
   },
   "Hibiki (Cheerleader)": {
@@ -2216,7 +2069,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/bf/Hibiki_%28Cheerleader%29.png/266px-Hibiki_%28Cheerleader%29.png",
     "skill": "7",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6e/Weapon_Icon_Hibiki_%28Cheerleader%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hibiki_(Cheerleader)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hibiki_Title.ogg"
   },
   "Kokona": {
@@ -2231,7 +2083,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/83/Kokona.png/266px-Kokona.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/ea/Weapon_Icon_Kokona.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kokona_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kokona_Title.ogg"
   },
   "Kazusa": {
@@ -2246,7 +2097,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b3/Kazusa.png/266px-Kazusa.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f7/Weapon_Icon_Kazusa.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kazusa_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kazusa_Title.ogg"
   },
   "Moe": {
@@ -2261,7 +2111,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/cc/Moe.png/266px-Moe.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/43/Weapon_Icon_Moe.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Moe_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Moe_Title.ogg"
   },
   "Saori": {
@@ -2276,7 +2125,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/46/Saori.png/266px-Saori.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/95/Weapon_Icon_Saori.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saori_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saori_Title.ogg"
   },
   "Chise (Swimsuit)": {
@@ -2291,7 +2139,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/1e/Chise_%28Swimsuit%29.png/266px-Chise_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c6/Weapon_Icon_Chise_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Chise_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Chise_Title.ogg"
   },
   "Izuna (Swimsuit)": {
@@ -2306,7 +2153,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/37/Izuna_%28Swimsuit%29.png/266px-Izuna_%28Swimsuit%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/91/Weapon_Icon_Izuna_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Izuna_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Izuna_Title.ogg"
   },
   "Hoshino (Swimsuit)": {
@@ -2321,7 +2167,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c2/Hoshino_%28Swimsuit%29.png/266px-Hoshino_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/47/Weapon_Icon_Hoshino_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hoshino_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hoshino_Title.ogg"
   },
   "Shizuko (Swimsuit)": {
@@ -2336,7 +2181,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f2/Shizuko_%28Swimsuit%29.png/266px-Shizuko_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/09/Weapon_Icon_Shizuko_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shizuko_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shizuko_Title.ogg"
   },
   "Nonomi (Swimsuit)": {
@@ -2351,7 +2195,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/98/Nonomi_%28Swimsuit%29.png/266px-Nonomi_%28Swimsuit%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c3/Weapon_Icon_Nonomi_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nonomi_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nonomi_Title.ogg"
   },
   "Wakamo (Swimsuit)": {
@@ -2366,7 +2209,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e2/Wakamo_%28Swimsuit%29.png/266px-Wakamo_%28Swimsuit%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/bd/Weapon_Icon_Wakamo_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Wakamo_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Wakamo_Title.ogg"
   },
   "Ayane (Swimsuit)": {
@@ -2381,7 +2223,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f6/Ayane_%28Swimsuit%29.png/266px-Ayane_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a5/Weapon_Icon_Ayane_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ayane_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ayane_Title.ogg"
   },
   "Atsuko": {
@@ -2396,7 +2237,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c7/Atsuko.png/266px-Atsuko.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/7e/Weapon_Icon_Atsuko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Atsuko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Atsuko_Title.ogg"
   },
   "Hiyori": {
@@ -2411,7 +2251,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/76/Hiyori.png/266px-Hiyori.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/bb/Weapon_Icon_Hiyori.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hiyori_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hiyori_Title.ogg"
   },
   "Misaki": {
@@ -2426,7 +2265,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/ae/Misaki.png/266px-Misaki.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e3/Weapon_Icon_Misaki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Misaki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Misaki_Title.ogg"
   },
   "Tsukuyo": {
@@ -2441,7 +2279,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/ce/Tsukuyo.png/266px-Tsukuyo.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/7f/Weapon_Icon_Tsukuyo.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tsukuyo_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tsukuyo_Title.ogg"
   },
   "Iroha": {
@@ -2456,7 +2293,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/bf/Iroha.png/266px-Iroha.png",
     "skill": "8",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e7/Weapon_Icon_Iroha.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Iroha_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Iroha_Title.ogg"
   },
   "Kaede": {
@@ -2471,7 +2307,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f0/Kaede.png/266px-Kaede.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/fe/Weapon_Icon_Kaede.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kaede_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kaede_Title.ogg"
   },
   "Michiru": {
@@ -2486,7 +2321,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e6/Michiru.png/266px-Michiru.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/46/Weapon_Icon_Michiru.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Michiru_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Michiru_Title.ogg"
   },
   "Miyu": {
@@ -2501,7 +2335,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/ac/Miyu.png/266px-Miyu.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/07/Weapon_Icon_Miyu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Miyu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Miyu_Title.ogg"
   },
   "Miyako": {
@@ -2516,7 +2349,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/3e/Miyako.png/266px-Miyako.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/08/Weapon_Icon_Miyako.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Miyako_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Miyako_Title.ogg"
   },
   "Saki": {
@@ -2531,7 +2363,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d0/Saki.png/266px-Saki.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2f/Weapon_Icon_Saki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saki_Title.ogg"
   },
   "Marina": {
@@ -2546,7 +2377,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/9d/Marina.png/266px-Marina.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/24/Weapon_Icon_Marina.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Marina_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Marina_Title.ogg"
   },
   "Hinata": {
@@ -2561,7 +2391,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/97/Hinata.png/266px-Hinata.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/15/Weapon_Icon_Hinata.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hinata_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hinata_Title.ogg"
   },
   "Ui": {
@@ -2576,7 +2405,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/18/Ui.png/266px-Ui.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/93/Weapon_Icon_Ui.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ui_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ui_Title.ogg"
   },
   "Mimori": {
@@ -2591,7 +2419,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/82/Mimori.png/266px-Mimori.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b1/Weapon_Icon_Mimori.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mimori_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mimori_Title.ogg"
   },
   "Chihiro": {
@@ -2606,7 +2433,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a7/Chihiro.png/266px-Chihiro.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/ca/Weapon_Icon_Chihiro.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Chihiro_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Chihiro_Title.ogg"
   },
   "Sena": {
@@ -2621,7 +2447,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f4/Sena.png/266px-Sena.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/1d/Weapon_Icon_Sena.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Sena_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Sena_Title.ogg"
   },
   "Wakamo": {
@@ -2636,7 +2461,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a7/Wakamo.png/266px-Wakamo.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/67/Weapon_Icon_Wakamo.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Wakamo_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Wakamo_Title.ogg"
   },
   "Fubuki": {
@@ -2651,7 +2475,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/cd/Fubuki.png/266px-Fubuki.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/7d/Weapon_Icon_Fubuki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Fubuki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Fubuki_Title.ogg"
   },
   "Serika (New Year)": {
@@ -2666,7 +2489,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/61/Serika_%28New_Year%29.png/266px-Serika_%28New_Year%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/56/Weapon_Icon_Serika_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Serika_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Serika_Title.ogg"
   },
   "Aru (New Year)": {
@@ -2681,7 +2503,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/60/Aru_%28New_Year%29.png/266px-Aru_%28New_Year%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/bf/Weapon_Icon_Aru_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Aru_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Aru_Title.ogg"
   },
   "Mutsuki (New Year)": {
@@ -2696,7 +2517,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c2/Mutsuki_%28New_Year%29.png/266px-Mutsuki_%28New_Year%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/36/Weapon_Icon_Mutsuki_%28New_Year%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mutsuki_(New_Year)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mutsuki_Title.ogg"
   },
   "Nodoka (Hot Spring)": {
@@ -2711,7 +2531,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/3f/Nodoka_%28Hot_Spring%29.png/266px-Nodoka_%28Hot_Spring%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/be/Weapon_Icon_Nodoka_%28Hot_Spring%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nodoka_(Hot_Spring)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nodoka_Title.ogg"
   },
   "Cherino (Hot Spring)": {
@@ -2726,7 +2545,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/95/Cherino_%28Hot_Spring%29.png/266px-Cherino_%28Hot_Spring%29.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/1b/Weapon_Icon_Cherino_%28Hot_Spring%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Cherino_(Hot_Spring)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Cherino_Title.ogg"
   },
   "Chinatsu (Hot Spring)": {
@@ -2741,7 +2559,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b1/Chinatsu_%28Hot_Spring%29.png/266px-Chinatsu_%28Hot_Spring%29.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6d/Weapon_Icon_Chinatsu_%28Hot_Spring%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Chinatsu_(Hot_Spring)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Chinatsu_Title.ogg"
   },
   "Tomoe": {
@@ -2756,7 +2573,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0a/Tomoe.png/266px-Tomoe.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/59/Weapon_Icon_Tomoe.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tomoe_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tomoe_Title.ogg"
   },
   "Ako": {
@@ -2771,7 +2587,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/72/Ako.png/266px-Ako.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/20/Weapon_Icon_Ako.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ako_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ako_Title.ogg"
   },
   "Hatsune Miku": {
@@ -2786,7 +2601,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/93/Hatsune_Miku.png/266px-Hatsune_Miku.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e8/Weapon_Icon_Hatsune_Miku.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hatsune_Miku_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hatsune_Miku_Title.ogg"
   },
   "Natsu": {
@@ -2801,7 +2615,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/90/Natsu.png/266px-Natsu.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b8/Weapon_Icon_Natsu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Natsu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Natsu_Title.ogg"
   },
   "Mari": {
@@ -2816,7 +2629,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/4f/Mari.png/266px-Mari.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/64/Weapon_Icon_Mari.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mari_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mari_Title.ogg"
   },
   "Asuna (Bunny Girl)": {
@@ -2831,7 +2643,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a4/Asuna_%28Bunny_Girl%29.png/266px-Asuna_%28Bunny_Girl%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/aa/Weapon_Icon_Asuna_%28Bunny_Girl%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Asuna_(Bunny_Girl)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Asuna_Title.ogg"
   },
   "Karin (Bunny Girl)": {
@@ -2846,7 +2657,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/bd/Karin_%28Bunny_Girl%29.png/266px-Karin_%28Bunny_Girl%29.png",
     "skill": "7",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/17/Weapon_Icon_Karin_%28Bunny_Girl%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Karin_(Bunny_Girl)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Karin_Title.ogg"
   },
   "Neru (Bunny Girl)": {
@@ -2861,7 +2671,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/78/Neru_%28Bunny_Girl%29.png/266px-Neru_%28Bunny_Girl%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/3c/Weapon_Icon_Neru_%28Bunny_Girl%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Neru_(Bunny_Girl)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Neru_Title.ogg"
   },
   "Saya (Casual)": {
@@ -2876,7 +2685,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e2/Saya_%28Casual%29.png/266px-Saya_%28Casual%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6a/Weapon_Icon_Saya_%28Casual%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saya_(Casual)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saya_Title.ogg"
   },
   "Shun (Kid)": {
@@ -2891,7 +2699,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/53/Shun_%28Kid%29.png/266px-Shun_%28Kid%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/25/Weapon_Icon_Shun_%28Kid%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shun_(Kid)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shun_Title.ogg"
   },
   "Kirino": {
@@ -2906,7 +2713,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/85/Kirino.png/266px-Kirino.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e4/Weapon_Icon_Kirino.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kirino_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kirino_Title.ogg"
   },
   "Shiroko (Riding)": {
@@ -2921,7 +2727,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a0/Shiroko_%28Riding%29.png/266px-Shiroko_%28Riding%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/35/Weapon_Icon_Shiroko_%28Riding%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko_(Riding)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko_Title.ogg"
   },
   "Hina (Swimsuit)": {
@@ -2936,7 +2741,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/44/Hina_%28Swimsuit%29.png/266px-Hina_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c5/Weapon_Icon_Hina_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hina_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hina_Title.ogg"
   },
   "Iori (Swimsuit)": {
@@ -2951,7 +2755,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/53/Iori_%28Swimsuit%29.png/266px-Iori_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/61/Weapon_Icon_Iori_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Iori_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Iori_Title.ogg"
   },
   "Izumi (Swimsuit)": {
@@ -2966,7 +2769,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b0/Izumi_%28Swimsuit%29.png/266px-Izumi_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/aa/Weapon_Icon_Izumi_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Izumi_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Izumi_Title.ogg"
   },
   "Hifumi (Swimsuit)": {
@@ -2981,7 +2783,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/32/Hifumi_%28Swimsuit%29.png/266px-Hifumi_%28Swimsuit%29.png",
     "skill": "10",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/bc/Weapon_Icon_Hifumi_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hifumi_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hifumi_Title.ogg"
   },
   "Azusa (Swimsuit)": {
@@ -2996,7 +2797,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a4/Azusa_%28Swimsuit%29.png/266px-Azusa_%28Swimsuit%29.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b4/Weapon_Icon_Azusa_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Azusa_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Azusa_Title.ogg"
   },
   "Mashiro (Swimsuit)": {
@@ -3011,7 +2811,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/20/Mashiro_%28Swimsuit%29.png/266px-Mashiro_%28Swimsuit%29.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/37/Weapon_Icon_Mashiro_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mashiro_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mashiro_Title.ogg"
   },
   "Tsurugi (Swimsuit)": {
@@ -3026,7 +2825,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e6/Tsurugi_%28Swimsuit%29.png/266px-Tsurugi_%28Swimsuit%29.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b7/Weapon_Icon_Tsurugi_%28Swimsuit%29.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tsurugi_(Swimsuit)_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tsurugi_Title.ogg"
   },
   "Koharu": {
@@ -3041,7 +2839,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c3/Koharu.png/266px-Koharu.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/54/Weapon_Icon_Koharu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Koharu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Koharu_Title.ogg"
   },
   "Azusa": {
@@ -3056,7 +2853,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/86/Azusa.png/266px-Azusa.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/86/Weapon_Icon_Azusa.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Azusa_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Azusa_Title.ogg"
   },
   "Hanako": {
@@ -3071,7 +2867,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/9c/Hanako.png/266px-Hanako.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e6/Weapon_Icon_Hanako.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hanako_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hanako_Title.ogg"
   },
   "Yuzu": {
@@ -3086,7 +2881,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/71/Yuzu.png/266px-Yuzu.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c3/Weapon_Icon_Yuzu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yuzu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yuzu_Title.ogg"
   },
   "Cherino": {
@@ -3101,7 +2895,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/7c/Cherino.png/266px-Cherino.png",
     "skill": "7",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/36/Weapon_Icon_Cherino.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Cherino_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Cherino_Title.ogg"
   },
   "Nodoka": {
@@ -3116,7 +2909,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/e1/Nodoka.png/266px-Nodoka.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/14/Weapon_Icon_Nodoka.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nodoka_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nodoka_Title.ogg"
   },
   "Midori": {
@@ -3131,7 +2923,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/ee/Midori.png/266px-Midori.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/49/Weapon_Icon_Midori.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Midori_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Midori_Title.ogg"
   },
   "Momoi": {
@@ -3146,7 +2937,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/18/Momoi.png/266px-Momoi.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/65/Weapon_Icon_Momoi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Momoi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Momoi_Title.ogg"
   },
   "Arisu": {
@@ -3161,7 +2951,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0f/Arisu.png/266px-Arisu.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/13/Weapon_Icon_Arisu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Arisu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Arisu_Title.ogg"
   },
   "Izuna": {
@@ -3176,7 +2965,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/54/Izuna.png/266px-Izuna.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/08/Weapon_Icon_Izuna.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Izuna_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Izuna_Title.ogg"
   },
   "Shizuko": {
@@ -3191,7 +2979,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/77/Shizuko.png/266px-Shizuko.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/31/Weapon_Icon_Shizuko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shizuko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shizuko_Title.ogg"
   },
   "Mashiro": {
@@ -3206,7 +2993,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/06/Mashiro.png/266px-Mashiro.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/96/Weapon_Icon_Mashiro.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mashiro_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mashiro_Title.ogg"
   },
   "Aru": {
@@ -3221,7 +3007,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/db/Aru.png/266px-Aru.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d9/Weapon_Icon_Aru.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Aru_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Aru_Title.ogg"
   },
   "Eimi": {
@@ -3236,7 +3021,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/e/ed/Eimi.png/266px-Eimi.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/5a/Weapon_Icon_Eimi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Eimi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Eimi_Title.ogg"
   },
   "Haruna": {
@@ -3251,7 +3035,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a6/Haruna.png/266px-Haruna.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/46/Weapon_Icon_Haruna.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Haruna_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Haruna_Title.ogg"
   },
   "Hibiki": {
@@ -3266,7 +3049,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/bc/Hibiki.png/266px-Hibiki.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/8c/Weapon_Icon_Hibiki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hibiki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hibiki_Title.ogg"
   },
   "Hifumi": {
@@ -3281,7 +3063,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/3b/Hifumi.png/266px-Hifumi.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/12/Weapon_Icon_Hifumi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hifumi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hifumi_Title.ogg"
   },
   "Hina": {
@@ -3296,7 +3077,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/83/Hina.png/266px-Hina.png",
     "skill": "7",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/1e/Weapon_Icon_Hina.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hina_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hina_Title.ogg"
   },
   "Hoshino": {
@@ -3311,7 +3091,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a9/Hoshino.png/266px-Hoshino.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a6/Weapon_Icon_Hoshino.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hoshino_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hoshino_Title.ogg"
   },
   "Iori": {
@@ -3326,7 +3105,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/26/Iori.png/266px-Iori.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/ad/Weapon_Icon_Iori.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Iori_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Iori_Title.ogg"
   },
   "Izumi": {
@@ -3341,7 +3119,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/10/Izumi.png/266px-Izumi.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/1d/Weapon_Icon_Izumi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Izumi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Izumi_Title.ogg"
   },
   "Karin": {
@@ -3356,7 +3133,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/5/50/Karin.png/266px-Karin.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/23/Weapon_Icon_Karin.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Karin_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Karin_Title.ogg"
   },
   "Maki": {
@@ -3371,7 +3147,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/21/Maki.png/266px-Maki.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/92/Weapon_Icon_Maki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Maki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Maki_Title.ogg"
   },
   "Neru": {
@@ -3386,7 +3161,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/2/24/Neru.png/266px-Neru.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/12/Weapon_Icon_Neru.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Neru_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Neru_Title.ogg"
   },
   "Saya": {
@@ -3401,7 +3175,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/ce/Saya.png/266px-Saya.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/80/Weapon_Icon_Saya.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Saya_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Saya_Title.ogg"
   },
   "Shiroko": {
@@ -3416,7 +3189,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/63/Shiroko.png/266px-Shiroko.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/3/39/Weapon_Icon_Shiroko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shiroko_Title.ogg"
   },
   "Shun": {
@@ -3431,7 +3203,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/17/Shun.png/266px-Shun.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/a/a2/Weapon_Icon_Shun.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shun_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shun_Title.ogg"
   },
   "Sumire": {
@@ -3446,7 +3217,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d6/Sumire.png/266px-Sumire.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/fc/Weapon_Icon_Sumire.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Sumire_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Sumire_Title.ogg"
   },
   "Tsurugi": {
@@ -3461,7 +3231,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c1/Tsurugi.png/266px-Tsurugi.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/6/6a/Weapon_Icon_Tsurugi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tsurugi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tsurugi_Title.ogg"
   },
   "Airi": {
@@ -3476,7 +3245,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/96/Airi.png/266px-Airi.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/0c/Weapon_Icon_Airi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Airi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Airi_Title.ogg"
   },
   "Akane": {
@@ -3491,7 +3259,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/aa/Akane.png/266px-Akane.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/76/Weapon_Icon_Akane.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Akane_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Akane_Title.ogg"
   },
   "Akari": {
@@ -3506,7 +3273,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/7d/Akari.png/266px-Akari.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/53/Weapon_Icon_Akari.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Akari_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Akari_Title.ogg"
   },
   "Ayane": {
@@ -3521,7 +3287,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a7/Ayane.png/266px-Ayane.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/76/Weapon_Icon_Ayane.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Ayane_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Ayane_Title.ogg"
   },
   "Chise": {
@@ -3536,7 +3301,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/d/d0/Chise.png/266px-Chise.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2b/Weapon_Icon_Chise.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Chise_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Chise_Title.ogg"
   },
   "Fuuka": {
@@ -3551,7 +3315,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/1/1f/Fuuka.png/266px-Fuuka.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c9/Weapon_Icon_Fuuka.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Fuuka_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Fuuka_Title.ogg"
   },
   "Hanae": {
@@ -3566,7 +3329,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/7/72/Hanae.png/266px-Hanae.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b9/Weapon_Icon_Hanae.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hanae_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hanae_Title.ogg"
   },
   "Hare": {
@@ -3581,7 +3343,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/47/Hare.png/266px-Hare.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/9f/Weapon_Icon_Hare.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hare_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hare_Title.ogg"
   },
   "Hasumi": {
@@ -3596,7 +3357,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/8/84/Hasumi.png/266px-Hasumi.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/92/Weapon_Icon_Hasumi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Hasumi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Hasumi_Title.ogg"
   },
   "Junko": {
@@ -3611,7 +3371,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/3c/Junko.png/266px-Junko.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2a/Weapon_Icon_Junko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Junko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Junko_Title.ogg"
   },
   "Kayoko": {
@@ -3626,7 +3385,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/a5/Kayoko.png/266px-Kayoko.png",
     "skill": "6",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d2/Weapon_Icon_Kayoko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kayoko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kayoko_Title.ogg"
   },
   "Mutsuki": {
@@ -3641,7 +3399,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/0b/Mutsuki.png/266px-Mutsuki.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/4/4f/Weapon_Icon_Mutsuki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Mutsuki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Mutsuki_Title.ogg"
   },
   "Nonomi": {
@@ -3656,7 +3413,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/ad/Nonomi.png/266px-Nonomi.png",
     "skill": "5",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/11/Weapon_Icon_Nonomi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Nonomi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Nonomi_Title.ogg"
   },
   "Serika": {
@@ -3671,7 +3427,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c8/Serika.png/266px-Serika.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/b/b0/Weapon_Icon_Serika.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Serika_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Serika_Title.ogg"
   },
   "Tsubaki": {
@@ -3686,7 +3441,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/6/6a/Tsubaki.png/266px-Tsubaki.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/7/79/Weapon_Icon_Tsubaki.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Tsubaki_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Tsubaki_Title.ogg"
   },
   "Utaha": {
@@ -3701,7 +3455,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/37/Utaha.png/266px-Utaha.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/e/e2/Weapon_Icon_Utaha.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Utaha_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Utaha_Title.ogg"
   },
   "Yuuka": {
@@ -3716,7 +3469,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/3e/Yuuka.png/266px-Yuuka.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/2b/Weapon_Icon_Yuuka.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yuuka_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yuuka_Title.ogg"
   },
   "Asuna": {
@@ -3731,7 +3483,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/9f/Asuna.png/266px-Asuna.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/02/Weapon_Icon_Asuna.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Asuna_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Asuna_Title.ogg"
   },
   "Chinatsu": {
@@ -3746,7 +3497,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b6/Chinatsu.png/266px-Chinatsu.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/9/9e/Weapon_Icon_Chinatsu.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Chinatsu_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Chinatsu_Title.ogg"
   },
   "Haruka": {
@@ -3761,7 +3511,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/b/b1/Haruka.png/266px-Haruka.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/5/51/Weapon_Icon_Haruka.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Haruka_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Haruka_Title.ogg"
   },
   "Juri": {
@@ -3776,7 +3525,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/3/37/Juri.png/266px-Juri.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/1/1a/Weapon_Icon_Juri.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Juri_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Juri_Title.ogg"
   },
   "Kotama": {
@@ -3791,7 +3539,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/94/Kotama.png/266px-Kotama.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/c/c0/Weapon_Icon_Kotama.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kotama_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kotama_Title.ogg"
   },
   "Kotori": {
@@ -3806,7 +3553,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/a/ab/Kotori.png/266px-Kotori.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/0/0f/Weapon_Icon_Kotori.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Kotori_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Kotori_Title.ogg"
   },
   "Pina": {
@@ -3821,7 +3567,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/9/96/Pina.png/266px-Pina.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f7/Weapon_Icon_Pina.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Pina_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Pina_Title.ogg"
   },
   "Serina": {
@@ -3836,7 +3581,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/4/41/Serina.png/266px-Serina.png",
     "skill": "2",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/8/84/Weapon_Icon_Serina.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Serina_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Serina_Title.ogg"
   },
   "Shimiko": {
@@ -3851,7 +3595,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/f/f4/Shimiko.png/266px-Shimiko.png",
     "skill": "3",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/f/f2/Weapon_Icon_Shimiko.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Shimiko_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Shimiko_Title.ogg"
   },
   "Suzumi": {
@@ -3866,7 +3609,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/0/07/Suzumi.png/266px-Suzumi.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/d/d8/Weapon_Icon_Suzumi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Suzumi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Suzumi_Title.ogg"
   },
   "Yoshimi": {
@@ -3881,7 +3623,6 @@
     "img": "https://static.wikitide.net/bluearchivewiki/thumb/c/c2/Yoshimi.png/266px-Yoshimi.png",
     "skill": "4",
     "weaponImg": "https://static.wikitide.net/bluearchivewiki/2/21/Weapon_Icon_Yoshimi.png",
-    "haloImg": "https://bluearchive.wiki/wiki/Special:FilePath/Yoshimi_Halo.png",
     "voiceUrl": "https://bluearchive.wiki/wiki/Special:FilePath/Yoshimi_Title.ogg"
   }
 }

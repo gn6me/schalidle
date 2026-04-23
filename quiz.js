@@ -3,8 +3,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 let timerInterval = null;
 let currentCorrectName = "";
-const TIME_LIMIT = 5000; // 5 seconds
-const CATEGORIES = ['weapon', 'birthday', 'halo', 'voice', 'height'];
+const TIME_LIMIT = 3000; // 3 seconds
+const CATEGORIES = ['weapon', 'birthday', 'voice', 'height'];
 
 const quizContainer = document.getElementById('quiz-container');
 const startScreen = document.getElementById('start-screen');
@@ -76,13 +76,14 @@ function nextQuestion() {
 
     currentQSpan.textContent = currentQuestionIndex + 1;
     const seed = getDailySeed() + currentQuestionIndex;
-    const category = CATEGORIES[currentQuestionIndex];
+    // Pick one of the 4 categories for each of the 5 questions
+    const catIdx = Math.floor(seededRandom(seed + 50) * CATEGORIES.length);
+    const category = CATEGORIES[catIdx];
     
     // Filter characters that HAVE the required data
     const charactersArray = Object.values(characters).filter(c => {
         if (category === 'weapon') return c.weaponImg;
         if (category === 'birthday') return c.birthday;
-        if (category === 'halo') return c.haloImg;
         if (category === 'voice') return c.voiceUrl;
         if (category === 'height') return c.height;
         return false;
@@ -127,10 +128,6 @@ function displayQuestion(category, target, options) {
         case 'birthday':
             text += "Birthday:";
             questionContent.innerHTML = `<div style="font-size: 2.5rem; font-weight: bold; margin: 20px; color: #2d4c72;">${target.birthday}</div>`;
-            break;
-        case 'halo':
-            text += "Halo:";
-            questionContent.innerHTML = `<img src="${target.haloImg}" alt="Halo" style="max-height: 180px; width: auto; filter: drop-shadow(0 0 10px rgba(0,0,0,0.1));" onerror="handleImageError()">`;
             break;
         case 'voice':
             text += "Voice Line:";
