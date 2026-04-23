@@ -2,192 +2,144 @@ let characters = {};
 let targetCharacter = null;
 let guessesRemaining = 6;
 let streak = 0;
-// Add a new array to track guessed characters
-let guessedCharacters = [];
+let guessHistory = [];
+
 const guessesDiv = document.getElementById('guesses');
 const resultDiv = document.getElementById('result');
-const streakElement = document.getElementById('streak');
+const streakDiv = document.getElementById('streak');
+const searchInput = document.getElementById('searchInput');
+const suggestionsDiv = document.getElementById('suggestions');
 const continueButton = document.getElementById('continueButton');
 const retryButton = document.getElementById('retryButton');
 
-// Function to preload all images
-function preloadImages(characters) {
-    Object.values(characters).forEach(character => {
-        const img = new Image();
-        img.src = character.img;
-    });
+let selectedSuggestionIndex = -1;
+
+function getAvailableCharacters() {
+    const allCharacters = Object.keys(characters);
+    const guessedCharactersSet = new Set(guessHistory.map(guess => guess.name));
+    return allCharacters
+        .filter(name => !guessedCharactersSet.has(name))
+        .sort();
 }
-
-// Function to select a new random character
-function selectNewCharacter() {
-    const charactersArray = Object.values(characters);
-    const randomIndex = Math.floor(Math.random() * charactersArray.length);
-    targetCharacter = charactersArray[randomIndex];
-    console.log("Target Character:", targetCharacter); // For debugging
-}
-
-// Function to reset the game for a new round
-function startNewRound() {
-    guessesRemaining = 6;
-    guessesDiv.innerHTML = '';
-    resultDiv.innerHTML = '';
-    searchInput.value = '';
-    resultDiv.style.display = 'none';
-    continueButton.style.display = 'none';
-    retryButton.style.display = 'none';
-    // Reset the guessed characters array for a new round
-    guessedCharacters = [];
-    selectNewCharacter();
-}
-
-// Function to update the streak counter
-function updateStreak() {
-    streakElement.textContent = `Streak: ${streak}`;
-}
-
-// Fetch characters from JSON file
-fetch('student-list.json')
-    .then(response => response.json())
-    .then(data => {
-        characters = data;
-        selectNewCharacter(); // Select a random character when the page loads
-        preloadImages(characters); // Preload all images
-        updateStreak(); // Initialize streak counter
-    });
-
-// Live search functionality
-const searchInput = document.getElementById('searchInput');
-const suggestionsDiv = document.getElementById('suggestions');
 
 function showAllSuggestions() {
-    suggestionsDiv.innerHTML = '';
-    
-    // Get all character names and sort them alphabetically
-    const sortedCharacterNames = Object.keys(characters).sort();
-    
-    // Filter out already guessed characters
-    const availableCharacters = sortedCharacterNames.filter(name => !guessedCharacters.includes(name));
-    
-    availableCharacters.forEach(name => {
-        const suggestion = document.createElement('div');
-        suggestion.innerHTML = `
-            <img class="searchImg" src="${characters[name].img}" alt="${name}">
-            <span>${name}</span>
-        `;
-        suggestion.addEventListener('click', () => {
-            searchInput.value = name;
-            suggestionsDiv.style.display = 'none';
-        });
-        suggestionsDiv.appendChild(suggestion);
-    });
-    suggestionsDiv.style.display = 'block';
+    const availableCharacters = getAvailableCharacters();
+    renderSuggestions(availableCharacters);
 }
 
-// Function to filter suggestions based on user input
-function filterSuggestions(query) {
+function renderSuggestions(characterNames) {
     suggestionsDiv.innerHTML = '';
-    if (query) {
-        // Filter characters by query and sort alphabetically
-        const filteredCharacters = Object.keys(characters)
-            .filter(name => 
-                name.toLowerCase().includes(query.toLowerCase()) && 
-                !guessedCharacters.includes(name) // Filter out already guessed characters
-            )
-            .sort(); // Sort alphabetically
+    if (characterNames.length > 0) {
+        characterNames.forEach(name => {
+            const suggestion = document.createElement('div');
+            suggestion.dataset.characterName = name;
+            suggestion.innerHTML = `
+                <img class="searchImg" src="${characters[name].img}" alt="${name}">
+                <span>${name}</span>
+            `;
+            suggestionsDiv.appendChild(suggestion);
+        });
+        suggestionsDiv.style.display = 'block';
+    } else {
+        suggestionsDiv.style.display = 'none';
+    }
+    selectedSuggestionIndex = -1;
+}
 
-        if (filteredCharacters.length > 0) {
-            filteredCharacters.forEach(name => {
-                const suggestion = document.createElement('div');
-                suggestion.innerHTML = `
-                    <img class="searchImg" src="${characters[name].img}" alt="${name}">
-                    <span>${name}</span>
-                `;
-                suggestion.addEventListener('click', () => {
-                    searchInput.value = name;
-                    suggestionsDiv.style.display = 'none';
-                });
-                suggestionsDiv.appendChild(suggestion);
-            });
-            suggestionsDiv.style.display = 'block';
-        } else {
-            suggestionsDiv.style.display = 'none';
-        }
+function filterSuggestions(query) {
+    if (query) {
+        const availableCharacters = getAvailableCharacters();
+        const filteredCharacters = availableCharacters.filter(name =>
+            name.toLowerCase().includes(query.toLowerCase())
+        );
+        renderSuggestions(filteredCharacters);
     } else {
         showAllSuggestions();
     }
 }
 
-// Event listener for search input focus
-searchInput.addEventListener('focus', () => {
-    showAllSuggestions();
-});
-
-// Event listener for search input typing
-searchInput.addEventListener('input', () => {
-    const query = searchInput.value.trim();
-    filterSuggestions(query);
-});
-
-// Event listener to hide suggestions when clicking outside
-document.addEventListener('click', (event) => {
-    if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target)) {
-        suggestionsDiv.style.display = 'none';
+function handleSuggestionNavigation(event) {
+    const suggestions = Array.from(suggestionsDiv.children);
+    if (suggestionsDiv.style.display === 'block' && suggestions.length > 0) {
+        if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            selectedSuggestionIndex = (selectedSuggestionIndex + 1) % suggestions.length;
+            highlightSuggestion();
+        } else if (event.key === 'ArrowUp') {
+            event.preventDefault();
+            selectedSuggestionIndex = selectedSuggestionIndex <= 0 ? suggestions.length - 1 : selectedSuggestionIndex - 1;
+            highlightSuggestion();
+        } else if (event.key === 'Enter' && selectedSuggestionIndex >= 0) {
+            event.preventDefault();
+            const selected = suggestions[selectedSuggestionIndex];
+            searchInput.value = selected.dataset.characterName;
+            suggestionsDiv.style.display = 'none';
+        }
     }
-});
+}
 
-// Make a guess
+function highlightSuggestion() {
+    const suggestions = Array.from(suggestionsDiv.children);
+    suggestions.forEach((suggestion, index) => {
+        suggestion.classList.toggle('selected', index === selectedSuggestionIndex);
+    });
+    if (selectedSuggestionIndex >= 0) {
+        suggestions[selectedSuggestionIndex].scrollIntoView({ block: 'nearest' });
+    }
+}
+
+fetch('student-list.json')
+    .then(response => response.json())
+    .then(data => {
+        characters = data;
+        startNewRound();
+    });
+
+function startNewRound() {
+    const charactersArray = Object.values(characters);
+    targetCharacter = charactersArray[Math.floor(Math.random() * charactersArray.length)];
+    guessesRemaining = 6;
+    guessHistory = [];
+    guessesDiv.innerHTML = '';
+    resultDiv.textContent = '';
+    searchInput.value = '';
+    continueButton.style.display = 'none';
+    retryButton.style.display = 'none';
+    searchInput.disabled = false;
+    document.getElementById('searchButton').disabled = false;
+}
+
 function makeGuess() {
-    if (guessesRemaining === 0) {
-        resultDiv.style.display = "block";
-        resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
-        streak = 0; // Reset streak
-        updateStreak();
-        continueButton.style.display = 'none';
-        retryButton.style.display = 'block';
-        return;
-    }
-
     const guessInput = searchInput.value.trim();
-    if (!guessInput) {
-        resultDiv.style.display = "block";
-        resultDiv.textContent = "Please enter a character name.";
-        return;
-    }
-
     const guessedCharacter = characters[guessInput];
-    if (!guessedCharacter) {
-        resultDiv.style.display = "block";
-        resultDiv.textContent = "Character not found.";
+
+    if (!guessedCharacter || guessHistory.some(g => g.name === guessedCharacter.name)) {
         return;
     }
 
-    // Add the guessed character to our tracking array
-    guessedCharacters.push(guessedCharacter.name);
-    
     guessesRemaining--;
+    guessHistory.push(guessedCharacter);
     displayGuess(guessedCharacter);
 
     if (guessedCharacter.name === targetCharacter.name) {
-        resultDiv.style.display = "block";
+        streak++;
+        streakDiv.textContent = `Streak: ${streak}`;
         resultDiv.textContent = "Correct! You guessed the character!";
-        streak++; // Increase streak
-        updateStreak();
-        resultDiv.style.display = "block";
-        continueButton.style.display = 'block'; // Show continue button
-        retryButton.style.display = 'none';
+        continueButton.style.display = 'block';
+        searchInput.disabled = true;
+        document.getElementById('searchButton').disabled = true;
     } else if (guessesRemaining === 0) {
-        resultDiv.style.display = "block";
-        resultDiv.textContent = "No guesses remaining! The character was " + targetCharacter.name + ".";
-        streak = 0; // Reset streak
-        updateStreak();
-        continueButton.style.display = 'none';
+        streak = 0;
+        streakDiv.textContent = `Streak: ${streak}`;
+        resultDiv.textContent = `No guesses remaining! The character was ${targetCharacter.name}.`;
         retryButton.style.display = 'block';
+        searchInput.disabled = true;
+        document.getElementById('searchButton').disabled = true;
     }
-
     searchInput.value = '';
+    suggestionsDiv.style.display = 'none';
 }
 
-// Display a guess in the grid
 function displayGuess(character) {
     const guessRow = document.createElement('div');
     guessRow.className = 'guess-row';
@@ -200,63 +152,101 @@ function displayGuess(character) {
         character.role,
         character.damageType,
         character.armorType,
-        character.skill
+        character.skill,
+        character.height
     ];
-    sID = 1;
+
+    const targetAttributes = [
+        targetCharacter.name,
+        targetCharacter.img,
+        targetCharacter.school,
+        targetCharacter.combatClass,
+        targetCharacter.role,
+        targetCharacter.damageType,
+        targetCharacter.armorType,
+        targetCharacter.skill,
+        targetCharacter.height
+    ];
+
     attributes.forEach((attr, index) => {
+        if (index === 0) return; // Skip name
+
         const square = document.createElement('div');
-        square.className = 'guess-square ' + 'sq' + String(sID);
-        if (typeof attr === 'string' && attr.startsWith('http')) {
-            // Display image
+        square.className = 'guess-square sq' + index;
+
+        if (index === 1) { // Img
             const img = document.createElement('img');
             img.src = attr;
             img.style.width = '100%';
             img.style.height = '100%';
             img.style.objectFit = 'cover';
             square.appendChild(img);
-        } else if (attr === character.damageType || attr === character.armorType || attr === character.role) {
+        } else if (index === 4 || index === 5 || index === 6) { // Role, Damage, Armor
             const dmgImg = document.createElement('img');
-            dmgImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '.webp';
+            dmgImg.src = 'imgs/info/' + attr + '.webp';
             dmgImg.className = 'dmgIcon';
             square.appendChild(dmgImg);
-        } else if (attr === character.school) {
+        } else if (index === 2) { // School
             const schoolImg = document.createElement('img');
-            schoolImg.src = 'https://schalidle.vercel.app/imgs/schools/' + attr + '_Icon.webp';
+            schoolImg.src = 'imgs/schools/' + attr + '_Icon.webp';
             schoolImg.className = 'schoolImg';
             square.appendChild(schoolImg);
-        } else if (attr === character.combatClass) {
+        } else if (index === 3) { // Class
             const roleImg = document.createElement('img');
-            roleImg.src ='https://schalidle.vercel.app/imgs/info/' + attr + '_role.webp';
+            roleImg.src = 'imgs/info/' + attr + '_role.webp';
             roleImg.className = 'roleImg';
             square.appendChild(roleImg);
-        } else if(index === 7) {
+        } else if (index === 7) { // Skill
             const guessedSkillCost = parseInt(attr, 10);
             const targetSkillCost = parseInt(targetCharacter.skill, 10);
-
             square.textContent = attr;
             if (guessedSkillCost > targetSkillCost) {
                 square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
             } else if (guessedSkillCost < targetSkillCost) {
                 square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
-            } else {
+            }
+        } else if (index === 8) { // Height
+            const guessedHeight = parseInt(attr, 10);
+            const targetHeight = parseInt(targetCharacter.height, 10);
+            square.textContent = attr;
+            if (guessedHeight > targetHeight) {
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-down"></ion-icon>';
+            } else if (guessedHeight < targetHeight) {
+                square.innerHTML += ' <ion-icon class="icon" name="arrow-up"></ion-icon>';
             }
         } else {
-            // Display text
             square.textContent = attr;
         }
 
-        // Check if the attribute matches the target character
-        const targetAttr = Object.values(targetCharacter)[index];
-        if (attr === targetAttr) {
+        if (attr === targetAttributes[index]) {
             square.classList.add('correct');
         }
-        if (attr === character.name) {
 
-        } else {
-            guessRow.appendChild(square);
-        }
-        sID++;
+        guessRow.appendChild(square);
     });
 
     guessesDiv.appendChild(guessRow);
 }
+
+suggestionsDiv.addEventListener('click', (event) => {
+    const suggestion = event.target.closest('div');
+    if (suggestion && suggestion.dataset.characterName) {
+        searchInput.value = suggestion.dataset.characterName;
+        makeGuess();
+    }
+});
+
+searchInput.addEventListener('focus', showAllSuggestions);
+searchInput.addEventListener('input', () => filterSuggestions(searchInput.value.trim()));
+searchInput.addEventListener('keydown', handleSuggestionNavigation);
+searchInput.addEventListener('keyup', (event) => {
+    if (event.key === 'Enter' && !event.defaultPrevented) {
+        makeGuess();
+    }
+});
+
+document.addEventListener('click', (event) => {
+    if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target)) {
+        suggestionsDiv.style.display = 'none';
+    }
+});

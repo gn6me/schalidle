@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schalidle - Daily Speed Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <style>
+        #quiz-container {
+            text-align: center;
+            max-width: 600px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            color: #2d3748;
+        }
+
+        #start-screen {
+            max-width: 600px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            color: #2d3748;
+            text-align: center;
+        }
+
+        #timer-bar {
+            width: 100%;
+            height: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        #timer-progress {
+            width: 100%;
+            height: 100%;
+            background-color: #667eea;
+            transition: width 0.1s linear;
+        }
+
+        #question-display {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #question-display img {
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 10px;
+        }
+
+        #options-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .option-button {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .option-button:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .option-button img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        .option-button span {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        #quiz-result {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .correct { border-color: #48bb78 !important; background-color: #f0fff4 !important; }
+        .incorrect { border-color: #f56565 !important; background-color: #fff5f5 !important; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <div id="home"><a href="index.html"><button>
+                        <div class="unskew">Home</div>
+                    </button></a></div>
+            <div id="quiz-link"><a href="quiz.html"><button>
+                        <div class="unskew">Speed Quiz</div>
+                    </button></a></div>
+            <div id="calc-link"><a href="bond-calc.html"><button>
+                        <div class="unskew">Bond Calculator</div>
+                    </button></a></div>
+        </div>
+        <h1>Speed Quiz</h1>
+        
+        <div id="quiz-container">
+            <div id="timer-bar"><div id="timer-progress"></div></div>
+            <div id="question-info">Question <span id="current-q">1</span>/5</div>
+            
+            <div id="question-display">
+                <div id="question-text">Loading...</div>
+                <div id="question-content"></div>
+            </div>
+
+            <div id="options-container">
+                <!-- Options will be injected here -->
+            </div>
+
+            <div id="quiz-result"></div>
+        </div>
+
+        <div id="start-screen">
+            <p>Match the student to their <b>Weapon, Birthday, Halo, Voice, or Height</b>.</p>
+            <p>You have 5 seconds per question!</p>
+            <button id="startButton">
+                <div class="unskew">Start Quiz</div>
+            </button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

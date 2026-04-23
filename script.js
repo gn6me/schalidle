@@ -1,6 +1,9 @@
 let characters = {};
 let targetCharacter = null;
 let guessesRemaining = 6;
+let guessHistory = [];
+let daySeed = 0;
+
 const guessesDiv = document.getElementById("guesses");
 const resultDiv = document.getElementById("result");
 const searchInput = document.getElementById("searchInput");
@@ -19,12 +22,11 @@ function getEasternTime() {
 // Utility function to generate date seed
 function generateDateSeed(date) {
   return (
-    date.getFullYear() * 1000 + (date.getMonth() + 1) * 100 + date.getDate()
+    date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate()
   );
 }
 
 function preloadImages(characters) {
-  // Using a small delay to not block initial rendering
   setTimeout(() => {
     Object.values(characters).forEach((character) => {
       const img = new Image();
@@ -34,12 +36,9 @@ function preloadImages(characters) {
 }
 
 function generateEmojiResults(guesses, targetCharacter) {
-  const correctEmoji = "🟩"; // Green square for correct
-  const incorrectEmoji = "⬜"; // White square for incorrect
-
-  // To help with alignment
+  const correctEmoji = "🟩";
+  const incorrectEmoji = "⬜";
   const spacer = '';
-
   let emojiResults = "";
 
   guesses.forEach((guess) => {
@@ -63,7 +62,6 @@ function generateEmojiResults(guesses, targetCharacter) {
       targetCharacter.height,
     ];
 
-    // Add spacer to help with Discord formatting
     let emojiRow = "";
     attributes.forEach((attr, index) => {
       if (attr === targetAttributes[index]) {
@@ -79,37 +77,29 @@ function generateEmojiResults(guesses, targetCharacter) {
   return emojiResults;
 }
 
-// Function to copy emoji results to clipboard
 function copyEmojiResultsToClipboard(emojiResults) {
-  navigator.clipboard
-    .writeText(emojiResults)
-    .then(() => {
-      console.log("Results copied to clipboard as emojis!");
-    })
-    .catch(() => {
-      alert("Failed to copy results. Please copy them manually.");
-    });
+  navigator.clipboard.writeText(emojiResults).then(() => {
+    console.log("Results copied!");
+  }).catch(() => {
+    alert("Failed to copy results.");
+  });
 }
 
-// Get daily character
 function getDailyCharacter() {
   const charactersArray = Object.values(characters);
-  const seed = 69; // fixed value for consistency
+  const seed = 69;
   const easternTime = getEasternTime();
 
-  // Reference for 7pm
   const sevenPM = new Date(easternTime);
   sevenPM.setHours(19, 0, 0, 0);
 
-  // Set start time and check for new day
   const dayStart = new Date(easternTime);
   dayStart.setHours(0, 0, 0, 0);
   if (easternTime < sevenPM) {
     dayStart.setDate(dayStart.getDate() - 1);
   }
 
-  // Consistent seed generation and calculate target character
-  const daySeed = generateDateSeed(dayStart);
+  daySeed = generateDateSeed(dayStart);
   const dailyIndex = Math.abs((seed + daySeed) % charactersArray.length);
 
   return charactersArray[dailyIndex];
@@ -117,45 +107,33 @@ function getDailyCharacter() {
 
 function getPreviousDayCharacter() {
   const charactersArray = Object.values(characters);
-  const seed = 69; // Fixed seed for consistency
+  const seed = 69;
   const easternTime = getEasternTime();
-
-  // Set target time
   const sevenPM = new Date(easternTime);
   sevenPM.setHours(19, 0, 0, 0);
-
-  // Determine day for previous character
   const previousDayStart = new Date(easternTime);
-  previousDayStart.setHours(0, 0, 0, 0); // Day start
+  previousDayStart.setHours(0, 0, 0, 0);
 
-  // Before 7pm, character from 2 days ago will be shown
-  // After 7pm, character from the previous day is shown
   if (easternTime < sevenPM) {
     previousDayStart.setDate(previousDayStart.getDate() - 2);
   } else {
     previousDayStart.setDate(previousDayStart.getDate() - 1);
   }
 
-  // Consistent seed format
   const previousDaySeed = generateDateSeed(previousDayStart);
-  const previousDayIndex = Math.abs(
-    (seed + previousDaySeed) % charactersArray.length,
-  );
+  const previousDayIndex = Math.abs((seed + previousDaySeed) % charactersArray.length);
 
   return charactersArray[previousDayIndex];
 }
 
 function updateCountdown() {
   const easternTime = getEasternTime();
-
-  // Calculate the next selection at 7pm EST
   const nextSelectionTime = new Date(easternTime);
-  nextSelectionTime.setHours(19, 0, 0, 0); // 7 PM Eastern Time
+  nextSelectionTime.setHours(19, 0, 0, 0);
   if (easternTime >= nextSelectionTime) {
-    nextSelectionTime.setDate(nextSelectionTime.getDate() + 1); // Next day
+    nextSelectionTime.setDate(nextSelectionTime.getDate() + 1);
   }
 
-  // Calculate the time difference
   const timeDiff = nextSelectionTime - easternTime;
   const hours = Math.floor(timeDiff / (1000 * 60 * 60));
   const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
@@ -181,7 +159,6 @@ function displayPreviousDayCharacter() {
   }
 }
 
-// Display a consistent status message
 function displayResult(message, guesses = null) {
   resultDiv.style.display = "block";
   resultDiv.textContent = message;
@@ -195,26 +172,17 @@ function displayResult(message, guesses = null) {
   }
 }
 
-// Get available character names (not yet guessed) in alphabetical order
 function getAvailableCharacters() {
-  // Get all character names
   const allCharacters = Object.keys(characters);
-
-  // Create a set of guessed character names for faster lookups
   const guessedCharactersSet = new Set(guessHistory.map((guess) => guess.name));
-
-  // Filter out guessed characters and sort alphabetically
   return allCharacters
     .filter((name) => !guessedCharactersSet.has(name))
     .sort((a, b) => a.localeCompare(b));
 }
 
-// Show all suggestions for character selection
 function showAllSuggestions() {
   const fragment = document.createDocumentFragment();
   suggestionsDiv.innerHTML = "";
-
-  // Get available characters (sorted alphabetically, excluding guessed ones)
   const availableCharacters = getAvailableCharacters();
 
   availableCharacters.forEach((name) => {
@@ -232,16 +200,12 @@ function showAllSuggestions() {
   selectedSuggestionIndex = -1;
 }
 
-// Function to filter suggestions based on user input
 function filterSuggestions(query) {
   const fragment = document.createDocumentFragment();
   suggestionsDiv.innerHTML = "";
 
   if (query) {
-    // Get available characters (sorted alphabetically, excluding guessed ones)
     const availableCharacters = getAvailableCharacters();
-
-    // Filter by query
     const filteredCharacters = availableCharacters.filter((name) =>
       name.toLowerCase().includes(query.toLowerCase()),
     );
@@ -265,26 +229,19 @@ function filterSuggestions(query) {
   } else {
     showAllSuggestions();
   }
-
   selectedSuggestionIndex = -1;
 }
 
-// Handle keyboard navigation in suggestions
 function handleSuggestionNavigation(event) {
   const suggestions = Array.from(suggestionsDiv.children);
-
   if (suggestionsDiv.style.display === "block" && suggestions.length > 0) {
     if (event.key === "ArrowDown") {
       event.preventDefault();
-      selectedSuggestionIndex =
-        (selectedSuggestionIndex + 1) % suggestions.length;
+      selectedSuggestionIndex = (selectedSuggestionIndex + 1) % suggestions.length;
       highlightSuggestion();
     } else if (event.key === "ArrowUp") {
       event.preventDefault();
-      selectedSuggestionIndex =
-        selectedSuggestionIndex <= 0
-          ? suggestions.length - 1
-          : selectedSuggestionIndex - 1;
+      selectedSuggestionIndex = selectedSuggestionIndex <= 0 ? suggestions.length - 1 : selectedSuggestionIndex - 1;
       highlightSuggestion();
     } else if (event.key === "Enter" && selectedSuggestionIndex >= 0) {
       event.preventDefault();
@@ -295,36 +252,59 @@ function handleSuggestionNavigation(event) {
   }
 }
 
-// Highlight the currently selected suggestion
 function highlightSuggestion() {
   const suggestions = Array.from(suggestionsDiv.children);
-
   suggestions.forEach((suggestion, index) => {
     suggestion.classList.toggle("selected", index === selectedSuggestionIndex);
   });
-
   if (selectedSuggestionIndex >= 0) {
     suggestions[selectedSuggestionIndex].scrollIntoView({ block: "nearest" });
   }
 }
 
-let guessHistory = [];
+function saveGameState() {
+  const gameState = {
+    date: daySeed,
+    guesses: guessHistory.map(c => c.name)
+  };
+  localStorage.setItem('gameState', JSON.stringify(gameState));
+}
 
-// Make a guess
-function makeGuess() {
-  if (guessesRemaining === 0) {
-    displayResult(
-      `No guesses remaining! The character was ${targetCharacter.name}.`,
-      guessHistory,
-    );
-    return;
+function loadGameState() {
+  const saved = localStorage.getItem('gameState');
+  if (saved) {
+    try {
+      const gameState = JSON.parse(saved);
+      if (gameState.date === daySeed) {
+        gameState.guesses.forEach(name => {
+          const char = characters[name];
+          if (char) {
+            guessesRemaining--;
+            guessHistory.push(char);
+            displayGuess(char);
+            if (name === targetCharacter.name) {
+              displayResult("Correct! You guessed the character!", guessHistory);
+              guessesRemaining = 0;
+            }
+          }
+        });
+        if (guessesRemaining === 0 && guessHistory.length > 0 && guessHistory[guessHistory.length - 1].name !== targetCharacter.name) {
+          displayResult(`No guesses remaining! The character was ${targetCharacter.name}.`, guessHistory);
+        }
+      } else {
+        localStorage.removeItem('gameState');
+      }
+    } catch (e) {
+      console.error("Error loading state", e);
+    }
   }
+}
+
+function makeGuess() {
+  if (guessesRemaining === 0) return;
 
   const guessInput = searchInput.value.trim();
-  if (!guessInput) {
-    displayResult("Please enter a character name.");
-    return;
-  }
+  if (!guessInput) return;
 
   const guessedCharacter = characters[guessInput];
   if (!guessedCharacter) {
@@ -332,7 +312,6 @@ function makeGuess() {
     return;
   }
 
-  // Check if character was already guessed
   if (guessHistory.some((guess) => guess.name === guessedCharacter.name)) {
     displayResult("You've already guessed this character!");
     return;
@@ -341,131 +320,90 @@ function makeGuess() {
   guessesRemaining--;
   guessHistory.push(guessedCharacter);
   displayGuess(guessedCharacter);
+  saveGameState();
 
   if (guessedCharacter.name === targetCharacter.name) {
     displayResult("Correct! You guessed the character!", guessHistory);
-    guessesRemaining = 0; // End the game
+    guessesRemaining = 0;
   } else if (guessesRemaining === 0) {
-    displayResult(
-      `No guesses remaining! The character was ${targetCharacter.name}.`,
-      guessHistory,
-    );
+    displayResult(`No guesses remaining! The character was ${targetCharacter.name}.`, guessHistory);
   }
 
-  // Clear the input field after a guess
   searchInput.value = "";
 }
 
-// Display a guess in the grid
 function displayGuess(character) {
   const guessRow = document.createElement("div");
   guessRow.className = "guess-row";
 
   const fragment = document.createDocumentFragment();
 
+  // Mapping attributes to columns consistently
   const attributes = [
-    character.name,
-    character.img,
-    character.school,
-    character.combatClass,
-    character.role,
-    character.damageType,
-    character.armorType,
-    character.skill,
-    character.height,
+    { key: 'img', type: 'portrait' },
+    { key: 'school', type: 'school' },
+    { key: 'combatClass', type: 'class' },
+    { key: 'role', type: 'info' },
+    { key: 'damageType', type: 'info' },
+    { key: 'armorType', type: 'info' },
+    { key: 'skill', type: 'skill' },
+    { key: 'height', type: 'height' }
   ];
 
-  // Start from index 1 to skip the name in display
-  for (let index = 1; index < attributes.length; index++) {
-    const attr = attributes[index];
+  attributes.forEach((attrConfig, index) => {
+    const i = index + 1; // Class names sq1 to sq8
     const square = document.createElement("div");
-    square.className = "guess-square sq" + index;
+    square.className = "guess-square sq" + i;
+    const value = character[attrConfig.key];
+    const targetValue = targetCharacter[attrConfig.key];
 
-    // Create profile image for character
-    if (typeof attr === "string" && attr.startsWith("http")) {
-      // Display image
+    if (attrConfig.type === 'portrait') {
       const img = document.createElement("img");
-      img.src = attr;
+      img.src = value;
       img.style.width = "100%";
       img.style.height = "100%";
       img.style.objectFit = "cover";
       square.appendChild(img);
-    }
-    // Create icons for Role, Damage, and Armor boxes
-    else if (index === 4 || index === 5 || index === 6) {
-      const dmgImg = document.createElement("img");
-      dmgImg.src = "https://schalidle.vercel.app/imgs/info/" + attr + ".webp";
-      dmgImg.className = "dmgIcon";
-      square.appendChild(dmgImg);
-    }
-    // Create icons for School
-    else if (index === 2) {
-      const schoolImg = document.createElement("img");
-      schoolImg.src =
-        "https://schalidle.vercel.app/imgs/schools/" + attr + "_Icon.webp";
-      schoolImg.className = "schoolImg";
-      square.appendChild(schoolImg);
-    }
-    // Create icons for Class - Fixed the condition from attr === 3 to index === 3
-    else if (index === 3) {
-      const roleImg = document.createElement("img");
-      roleImg.src =
-        "https://schalidle.vercel.app/imgs/info/" + attr + "_role.webp";
-      roleImg.className = "roleImg";
-      square.appendChild(roleImg);
-    }
-    // Handle skill cost with up/down arrows
-    else if (index === 7) {
-      const guessedSkillCost = parseInt(attr, 10);
-      const targetSkillCost = parseInt(targetCharacter.skill, 10);
-
-      square.textContent = attr;
-
-      // Show arrows indicating target skill cost
-      if (guessedSkillCost > targetSkillCost) {
-        square.innerHTML +=
-          '<ion-icon class="icon" name="arrow-down"></ion-icon>';
-      } else if (guessedSkillCost < targetSkillCost) {
-        square.innerHTML +=
-          '<ion-icon class="icon" name="arrow-up"></ion-icon>';
-      }
-    }
-    // Handle skill cost with up/down arrows
-    else if (index === 8) {
-      const guessedHeight = parseInt(attr, 10);
-      const targetHeight = parseInt(targetCharacter.height, 10);
-
-      square.textContent = attr;
-
-      // Show arrows indicating target skill cost
-      if (guessedHeight > targetHeight) {
-        square.innerHTML +=
-          '<ion-icon class="icon" name="arrow-down"></ion-icon>';
-      } else if (guessedHeight < targetHeight) {
-        square.innerHTML +=
-          '<ion-icon class="icon" name="arrow-up"></ion-icon>';
-      }
-    } else {
-      // Display text
-      square.textContent = attr;
+    } else if (attrConfig.type === 'info') {
+      const img = document.createElement("img");
+      img.src = "imgs/info/" + value + ".webp";
+      img.className = "dmgIcon";
+      square.appendChild(img);
+    } else if (attrConfig.type === 'school') {
+      const img = document.createElement("img");
+      img.src = "imgs/schools/" + value + "_Icon.webp";
+      img.className = "schoolImg";
+      square.appendChild(img);
+    } else if (attrConfig.type === 'class') {
+      const img = document.createElement("img");
+      img.src = "imgs/info/" + value + "_role.webp";
+      img.className = "roleImg";
+      square.appendChild(img);
+    } else if (attrConfig.type === 'skill') {
+      square.textContent = value;
+      const gv = parseInt(value, 10);
+      const tv = parseInt(targetValue, 10);
+      if (gv > tv) square.innerHTML += '<ion-icon class="icon" name="arrow-down"></ion-icon>';
+      else if (gv < tv) square.innerHTML += '<ion-icon class="icon" name="arrow-up"></ion-icon>';
+    } else if (attrConfig.type === 'height') {
+      square.textContent = value;
+      const gv = parseInt(value, 10);
+      const tv = parseInt(targetValue, 10);
+      if (gv > tv) square.innerHTML += '<ion-icon class="icon" name="arrow-down"></ion-icon>';
+      else if (gv < tv) square.innerHTML += '<ion-icon class="icon" name="arrow-up"></ion-icon>';
     }
 
-    // Check if the attribute matches the target character
-    const targetAttr = Object.values(targetCharacter)[index];
-    if (attr === targetAttr) {
+    if (String(value).trim() === String(targetValue).trim()) {
       square.classList.add("correct");
     }
-
     fragment.appendChild(square);
-  }
+  });
 
   guessRow.appendChild(fragment);
   guessesDiv.appendChild(guessRow);
 }
 
-// Initialize event listeners
 function initializeEventListeners() {
-  // Handle suggestion selection
   suggestionsDiv.addEventListener("click", (event) => {
     const suggestion = event.target.closest("div");
     if (suggestion && suggestion.dataset.characterName) {
@@ -475,19 +413,9 @@ function initializeEventListeners() {
     }
   });
 
-  // Handle search input focus
   searchInput.addEventListener("focus", showAllSuggestions);
-
-  // Handle search input typing
-  searchInput.addEventListener("input", () => {
-    const query = searchInput.value.trim();
-    filterSuggestions(query);
-  });
-
-  // Handle keyboard events
+  searchInput.addEventListener("input", () => filterSuggestions(searchInput.value.trim()));
   searchInput.addEventListener("keydown", handleSuggestionNavigation);
-
-  // Handle Enter key to submit guess
   searchInput.addEventListener("keyup", function (event) {
     if (event.key === "Enter" && !event.defaultPrevented) {
       makeGuess();
@@ -495,18 +423,13 @@ function initializeEventListeners() {
     }
   });
 
-  // Hide suggestions when clicking outside
   document.addEventListener("click", (event) => {
-    if (
-      !searchInput.contains(event.target) &&
-      !suggestionsDiv.contains(event.target)
-    ) {
+    if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target)) {
       suggestionsDiv.style.display = "none";
     }
   });
 }
 
-// Loading indicator
 function showLoadingIndicator() {
   const loadingIndicator = document.createElement("div");
   loadingIndicator.id = "loading-indicator";
@@ -521,51 +444,33 @@ function showLoadingIndicator() {
   loadingIndicator.style.borderRadius = "5px";
   loadingIndicator.style.zIndex = "1000";
   document.body.appendChild(loadingIndicator);
-
   return loadingIndicator;
 }
 
 function hideLoadingIndicator(indicator) {
-  if (indicator && indicator.parentNode) {
-    indicator.parentNode.removeChild(indicator);
-  }
+  if (indicator && indicator.parentNode) indicator.parentNode.removeChild(indicator);
 }
 
-// Initialize the game
 function initializeGame() {
   const loadingIndicator = showLoadingIndicator();
 
   fetch("student-list.json")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`Failed to fetch characters: ${response.status}`);
-      }
-      return response.json();
-    })
+    .then((response) => response.json())
     .then((data) => {
       characters = data;
-      targetCharacter = getDailyCharacter();
-
-      // Start preloading images
+      targetCharacter = getDailyCharacter(); // Sets daySeed
       preloadImages(characters);
-
-      // Initialize display and timers
+      loadGameState(); // Now correctly follows daySeed set
       displayPreviousDayCharacter();
       setInterval(updateCountdown, 1000);
       updateCountdown();
-
-      // Initialize event listeners
       initializeEventListeners();
-
-      // Hide loading indicator
       hideLoadingIndicator(loadingIndicator);
     })
     .catch((error) => {
       console.error("Error loading character data:", error);
-      displayResult("Failed to load character data. Please refresh the page.");
       hideLoadingIndicator(loadingIndicator);
     });
 }
 
-// Start the game
 initializeGame();
